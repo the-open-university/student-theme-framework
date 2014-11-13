@@ -1,0 +1,12 @@
+{% assign pages = site.pages | sort:"weight" %}
+<div class="ou-full-nav">
+<ul>
+  {% for page in pages %}
+    <li>
+      <a {% if page.url == page.url %}class="ou-expanded"{% endif %} href="{{ page.url }}">
+        {{ page.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
