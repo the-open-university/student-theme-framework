@@ -1,6 +1,7 @@
 ---
 title: Site ident and sections
 classes: ou-sections
+parent: layout
 ---
 
 <div id="ou-page">
@@ -10,11 +11,7 @@ classes: ou-sections
 </div> <!-- end ou-region0 -->
 
 <div id="ou-region1">
-<ol class="ou-ancestors">
-<li><a href="index.html">Home</a></li>
-<li><a href="layout.html">Layout</a></li>
-<li>Site ident and sections</li>
-</ol>
+{% include breadcrumb.html %}
 
 
 <div id="ou-content" class="ou-content">
@@ -39,53 +36,7 @@ classes: ou-sections
 </div> <!-- end ou-content --></div> <!-- end ou-region1 -->
 
 <div id="ou-region2">
-
-<div class="ou-full-nav">
-
-<ul>
-<li class="ou-expanded">
-<a class="ou-home" href="index.html">Home</a>
-<ul>
-<li><a class="" href="whats-new.html">What's new?</a></li>
-<li><a class="" href="fonts.html">Fonts</a></li>
-<li class="ou-expanded">
-<a class="" href="layout.html">Layout</a>
-<ul>
-<li><a class="" href="layout-plain-and-simple.html">Plain and simple</a></li>
-<li><a class="" href="layout-site-ident.html">With site ident</a></li>
-<li><a class="" href="layout-creative.html">With creative</a></li>
-<li><a class="" href="layout-carousel.html">With carousel</a></li>
-<li><a class="ou-sections" href="layout-sections.html">Sections</a></li>
-<li><strong class="ou-sections">Site ident and sections</strong></li>
-<li><a class="ou-sections" href="layout-creative-and-sections.html">Creative and sections</a></li>
-<li><a class="ou-sections" href="layout-carousel-and-sections.html">Carousel and sections</a></li>
-<li><a class="ou-pure" href="layout-single-column.html">Single column</a></li>
-<li><a class="" href="layout-two-sub-columns.html">Two sub columns</a></li>
-<li><a class="" href="layout-three-sub-columns.html">Three sub columns</a></li>
-<li><a class="" href="layout-alignment.html">Alignment</a></li>
-</ul>
-</li>
-<li><a class="" href="navigation.html">Navigation</a></li>
-<li><a class="" href="colour.html">Colour</a></li>
-<li><a class="" href="content.html">Content</a></li>
-<li><a class="" href="graphics.html">Graphics</a></li>
-<li><a class="" href="example-pages.html">Example pages</a></li>
-</ul>
-</li>
-</ul>
-</div>
-
-
-<div class="ou-tip">
-<h2>What's new?</h2>
-<p>Find out <a href="whats-new.html">what's new</a> in the OU Student Theme Framework.</p>
-</div>
-
-<!--
-<div class="ou-steps">
-<h2>OU ICE tutorial</h2>
-<p>If you're new to OU ICE you might find this quick <a href="#">step by step tutorial</a> useful.</p>
-</div>
---></div> <!-- end ou-region2 -->
+{% include region2.html %}
+</div> <!-- end ou-region2 -->
 
 </div> <!-- end ou-page -->

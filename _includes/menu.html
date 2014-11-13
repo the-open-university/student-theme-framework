@@ -1,0 +1,11 @@
+{% assign pages = site.pages | where:"parent",include.parent | sort:"order" %}
+<ul>
+  {% for page in pages %}
+    <li>
+      <a {% if page.url == page.url %}class="ou-expanded"{% endif %} href="{{ page.url }}">
+        {{ page.title }}
+      </a>
+      {% include menu.html parent=page.url %}
+    </li>
+  {% endfor %}
+</ul>

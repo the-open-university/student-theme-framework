@@ -10,11 +10,7 @@ classes: website
 </div> <!-- end ou-region0 -->
 
 <div id="ou-region1">
-<ol class="ou-ancestors">
-<li><a href="index.html">Home</a></li>
-<li><a href="content.html">Content</a></li>
-<li>Inline elements</li>
-</ol>
+{% include breadcrumb.html %}
 
 
 <div id="ou-content" class="ou-content">
@@ -39,55 +35,7 @@ classes: website
 </div> <!-- end ou-content --></div> <!-- end ou-region1 -->
 
 <div id="ou-region2">
-
-<div class="ou-full-nav">
-
-<ul>
-<li class="ou-expanded">
-<a class="ou-home" href="index.html">Home</a>
-<ul>
-<li><a class="" href="whats-new.html">What's new?</a></li>
-<li><a class="" href="fonts.html">Fonts</a></li>
-<li><a class="" href="layout.html">Layout</a></li>
-<li><a class="" href="navigation.html">Navigation</a></li>
-<li><a class="" href="colour.html">Colour</a></li>
-<li class="ou-expanded">
-<a class="" href="content.html">Content</a>
-<ul>
-<li><a class="" href="headings.html">Headings</a></li>
-<li><a class="" href="paragraphs.html">Paragraphs</a></li>
-<li><strong class="">Inline elements</strong></li>
-<li><a class="" href="quotes.html">Quotes</a></li>
-<li><a class="" href="lists.html">Lists</a></li>
-<li><a class="" href="tables.html">Tables</a></li>
-<li><a class="" href="forms.html">Forms</a></li>
-<li><a class="" href="images.html">Images</a></li>
-<li><a class="" href="media.html">Media</a></li>
-<li><a class="" href="downloads.html">Downloads</a></li>
-<li><a class="" href="contact-info.html">Contact info</a></li>
-<li><a class="" href="boxes.html">Boxes</a></li>
-<li><a class="" href="misc.html">Misc</a></li>
-<li><a class="" href="drupal.html">Drupal specifics</a></li>
-</ul>
-</li>
-<li><a class="" href="graphics.html">Graphics</a></li>
-<li><a class="" href="example-pages.html">Example pages</a></li>
-</ul>
-</li>
-</ul>
-</div>
-
-
-<div class="ou-tip">
-<h2>What's new?</h2>
-<p>Find out <a href="whats-new.html">what's new</a> in the OU Student Theme Framework.</p>
-</div>
-
-<!--
-<div class="ou-steps">
-<h2>OU ICE tutorial</h2>
-<p>If you're new to OU ICE you might find this quick <a href="#">step by step tutorial</a> useful.</p>
-</div>
---></div> <!-- end ou-region2 -->
+{% include region2.html %}
+</div> <!-- end ou-region2 -->
 
 </div> <!-- end ou-page -->
