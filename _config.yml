@@ -1,3 +1,5 @@
+baseurl: /student-theme-framework
+
 defaults:
   -
     scope:
