@@ -1,11 +1,13 @@
 {% assign pages = site.pages | where:"parent",include.parent | sort:"order" %}
 <ul>
-  {% for page in pages %}
-    <li>
-      <a {% if page.url == page.url %}class="ou-expanded"{% endif %} href="{{ page.url }}">
-        {{ page.title }}
-      </a>
-      {% include menu.html parent=page.url %}
-    </li>
+  {% for p in pages %}
+    {% if p.url == page.url %}
+        <li class="ou-expanded"><strong>{{ p.title }}</strong></li>
+    {% else %}
+        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% endif %}
+
+    {% assign parent = p.path | replace:'.html','' %}
+    {% include menu.html parent=parent %}
   {% endfor %}
 </ul>

@@ -5,4 +5,5 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      parent: "main"
+      parent: "index"
+      order: 9999
