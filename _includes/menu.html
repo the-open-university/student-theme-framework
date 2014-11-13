@@ -4,7 +4,7 @@
     {% if p.url == page.url %}
         <li class="ou-expanded"><strong>{{ p.title }}</strong></li>
     {% else %}
-        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+        <li><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
     {% endif %}
 
     {% assign parent = p.path | replace:'.html','' %}
