@@ -140,21 +140,21 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
 	font-style: normal;
-	color: #0b55a8;
+	color: #000;
 	margin:30px 0 8px 0;
 	line-height:110%;
 }
 
 h1 {
-	font-size: 2.5em; 
+	font-size: 3em; 
 	margin:0 0 25px 0;
 	padding:0 0 5px 0;
 	border-bottom: 1px solid #e7eff7;
 }
 
-h2 {font-size: 1.75em;}
+h2 {font-size: 2.4em;}
 
-h3 {font-size: 1.25em;}
+h3 {font-size: 2em;}
 
 h4 {font-size: 1.125em;}
 
@@ -175,7 +175,6 @@ h6 {font-size: 0.875em;}
 #ou-content a,
 #ou-region2 a {
 	color:#039;
-	font-weight:bold;
 	text-decoration:underline;
 	font-family:Arial, Helvetica, sans-serif
 }
@@ -292,13 +291,10 @@ h6 {font-size: 0.875em;}
 
 
 body {
-	color: #424242;
-	background-color: #fff;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	font-weight: 400;
-	font-size:1em;
+	font-size: 62.5%;
 	font-family:Arial, Helvetica, sans-serif;
+	color: #222;
+	background-color: #fff;
 }
 
 #ou-org {
@@ -306,7 +302,7 @@ body {
 }
 
 #ou-site {
-	border-top: 1px solid #e7eff7;
+	xborder-top: 1px solid #e7eff7;
 }
 
 #ou-header,
@@ -581,6 +577,7 @@ div.ou-go3 h2 {margin-top:0;}
 
 
 p {
+	font-size:1.4em;
 	margin:0 0 15px 0;
 	line-height:1.6em;
 }
@@ -588,7 +585,7 @@ p {
 p.ou-introduction {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color: #0b55a8;
-	font-size: 1.25em;
+	font-size: 1.8em;
 }
 
 small {font-size: 95%;}
@@ -697,6 +694,7 @@ blockquote.ou-pullquote2 p {
 	margin:0 0 15px 25px;
 	list-style-type: none;
 	padding: 0;
+	font-size:1.4em;
 }
 
 #ou-content ul ul {
@@ -727,6 +725,7 @@ blockquote.ou-pullquote2 p {
 	margin:0 0 15px 25px;
 	counter-reset: item;
 	list-style-type:none;
+	font-size:1.4em;
 }
 
 #ou-content ol ol {
@@ -1034,13 +1033,13 @@ ol.ou-ancestors li a:hover {
 	margin-bottom: 2em;
 	border-radius: 4px;
 	border-width: 20px;
-	font-size:.9em;
 }
 
 .ou-full-nav ul li a,
 .ou-full-nav ul li strong,
 .ou-context-nav ul li a,
 .ou-context-nav ul li strong {
+	font-size:1.4em;
 	display:block;
 	padding:10px 12px;
 	border-top:1px solid #a6d0ff;
@@ -1164,12 +1163,11 @@ ol.ou-ancestors li a:hover {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.25em;
 	background: #ffc23d;
 	color: #0b55a8;
-	font-weight: normal;
+	font-weight: bold;
 	text-decoration: none;
-	padding: 10px 14px 8px 14px;
+	padding: 10px 14px 10px 14px;
 	display: inline-block;
 	margin-bottom: 15px;
 	border: 1px solid #ffc23d;
@@ -1327,6 +1325,7 @@ div.ou-contact h2,div.ou-contact h3 {
 	color:black;	
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.4em;
+	font-weight:bold;
 	margin-top:0;
 }
 
