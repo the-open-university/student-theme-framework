@@ -2,16 +2,10 @@
 
 
 /*
-
-  ___ ___ ___     _ _  
- |_ _/ __| __|_ _| | | 
-  | | (__| _|\ V /_  _|
- |___\___|___|\_/  |_| 
-
-
 --------------------------------------------------------------------------------------
-	OU ICE v4
-	Stephen Turvey - July, 2014
+	
+	OU STUDENT THEME FRAMEWORK
+
 --------------------------------------------------------------------------------------
 */
 
@@ -133,56 +127,6 @@ ol.ou-ancestors:after,
 */
 
 
-/* Carat */
-
-@font-face {
-	font-family:Caratlight;
-	src:url(fonts/carat-light/fonts/2A3DC6_0_0.eot);
-	src:url(fonts/carat-light/fonts/2A3DC6_0_0.eot?#iefix) format('embedded-opentype'),url(fonts/carat-light/fonts/2A3DC6_0_0.woff) format('woff'),url(fonts/carat-light/fonts/2A3DC6_0_0.ttf) format('truetype');
-	font-weight:400;
-	font-style:normal
-}
-
-@font-face {
-	font-family:CaratReg;
-	src:url(fonts/carat-reg/2A86BB_0_0.eot);
-	src:url(fonts/carat-reg/2A86BB_0_0.eot?#iefix) format('embedded-opentype'),url(fonts/carat-reg/2A86BB_0_0.woff) format('woff'),url(fonts/carat-reg/2A86BB_0_0.ttf) format('truetype');
-	font-weight:400;
-	font-style:normal
-}
-
-/* Futura */
-
-@font-face {
-	font-family:futura-pt;
-	src:url(fonts/futura-pt/FTN45__W.eot);
-	src:url(fonts/futura-pt/FTN45__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN45__W.woff) format('woff'),url(fonts/futura-pt/FTN45__W.ttf) format('truetype'),url(fonts/futura-pt/FTN45__W.svg#futura-pt) format('svg');
-	font-weight:400;
-	font-style:normal
-}
-
-@font-face {
-	font-family:futura-pt-oblique;
-	src:url(fonts/futura-pt/FTN46__W.eot);src:url(fonts/futura-pt/FTN46__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN46__W.woff) format('woff'),url(fonts/futura-pt/FTN46__W.ttf) format('truetype'),url(fonts/futura-pt/FTN46__W.svg#futura-pt-oblique) format('svg');
-	font-weight:400;
-	font-style:normal
-}
-
-@font-face {
-	font-family:futura-pt-heavy;
-	src:url(fonts/futura-pt/FTN75__W.eot);
-	src:url(fonts/futura-pt/FTN75__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN75__W.woff) format('woff'),url(fonts/futura-pt/FTN75__W.ttf) format('truetype'),url(fonts/futura-pt/FTN75__W.svg#futura-pt-heavy) format('svg');
-	font-weight:400;
-	font-style:normal
-}
-
-@font-face {
-	font-family:futura-pt-heavy-oblique;
-	src:url(fonts/futura-pt/FTN76__W.eot);
-	src:url(fonts/futura-pt/FTN76__W.eot?#iefix) format('embedded-opentype'),url(fonts/futura-pt/FTN76__W.woff) format('woff'),url(fonts/futura-pt/FTN76__W.ttf) format('truetype'),url(fonts/futura-pt/FTN76__W.svg#futura-pt-heavy-oblique) format('svg');
-	font-weight:400;
-	font-style:normal
-}
 
 
 /*
@@ -193,7 +137,7 @@ ol.ou-ancestors:after,
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family:Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
 	font-style: normal;
 	color: #0b55a8;
@@ -230,27 +174,10 @@ h6 {font-size: 0.875em;}
 
 #ou-content a,
 #ou-region2 a {
-	color:#880088;
+	color:#039;
 	font-weight:bold;
 	text-decoration:underline;
-	font-family:"futura-pt", arial, helvetica, sans-serif;
-}
-
-#ou-content h1 a,
-#ou-region2 h1 a,
-#ou-content h2 a,
-#ou-region2 h2 a,
-#ou-content h3 a,
-#ou-region2 h3 a,
-#ou-content h4 a,
-#ou-region2 h4 a,
-#ou-content h5 a,
-#ou-region2 h5 a,
-#ou-content h6 a,
-#ou-region2 h6 a {
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
-	text-decoration:none;
-	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif
 }
 
 
@@ -371,7 +298,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
 	font-size:1em;
-	font-family:"futura-pt", Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 #ou-org {
@@ -475,7 +402,6 @@ pre code::-moz-selection {
 	display:inline-block;
 	color:#000;
 	text-decoration:none;
-	font-family:"futura-pt-heavy", arial, helvetica, sans-serif;
 	font-size:1.2em;
 
 }
@@ -660,7 +586,7 @@ p {
 }
 
 p.ou-introduction {
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family:Georgia, "Times New Roman", Times, serif;
 	color: #0b55a8;
 	font-size: 1.25em;
 }
@@ -716,7 +642,7 @@ blockquote cite {
 #ou-content blockquote cite a {text-decoration:none;}
 
 blockquote p {
-	font-family: "CaratLight", "Book Antiqua", Georgia, serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #424242;
 	font-size: 1.25em;
 }
@@ -1028,7 +954,6 @@ ul.ou-sections li a {
 	padding:10px 15px;
 	color:black;
 	border-left:1px solid #7fb3d9;
-	font-family:"futura-pt-heavy",Arial, Helvetica, sans-serif;
 }
 
 ul.ou-sections li a:hover {
@@ -1133,7 +1058,6 @@ ol.ou-ancestors li a:hover {
 	color:#fff;
 	border-top:none;
 	font-weight:normal;
-	font-family:"futura-pt-heavy", arial, helvetica, sans-serif;
 }
 
 .ou-full-nav ul li a:hover,
@@ -1239,7 +1163,7 @@ ol.ou-ancestors li a:hover {
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25em;
 	background: #ffc23d;
 	color: #0b55a8;
@@ -1401,7 +1325,7 @@ div.ou-feature-block h2,div.ou-feature-block h3,
 div.ou-download h2,div.ou-download h3,
 div.ou-contact h2,div.ou-contact h3 {
 	color:black;	
-	font-family:"futura-pt", Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.4em;
 	margin-top:0;
 }
@@ -1725,7 +1649,6 @@ div.ou-action-block {
 #ou-content a.ou-action span.ou-desc {
 	color:#777;
 	font-weight:normal;
-	font-family:'futura-pt', arial, helvetica, sans-serif;
 }
 
 #ou-content a.ou-action:after {
@@ -1992,7 +1915,7 @@ table.ou-dist25 td {
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25em;
 	background: #ffc23d;
 	color: #0b55a8;
@@ -2089,7 +2012,6 @@ div.ou-video blockquote p,
 div.ou-audio blockquote p {
 	text-align:left;
 	font-size:1em;
-	font-family:"futura-pt", Arial, Helvetica, sans-serif;
 	color:#494949;
 }
 
