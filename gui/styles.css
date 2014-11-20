@@ -193,10 +193,10 @@ ol.ou-ancestors:after,
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family: Georgia, serif;
 	font-weight: normal;
 	font-style: normal;
-	color: #0b55a8;
+	color: #000;
 	margin:30px 0 8px 0;
 	line-height:110%;
 }
@@ -231,9 +231,8 @@ h6 {font-size: 0.875em;}
 #ou-content a,
 #ou-region2 a {
 	color:#880088;
-	font-weight:bold;
 	text-decoration:underline;
-	font-family:"futura-pt", arial, helvetica, sans-serif;
+	font-family: arial, helvetica, sans-serif;
 }
 
 #ou-content h1 a,
@@ -248,7 +247,7 @@ h6 {font-size: 0.875em;}
 #ou-region2 h5 a,
 #ou-content h6 a,
 #ou-region2 h6 a {
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family: Georgia, serif;
 	text-decoration:none;
 	font-weight:normal;
 }
@@ -371,7 +370,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
 	font-size:1em;
-	font-family:"futura-pt", Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 #ou-org {
@@ -660,8 +659,6 @@ p {
 }
 
 p.ou-introduction {
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
-	color: #0b55a8;
 	font-size: 1.25em;
 }
 
@@ -1084,7 +1081,6 @@ ol.ou-ancestors li:last-child:after {
 ol.ou-ancestors li a {
 	text-decoration:none;
 	color:#880088;
-	font-weight:bold;
 }
 
 ol.ou-ancestors li a:hover {
@@ -1239,7 +1235,7 @@ ol.ou-ancestors li a:hover {
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family: Georgia, serif;
 	font-size: 1.25em;
 	background: #ffc23d;
 	color: #0b55a8;
@@ -1401,7 +1397,7 @@ div.ou-feature-block h2,div.ou-feature-block h3,
 div.ou-download h2,div.ou-download h3,
 div.ou-contact h2,div.ou-contact h3 {
 	color:black;	
-	font-family:"futura-pt", Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	font-size:1.4em;
 	margin-top:0;
 }
@@ -1992,7 +1988,7 @@ table.ou-dist25 td {
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
-	font-family: "CaratReg", "Book Antiqua", Georgia, serif;
+	font-family: Georgia, serif;
 	font-size: 1.25em;
 	background: #ffc23d;
 	color: #0b55a8;
@@ -2089,7 +2085,7 @@ div.ou-video blockquote p,
 div.ou-audio blockquote p {
 	text-align:left;
 	font-size:1em;
-	font-family:"futura-pt", Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	color:#494949;
 }
 
