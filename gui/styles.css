@@ -3,7 +3,7 @@
 
 /*
 --------------------------------------------------------------------------------------
-	
+
 	OU STUDENT THEME FRAMEWORK
 
 --------------------------------------------------------------------------------------
@@ -119,7 +119,6 @@ ol.ou-ancestors:after,
 #ou-region2 a {
 	color:#039;
 	text-decoration:underline;
-	font-family:Arial, Helvetica, sans-serif
 }
 
 
@@ -162,21 +161,21 @@ ol.ou-ancestors:after,
 	color:black;
 }
 
-#ou-content a.ou-pdf:before {content:"\f1c1"; color:red;}
-#ou-content a.ou-doc:before {content:"\f1c2"; color:#0b55a8;}
-#ou-content a.ou-xls:before {content:"\f1c3"; color:green;}
-#ou-content a.ou-download:before {content:"\f019"; color:#539d3c;}
-#ou-content a.ou-ppt:before {content:"\f1c4"; color:#CF6041;}
+#ou-content a.ou-pdf:before {content:"\f1c1"; color:black;}
+#ou-content a.ou-doc:before {content:"\f1c2"; color:black;}
+#ou-content a.ou-xls:before {content:"\f1c3"; color:black;}
+#ou-content a.ou-download:before {content:"\f019"; color:black;}
+#ou-content a.ou-ppt:before {content:"\f1c4"; color:black;}
 #ou-content a.ou-archive:before {content:"\f1c6"; color:black;}
 #ou-content a.ou-audio:before {content:"\f1c7"; color:black;}
 #ou-content a.ou-video:before {content:"\f1c8"; color:black;}
-#ou-content a.ou-link:before {content:"\f061"; color:#880088;}
-#ou-content a.ou-info:before {content:"\f05a"; color:#0b55a8;}
-#ou-content a.ou-forum:before {content:"\f1d7"; color:#880088;}
+#ou-content a.ou-link:before {content:"\f061"; color:black;}
+#ou-content a.ou-info:before {content:"\f05a"; color:black;}
+#ou-content a.ou-forum:before {content:"\f1d7"; color:black;}
 #ou-content a.ou-print:before {content:"\f02f"; color:black;}
-#ou-content a.ou-warning:before {content:"\f071"; color:red;}
-#ou-content a.ou-help:before {content:"\f059"; color:#0b55a8;}
-#ou-content a.ou-rss:before {content:"\f143"; color:#f60;}
+#ou-content a.ou-warning:before {content:"\f071"; color:black;}
+#ou-content a.ou-help:before {content:"\f059"; color:black;}
+#ou-content a.ou-rss:before {content:"\f143"; color:black;}
 
 /* to top */
 
@@ -187,7 +186,7 @@ ol.ou-ancestors:after,
 	bottom: 0;
 	opacity: 0;
 	text-decoration:none;
-	padding:8px 18px;
+	padding:10px 18px;
 	color:#0b55a8;
 	background-color:#a6d0ff;
 	font-size:.9em;
@@ -263,7 +262,7 @@ div#ou-region2 {
 }
 
 .ou-section {
-	border-bottom: 1px solid #e7eff7;
+	border-bottom: 1px solid #eee;
 	padding:0 0 15px 0;
 	margin:0 0 15px 0;
 }
@@ -471,7 +470,7 @@ div.ou-go3 h2 {margin-top:0;}
 p.ou-introduction {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color: #0b55a8;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 
@@ -539,20 +538,20 @@ blockquote.ou-pullquote2 p {
 
 
 #ou-content ul li {
-	margin-top: 0.25em;
+	margin-bottom: 5px;
 	position: relative;
-	padding-left: 1.5em;
+	padding-left: 20px;
+	line-height:1.6em;
 }
 
 #ou-content ul li:before {
 	content: "\2022";
-	padding-right: 0.5em;
 	color: #0b55a8;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	position: absolute;
-	left: -2px;
-	top: 0px;
-	line-height: 0.8;
+	left: 0;
+	top: 0;
+	line-height: 90%;
 }
 
 /* ordered */
@@ -561,7 +560,6 @@ blockquote.ou-pullquote2 p {
 	margin:0 0 15px 25px;
 	counter-reset: item;
 	list-style-type:none;
-	font-size:1.4em;
 }
 
 #ou-content ol ol {
@@ -570,8 +568,9 @@ blockquote.ou-pullquote2 p {
 
 #ou-content ol li {
 	position: relative;
-	padding-left: 1.5em;
-	margin-top: 0.25em;
+	padding-left: 25px;
+	margin-bottom: 5px;
+	line-height:1.6em;
 }
 
 #ou-content ol li:before {
@@ -580,7 +579,6 @@ blockquote.ou-pullquote2 p {
 	color: #0b55a8;
 	display: inline-block;
 	text-align: right;
-	padding-right: 0.25em;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -826,7 +824,7 @@ ol.ou-ancestors li:after {
 	content: " \f054";
 	position: absolute;
 	right: 0;
-	top: 6px;
+	top: 0;
 }
 
 ol.ou-ancestors li:last-child:after {
@@ -835,8 +833,6 @@ ol.ou-ancestors li:last-child:after {
 
 ol.ou-ancestors li a {
 	text-decoration:none;
-	color:#880088;
-	font-weight:bold;
 }
 
 ol.ou-ancestors li a:hover {
@@ -867,7 +863,6 @@ ol.ou-ancestors li a:hover {
 .ou-full-nav ul li strong,
 .ou-context-nav ul li a,
 .ou-context-nav ul li strong {
-	font-size:1.4em;
 	display:block;
 	padding:10px 12px;
 	border-top:1px solid #a6d0ff;

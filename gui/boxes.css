@@ -28,9 +28,9 @@ div.box p:last-child {
 div.box h2,
 div.box h3 {
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:1.5em;
 	font-weight:bold;
-	margin-top:0;
+	font-size:1em;
+	margin:0 0 4px 0;
 }
 
 
@@ -59,7 +59,23 @@ div.ou-box,
 div.ou-feature-block {
 	border-left:1px solid #ccc;
 	background-color:#eee;
+	padding:15px;
+	margin-bottom:15px;
 }
+
+div.ou-box h2,
+div.ou-feature-block h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin:0 0 4px 0;
+	font-size:1em;
+}
+
+div.ou-box p:last-child,
+div.ou-feature-block p:last-child {
+	margin-bottom:0;
+}
+
 
 #ou-content div.ou-box ol,
 #ou-content div.ou-box ul,
@@ -103,7 +119,7 @@ div.ou-feature-block {
 
 #ou-content div.ou-keypoints ol,
 #ou-content div.ou-keypoints ul {
-	margin:10px 0 10px 0;
+	margin:15px 0 10px 0;
 }
 
 
@@ -153,7 +169,7 @@ div.ou-action-block {
 	display:block;
 	padding:15px 20px;
 	background-color:#eee;
-	font-size:1.6em;
+	font-size:1.2em;
 	text-decoration:none;
 	border-bottom:1px solid #fff;
 	position:relative;
@@ -167,10 +183,6 @@ div.ou-action-block {
 	color: #539d3c;
 	right: 20px;
 	top: 16px;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
 }
 
 #ou-content div.ou-action-block ul li a:hover {
@@ -195,8 +207,7 @@ div.ou-action-block {
 
 #ou-content a.ou-action {
 	position:relative;
-	overflow:visible;
-	padding:15px 20px;
+	padding:10px 0 10px 5px;	
 }
 
 #ou-content a.ou-action:nth-child(even) {
@@ -205,13 +216,13 @@ div.ou-action-block {
 }
 
 #ou-content a.ou-action span.ou-title {
-	font-size:1.6em;
+	font-size:1.2em;
 }
 
 #ou-content a.ou-action span.ou-desc {
 	color:#777;
 	font-weight:normal;
-	font-size:1.3em;
+	font-size:.9em;
 	margin-top:3px;
 }
 
@@ -220,16 +231,16 @@ div.ou-action-block {
 	position: absolute;
 	content: " \f0a9";
 	color: #539d3c;
-	right: 20px;
-	top: 23px;
+	right: 5px;
+	top: 18px;
 	font-size:20px;
 }
 
 #ou-content a.ou-action:hover:after {
 	color: #000;
 	font-size:30px;
-	top:20px;
-	right:16px;
+	top:16px;
+	right:2px;
 	overflow:visible;
 }
 
@@ -250,7 +261,7 @@ div.ou-action-block {
 	margin: 0;
 	padding: 0 0 0 0;
 	list-style-type: none;
-	border-bottom: 1px solid #e7eff7;
+	border-bottom: 1px solid #ddd;
 }
 
 #ou-content ul.ou-news li:before {
@@ -258,13 +269,13 @@ div.ou-action-block {
 }
 
 #ou-content p.ou-date {
-	color: #0b55a8;
+	color: #777;
 	margin:15px 0 8px 0;
 }
 
 #ou-content ul.ou-news img {
 	float: right;
-	margin: 0 0 1em 1em;
+	margin: 0 0 15px 15px;
 	width:200px;
 }
 
