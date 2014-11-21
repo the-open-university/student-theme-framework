@@ -54,7 +54,7 @@ a.ou-skip:active {
 #ou-header a.ou-logo {
 	float:left;
 	display:block;
-	margin:20px 0 0 0;
+	margin:20px 0 20px 0;
 	width:87px;
 	height:66px;
 }
@@ -66,11 +66,12 @@ a.ou-skip:active {
 }
 
 #ou-header #ou-identity p.ou-identity-oucu {
-	margin:0;
+	margin:0 0 3px 0;
 	padding:0 0 0 0;
 	font-size:.9em;
-	color:#525252;
+	color:#777;
 	line-height:normal;
+	text-transform:uppercase;
 }
 
 #ou-header #ou-identity p.ou-identity-name {
@@ -87,7 +88,7 @@ a.ou-skip:active {
 
 #ou-header #ou-service-links ul {
 	float: right;
-	margin: 15px 0 40px 0;
+	margin: 15px 0 0 0;
 	padding: 0;
 	text-align:right;
 }
@@ -246,7 +247,7 @@ h1 {
 #ou-header #ou-identity {
 	display: block;
 	padding: 0;
-	margin: 12px 0 0 0;
+	margin: 15px 0 0 0;
 }
 
 #ou-header #ou-identity p.ou-identity-oucu {
