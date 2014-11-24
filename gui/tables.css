@@ -66,6 +66,10 @@ table.ou-alt th {
 	border-right: 1px solid #ddd;
 }
 
+table.ou-alt tr th:last-child, 
+table.ou-alt tr td:last-child {border-right: 0;}
+
+
 table.ou-alt th {border-bottom:2px solid #ddd;}
 
 table.ou-alt tfoot th {border-top: 2px solid #ddd;}

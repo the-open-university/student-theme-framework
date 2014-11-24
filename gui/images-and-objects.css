@@ -54,7 +54,7 @@ div.ou-img img {
 
 div.ou-img p.ou-caption {
 	margin:5px 0 0 0;
-	color:#470d43;
+	color:#555;
 }
 
 div.ou-go1 {
@@ -84,6 +84,45 @@ div.ou-go1 h2,
 div.ou-go2 h2,
 div.ou-go3 h2 {margin-top:0;}
 
+
+/* image and button */
+
+.ou-img-and-btn {
+	position:relative;
+}
+
+.ou-img-and-btn a.ou-btn {
+	position:absolute;
+	bottom:	20px;
+	right:20px;
+	margin-bottom:0;
+}
+
+
+
+/*
+-------------------------------------------
+	Buttons
+-------------------------------------------
+*/
+
+a.ou-btn {
+	border-radius: 4px;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	background: #ffc23d;
+	color: #0b55a8;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 14px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+a.ou-btn:hover {
+	background:#539d3c;
+	color:#fff;
+}
 
 
 /*
@@ -186,6 +225,26 @@ blockquote.ou-pullquote2 p {
 	font-size:1.2em;
 	color:#0b55a8;
 }
+
+
+/*
+-------------------------------------------
+	Blocks
+-------------------------------------------
+*/
+
+.ou-block-showhide {margin-bottom:15px;}
+
+.ou-block-showhide h2 {
+	background-color:#0b55a8;
+	color:#fff;
+	padding:12px 15px;
+	margin:0 0 15px 0;
+	font-size:1.2em;
+}
+
+
+
 
 
 

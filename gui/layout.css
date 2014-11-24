@@ -91,6 +91,38 @@ div.ou-c2of3 {
 
 /*
 -------------------------------------------
+	Grid
+-------------------------------------------
+*/
+
+.ou-cols {
+	float:left;
+	display:block;
+	margin-right:2%;
+}
+
+.cols-1 {width:6.5%;}
+.cols-2 {width:15%;}
+.cols-3 {width:23.5%;}
+.cols-4 {width:32%;}
+.cols-5 {width:40.5%;}
+.cols-6 {width:49%;}
+.cols-7 {width:57.5%;}
+.cols-8 {width:66%;}
+.cols-9 {width:74.5%;}
+.cols-10 {width:83%;}
+.cols-11 {width:91.5%;}
+.cols-12 {width:100%;}
+
+.ou-grid .ou-cols:last-child,
+.col-last {margin-right:0;}
+
+
+
+
+
+/*
+-------------------------------------------
 	Site ident
 -------------------------------------------
 */

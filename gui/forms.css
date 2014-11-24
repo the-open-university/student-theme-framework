@@ -14,12 +14,12 @@
 #ou-content form {
 	background-color:#0b55a8;
 	color:#fff;
-	padding:20px 40px;
+	padding:25px 40px;
 }
 
 #ou-content form fieldset legend {
 	color: #a6d0ff;
-	font-size: 1.25em;
+	font-size: 1.1em;
 	display:block;
 	margin:0 0 15px 0;
 }
@@ -28,7 +28,6 @@
 	display: block;
 	padding-bottom: 20px;
 	padding: 0 0 5px 0;
-	font-size:1.1em;
 }
 
 #ou-content form ul,
@@ -55,6 +54,7 @@
 #ou-content form input[type="email"], 
 #ou-content form input[type="number"], 
 #ou-content form textarea {
+	color:black;
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -91,6 +91,7 @@
 #ou-content form input[type=checkbox],
 #ou-content form input[type=radio] {
 	font-size:150%;
+	margin-right:5px;
 }
 
 #ou-content form button, 
@@ -104,18 +105,24 @@
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.25em;
+	font-size: 1em;
 	background: #ffc23d;
 	color: #0b55a8;
-	font-weight: normal;
+	font-weight: bold;
 	text-decoration: none;
-	padding: 10px 14px 8px 14px;
+	padding: 10px 14px 10px 14px;
 	display: inline-block;
 	margin-bottom: 15px;
-	border: 1px solid #ffc23d;
+	margin-right:5px;
+	border: none;
 	-webkit-appearance: button;
 	cursor: pointer;
 	line-height:normal;
+}
+
+#ou-content form input.button-secondary {
+	background:#ccc;
+	color:#666;
 }
 
 #ou-content form button:hover, 
@@ -124,12 +131,13 @@
 #ou-content form button:focus, 
 #ou-content form input[type=button]:focus, 
 #ou-content form input[type=submit]:focus {
-	background: #880088;
-	color: #ffc23d;
+	background: #539d3c;
+	color: #fff;
 	text-decoration: none;
 }
 
 #ou-content form select {
+	color:black;
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;

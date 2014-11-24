@@ -38,6 +38,28 @@
 	line-height: 90%;
 }
 
+/* unordered alternative */
+
+#ou-content ul.ou-list-alt {margin:0;}
+
+#ou-content ul.ou-list-alt li {
+	margin-bottom: 0;
+	position: static;
+	padding-left: 0;
+	border-bottom:1px solid #ddd;
+	display:block;
+	padding:5px 15px;
+}
+
+#ou-content ul.ou-list-alt li:last-child {border-bottom:none;}
+
+#ou-content ul li:before {content: "";}
+
+ul.ou-list-alt li a {text-decoration:none;}
+
+
+
+
 /* ordered */
 
 #ou-content ol {
