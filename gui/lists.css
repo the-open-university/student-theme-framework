@@ -53,7 +53,7 @@
 
 #ou-content ul.ou-list-alt li:last-child {border-bottom:none;}
 
-#ou-content ul li:before {content: "";}
+#ou-content ul.ou-list-alt li:before {content: "";}
 
 ul.ou-list-alt li a {text-decoration:none;}
 
