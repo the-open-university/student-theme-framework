@@ -48,16 +48,18 @@
 	float:left;
 	width:100%;
 	clear:both;
+	font-weight:bold;
 }
 
 #ou-content .responsive-tabs__list__item {
 	background: #fff; 
 	padding: 10px 20px;  
 	margin-right: 0; 
+	margin-bottom:0;
 	padding: 10px 15px;
 	color: black;
 	border-left: 1px solid #7fb3d9;
-	font-family: "futura-pt-heavy",Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	float:left;
 }
 
@@ -72,7 +74,7 @@
 	border-bottom-color: #ffc23d; 
 	border-left: 1px solid #ffc23d;
 	color:#000; 
-	font-weight:normal;
+	font-weight:bold;
 }
 
 #ou-content .responsive-tabs__list__item--active:after {
@@ -120,7 +122,7 @@
 		border: 1px solid #ccc; 
 		background: #fff;
 		position: relative;
-		font-family: "futura-pt-heavy",Arial, Helvetica, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 		font-size:1.1em;
 }
 

@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+
+/*
+--------------------------------------------------------------------------------------
+
+	layout.css
+
+--------------------------------------------------------------------------------------
+*/
+
+
+
+#ou-org {
+	width:100%;
+}
+
+#ou-header,
+#ou-site-body {
+	max-width:1180px;
+	margin:0 auto;
+}
+
+#ou-site-header {
+	text-align:center;
+}
+
+#ou-site-body {
+	margin-top: 25px;
+}
+
+div#ou-region1 {
+	float: left;
+	width: 68%;
+}
+
+div#ou-region2 {
+	float: right;
+	width: 30%;
+}
+
+
+
+/*
+-------------------------------------------
+	Layouts
+-------------------------------------------
+*/
+
+
+
+body.ou-pure div#ou-region1 {
+	margin:0 0 20px 0;
+	width:100%;
+}
+
+body.ou-pure div#ou-region2 {
+	width:100%;
+	margin:0;
+}
+
+div.ou-c1of2, 
+div.ou-c1of3, 
+div.ou-c2of3 {
+	float: left;
+}
+
+div.ou-c1of2,
+div.ou-c2of2 {
+	width: 48%;
+}
+
+div.ou-c2of2, 
+div.ou-c3of3 {
+	float: right;
+}
+
+div.ou-c1of3, 
+div.ou-c2of3, 
+div.ou-c3of3 {
+	width: 30%;
+	margin: 0;
+	padding:0;
+}
+
+div.ou-c2of3 {
+	margin-left: 5%;
+}
+
+
+
+/*
+-------------------------------------------
+	Grid
+-------------------------------------------
+*/
+
+.ou-cols {
+	float:left;
+	display:block;
+	margin-right:2%;
+}
+
+.cols-1 {width:6.5%;}
+.cols-2 {width:15%;}
+.cols-3 {width:23.5%;}
+.cols-4 {width:32%;}
+.cols-5 {width:40.5%;}
+.cols-6 {width:49%;}
+.cols-7 {width:57.5%;}
+.cols-8 {width:66%;}
+.cols-9 {width:74.5%;}
+.cols-10 {width:83%;}
+.cols-11 {width:91.5%;}
+.cols-12 {width:100%;}
+
+.ou-grid .ou-cols:last-child,
+.col-last {margin-right:0;}
+
+
+
+
+
+/*
+-------------------------------------------
+	Site ident
+-------------------------------------------
+*/
+
+#ou-site-ident {
+	text-align:left;
+	background: #e7eff7;
+}
+
+#ou-site-ident p#ou-site-title {
+	margin:0 auto;
+	padding:0;
+	max-width:1180px;
+}
+
+#ou-site-ident p#ou-site-title a {
+	padding:12px 0 0 0;
+	display:inline-block;
+	color:#000;
+	text-decoration:none;
+	font-size:1.4em;
+}
+
+#ou-site-ident p#ou-site-title a:hover {
+	text-decoration:underline;
+}
+
+#ou-site-ident p#ou-site-description {
+	margin:0 auto;
+	max-width:1180px;
+	padding:0 0 8px 0;
+	color:#666;
+}
+
+
+/*
+-------------------------------------------
+	Carousel
+-------------------------------------------
+*/
+
+
+.ou-carousel {
+	max-width:1180px;
+	margin:0 auto;
+	text-align:left;
+}
+
+
+/*
+-------------------------------------------
+	Creative
+-------------------------------------------
+*/
+
+
+.ou-creative {background: #e7eff7;}
+
+.ou-creative img,
+.ou-creative img.ou-go3 {
+	margin:0 auto;
+	display:block;
+}
+
+
+
+@media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
+
+#ou-header, #ou-site-body {
+	max-width: none;
+	padding: 0 15px;
+}
+
+#ou-site-ident p#ou-site-title,
+#ou-site-ident p#ou-site-description {
+	padding-left:15px;
+}
+
+
+} /* end media query */
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+div#ou-region1,
+div#ou-region2 {
+	float: left;
+	width: 100%;
+	margin:0 0 25px 0;
+	padding:0;
+}
+
+
+
+} /* end media query */
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+#ou-site-body {
+	margin-top: 20px;
+}
+
+div.ou-c1of2, 
+div.ou-c2of2,
+div.ou-c1of3, 
+div.ou-c2of3, 
+div.ou-c3of3 {
+	width: 100%;
+	float:none;
+	margin:0;
+}
+
+
+} /* end media query */
+
+
+
+
+
+
+

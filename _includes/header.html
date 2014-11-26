@@ -13,7 +13,7 @@
 <fieldset>
 <legend class="ou-hide">Site search</legend>
 <label for="site-search" class="ou-hide">Search the OU</label>
-<input type="search" id="site-search" placeholder="Search...">
+<input type="search" id="site-search" placeholder="">
 <button><span class="ou-hide">Submit</span></button>
 </fieldset>
 </li>
@@ -28,9 +28,16 @@
 
 <!-- if signed in
 <div id="ou-identity">
-<p class="ou-identity-oucu">U2415974</p>
-<p class="ou-identity-name">Louise Olney</p>
+<p class="ou-identity-oucu">st4792</p>
+<p class="ou-identity-name">Stephen Turvey</p>
 </div>
 -->
+
+{% if page.ident %}
+<div id="ou-identity">
+<p class="ou-identity-oucu">st4792</p>
+<p class="ou-identity-name">Stephen Turvey</p>
+</div>
+{% endif %}
 
 <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
