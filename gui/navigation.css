@@ -424,6 +424,12 @@ a.ou-rss:before {content:"\f143"; }
 	padding-right:10px;
 }
 
+/* standalone link */
+
+a.ou-standalone-link {font-size:90%; text-decoration:none;}
+
+
+/**/
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 

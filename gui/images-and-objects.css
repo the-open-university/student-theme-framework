@@ -137,6 +137,10 @@ p.ou-introduction {
 	font-size: 1.2em;
 }
 
+p.ou-welcome {
+	border-top:2px solid #a6d0ff;
+	padding:10px 15px 15px 10px;
+}
 
 
 
@@ -233,20 +237,67 @@ blockquote.ou-pullquote2 p {
 -------------------------------------------
 */
 
-.ou-block-showhide {margin-bottom:15px;}
+.ou-block-showhide,
+.ou-block-showhide2 {margin-bottom:15px;}
 
-.ou-block-showhide h2 {
-	background-color:#0b55a8;
+.ou-block-showhide2 {
+	background:#e7eff7;
+}
+
+.ou-block-showhide h2,
+.ou-block-showhide2 h2 {
+	background:#0b55a8;
 	color:#fff;
 	padding:12px 15px;
 	margin:0 0 15px 0;
 	font-size:1.2em;
 }
 
+.ou-block-showhide2 h2 {
+	background:transparent;
+	color:#000;
+	border-bottom:1px solid #a6d0ff;
+	font-size:1em;
+	font-weight:bold;
+	padding-top:13px;
+}
 
 
+/*
+-------------------------------------------
+	Adverts
+-------------------------------------------
+*/
 
+a.ou-advert {
+	border:1px solid #ddd;
+	text-align:center;
+	padding:10px 20px;
+	margin:0 0 20px 0;
+	text-decoration:none; 
+	display:block;
+}
 
+a.ou-advert:hover {
+	border:1px solid #312b39;
+}
+
+a.ou-advert i {
+	color:#CF6041;
+	font-size:80px;
+	margin-bottom:10px;
+}
+
+a.ou-advert .ou-advert-text {
+	color:#666;
+	margin-bottom:5px;
+}
+
+a.ou-advert .ou-advert-highlighted {
+	color:#CF6041;
+	font-size:1.4em;
+	margin-bottom:0;
+}
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
