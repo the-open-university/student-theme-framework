@@ -429,6 +429,20 @@ a.ou-rss:before {content:"\f143"; }
 a.ou-standalone-link {font-size:90%; text-decoration:none;}
 
 
+/* dashboard add */
+
+a.add-block {
+	display:block;
+	padding:30px 20px;
+	text-align:center;
+	text-decoration:none;
+	border-radius:10px;
+	border:3px dashed #ddd;
+}
+
+a.add-block:hover {border-color:#539d3c;}
+
+
 /**/
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {

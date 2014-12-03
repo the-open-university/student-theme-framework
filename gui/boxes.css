@@ -158,6 +158,13 @@
 	background-color:#E7EFF7;
 }
 
+.box-style2 {
+	border-left-width:2px;
+	border-left-style: dashed;
+	border:2px dashed #ddd;
+	background-color:#fff;
+}
+
 
 
 
