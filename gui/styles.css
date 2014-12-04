@@ -26,20 +26,46 @@
 	Colour Palette
 -------------------------------------------
 
-	Mid Blue			#0b55a8
-	Light Blue			#a6d0ff
-	Gold				#ffc23d
-	Dark Blue			#002158
-	Dark Grey			#312b39
-	White				#ffffff
-	Purple				#880088
-	Dark Purple			#470d43
-	Mid Grey Blue		#929fb0
-	Light Grey Blue		#e7eff7
 	Green				#539d3c
 	Red					#b52a1e
+	Gold				#ffc23d
+	Dark Purple			#470d43
+	Mid Blue			#0b55a8
+	Light Blue			#a6d0ff
+	Dark Blue			#002158
+	Dark Grey			#312b39
+	Purple				#880088
+	Mid Grey Blue		#929fb0
+	Light Grey Blue		#e7eff7
+	Orange (new)		#CF6041
 
 */
+
+.colour1 {color:#539d3c !important;}
+.colour2 {color:#b52a1e !important;}
+.colour3 {color:#ffc23d !important;}
+.colour4 {color:#470d43 !important;}
+.colour5 {color:#0b55a8 !important;}
+.colour6 {color:#a6d0ff !important;}
+.colour7 {color:#002158 !important;}
+.colour8 {color:#312b39 !important;}
+.colour9 {color:#880088 !important;}
+.colour10 {color:#929fb0 !important;}
+.colour11 {color:#e7eff7 !important;}
+.colour12 {color:#CF6041 !important;}
+
+.bg-colour1 {background-color:#539d3c !important;}
+.bg-colour2 {background-color:#b52a1e !important;}
+.bg-colour3 {background-color:#ffc23d !important;}
+.bg-colour4 {background-color:#470d43 !important;}
+.bg-colour5 {background-color:#0b55a8 !important;}
+.bg-colour6 {background-color:#a6d0ff !important;}
+.bg-colour7 {background-color:#002158 !important;}
+.bg-colour8 {background-color:#312b39 !important;}
+.bg-colour9 {background-color:#880088 !important;}
+.bg-colour10 {background-color:#929fb0 !important;}
+.bg-colour11 {background-color:#e7eff7 !important;}
+.bg-colour12 {background-color:#CF6041 !important;}
 
 
 

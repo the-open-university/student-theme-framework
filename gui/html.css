@@ -75,6 +75,34 @@ a:hover {
 
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
+	margin:20px 0 10px 0;
+	line-height:120%;
+}
+
+h1 {
+	font-size: 2em; 
+	margin:0 0 25px 0;
+	padding:0 0 5px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+h2 {font-size: 1.8em; margin-bottom:15px;}
+
+h3 {font-size: 1.5em;}
+
+h4 {font-size: 1.3em;}
+
+h5 {font-size: 1.1em; }
+
+h6 {font-size: 1em;}
+
+/* if georgia...
+
+h1, h2, h3, h4, h5, h6 {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
 	font-style: normal;
@@ -99,6 +127,8 @@ h4 {font-size: 1.4em;}
 h5 {font-size: 1.2em;}
 
 h6 {font-size: 1em;}
+
+*/
 
 
 
