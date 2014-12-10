@@ -24,8 +24,8 @@ parent: navigation
 
 <h1>{{ page.title }}</h1>
 <div class="ou-info">
-<h2>Info</h2>
-<p>If you want to use the tabs in your designs you need to download some extra files. Instructions at the <a href="#ins">bottom of this page</a>.</p>
+  <p>If you want to use the tabs in your designs you need to download some extra files. Instructions at the <a href="#ins">bottom of this page</a>.</p>
+  <h2>Demo</h2>
 </div>
 
 
@@ -67,43 +67,39 @@ parent: navigation
 </ol>
 </div>
 
+<h3>Implementation</h3>
+
 <pre>
-<code><!-- in the head below the other stylesheets -->
-
-<link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
-
-<!-- before the closing body tag -->
-
-<script src="js/responsive-tabs.min.js"></script>
-<script>
+&lt;!-- in the head below the other stylesheets --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;gui/responsive-tabs.css&quot; /&gt;<br>
+&lt;!-- before the closing body tag --&gt;
+&lt;script src=&quot;js/responsive-tabs.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
 $(document).ready(function() {
-  RESPONSIVEUI.responsiveTabs();
+RESPONSIVEUI.responsiveTabs();
 })
-</script></code>
+&lt;/script&gt;
 </pre>
 
-<p>The HTML structure for the tabs is:</p>
+<h3>HTML structure</h3>
 
 <pre>
-<code><div class="responsive-tabs">
-
-<h2>Tab 1 title</h2>
-<div>
+&lt;div class=&quot;responsive-tabs&quot;&gt;
+&lt;h2&gt;Tab 1 title&lt;/h2&gt;
+&lt;div&gt;
 Tab 1 content
-</div>
-
-<h2>Tab 2 title</h2>
-<div>
+&lt;/div&gt;
+&lt;h2&gt;Tab 2 title&lt;/h2&gt;
+&lt;div&gt;
 Tab 2 content
-</div>
-
-<h2>Tab 3 title</h2>
-<div>
+&lt;/div&gt;
+&lt;h2&gt;Tab 3 title&lt;/h2&gt;
+&lt;div&gt;
 Tab 3 content
-</div>
-
-</div></code>
+&lt;/div&gt;
+&lt;/div&gt;
 </pre>
+
 
 
 <div class="ou-paged">
