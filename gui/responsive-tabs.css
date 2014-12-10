@@ -43,22 +43,23 @@
 	font-size: 1em; 
 	margin: 0 0 0 0; 
 	padding: 0;
-	border-bottom: 1px solid #7fb3d9; 
+	border-bottom: 0; 
 	line-height: 1em;
 	float:left;
 	width:100%;
 	clear:both;
 	font-weight:bold;
+	background:#eee;
 }
 
 #ou-content .responsive-tabs__list__item {
-	background: #fff; 
+	background: #eee; 
 	padding: 10px 20px;  
 	margin-right: 0; 
 	margin-bottom:0;
 	padding: 10px 15px;
 	color: black;
-	border-left: 1px solid #7fb3d9;
+	border-left: 1px solid #ddd;
 	font-family: Arial, Helvetica, sans-serif;
 	float:left;
 }
