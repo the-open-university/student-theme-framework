@@ -63,6 +63,7 @@
 	float:left;
 }
 
+
 #ou-content .responsive-tabs__list__item:hover {
 	background: #a6d0ff; 
 	text-decoration:underline;
@@ -91,6 +92,10 @@
 	left: 50%;
 	margin-left: -10px;
 }
+
+#ou-content .responsive-tabs__list__item:first-child,
+#ou-content .responsive-tabs__list__item:first-child:hover {border-left:0;}
+
 
 #ou-content .responsive-tabs__panel { 
 	margin: 20px 0 20px 0; 
