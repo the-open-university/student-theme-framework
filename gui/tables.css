@@ -64,7 +64,7 @@ table caption {
 
 table.ou-table-headings-left th {border-bottom-width:1px;}
 
-table.ou-table-headings-left th:last-child {border-bottom:0;}
+table.ou-table-headings-left tr:last-child th {border-bottom:0;}
 
 
 
