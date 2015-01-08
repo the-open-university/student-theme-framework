@@ -325,6 +325,79 @@ dl.ou-toc dd {
 }
 
 
+
+/*
+-------------------------------------------
+	Tabs
+	Same design as responsive tabs
+-------------------------------------------
+*/
+
+
+#ou-content ul.ou-tabs {
+	font-size: 1em;
+	margin: 0 0 0 0;
+	padding: 0;
+	border-bottom: 0;
+	line-height: 1em;
+	float: left;
+	width: 100%;
+	clear: both;
+	font-weight: bold;
+	background: #eee;
+}
+
+#ou-content ul.ou-tabs li {
+	float: left;
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+#ou-content ul.ou-tabs li:before {content:"";}
+
+#ou-content ul.ou-tabs li a {
+	background: #eee;
+	padding: 10px 20px;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding: 10px 15px;
+	color: black;
+	border-left: 1px solid #ddd;
+	display:inline-block;
+	text-decoration:none;
+}
+
+#ou-content ul.ou-tabs li a:hover {
+	background: #a6d0ff;
+	text-decoration:underline;
+}
+
+#ou-content ul.ou-tabs li a.ou-selected {
+	background: #ffc23d;
+	border-bottom-color: #ffc23d;
+	border-left:0;
+	color: #000;
+}
+
+#ou-content ul.ou-tabs li a.ou-selected:after {
+	display: inline-block;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #ffc23d;
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+#ou-content ul.ou-tabs li a.ou-selected:hover {text-decoration:none;}
+
+
 /*
 -------------------------------------------
 	Links
