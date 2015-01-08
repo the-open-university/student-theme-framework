@@ -336,7 +336,7 @@ dl.ou-toc dd {
 
 #ou-content ul.ou-tabs {
 	font-size: 1em;
-	margin: 0 0 0 0;
+	margin: 0 0 20px 0;
 	padding: 0;
 	border-bottom: 0;
 	line-height: 1em;
