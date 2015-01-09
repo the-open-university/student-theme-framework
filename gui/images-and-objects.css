@@ -309,6 +309,38 @@ a.ou-advert .ou-advert-highlighted {
 }
 
 
+/*
+-------------------------------------------
+	Forums
+-------------------------------------------
+*/
+
+
+#ou-content .ou-forum-post-links ul,
+#ou-content .ou-forum-post-links ul li {
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+
+#ou-content .ou-forum-post-links ul li:before {content:none;}
+
+#ou-content .ou-forum-post-links ul li {
+	display:inline;
+	margin-right:10px;
+}
+
+#ou-content .ou-forum-post-links ul li a {
+	text-decoration:none;
+}
+
+.ou-forum-post-links i.fa-reply {color:#539d3c;}
+.ou-forum-post-links i.fa-link {color:#666;}
+.ou-forum-post-links i.fa-flag {color:#b52a1e;}
+
+
+
+
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
 img.ou-go1,
