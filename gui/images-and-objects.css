@@ -309,6 +309,29 @@ a.ou-advert .ou-advert-highlighted {
 }
 
 
+/*
+-------------------------------------------
+	Topics
+-------------------------------------------
+*/
+
+
+.ou-topics h2 {
+	font-size:1.5em;
+	margin:0 0 5px 0;
+}
+
+.ou-topics img {margin-bottom:5px;}
+
+.ou-topics a {text-decoration:none;}
+
+.ou-topics a h2 {color:#039;}
+
+.ou-topics a:hover h2 {color:#000;}
+
+.ou-topics p {color:#666;}
+
+
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {

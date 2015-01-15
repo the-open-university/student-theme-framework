@@ -55,6 +55,27 @@ ol.ou-ancestors li a:hover {
 }
 
 
+/* Breadcrumb with a tag line floated right (careers) */
+
+.ou-breadcrumb-and-tag ol.ou-ancestors {
+	width:48%;
+	float:left;
+}
+
+.ou-breadcrumb-and-tag p {
+	float:right;
+	width:48%;
+	text-align:right;
+	font-size:.9em;
+	color:#777;
+}
+
+.ou-breadcrumb-and-tag p i {
+	color:#CF6041; 
+	font-size:1.1em;
+}
+
+
 /*
 -------------------------------------------
 	Nav - Full/Context nav
@@ -255,6 +276,36 @@ dl.ou-toc dd {
 	padding-right:10px;
 }
 
+
+/*
+-------------------------------------------
+	Nav - Help Centre
+-------------------------------------------
+*/
+
+.ou-nav-help li a {
+	text-decoration:none;
+	padding:11px 12px 10px 12px;
+	background-color:#ACD2FD;
+	border-bottom:1px solid #fff;
+	display:block;	
+}
+
+.ou-nav-help li.ou-nav-help-back a {
+	background-color:#eee;
+	color:black;
+}
+
+.ou-nav-help li a i {
+	float:right;
+	color:#195CA5;
+	font-size:1.1em;
+	vertical-align:middle;
+}
+
+.ou-nav-help li.ou-nav-help-back a i {color:#888;}
+
+.ou-nav-help li a:hover i {color:black;}
 
 /*
 -------------------------------------------
@@ -527,6 +578,14 @@ ul.ou-sections li a {
 	padding: 8px 10px;
 	border: 0;
 }
+
+.ou-breadcrumb-and-tag ol.ou-ancestors,
+.ou-breadcrumb-and-tag p {
+	width:100%;
+	float:none;
+	text-align:left;
+}
+
 
 
 } /* end media query */

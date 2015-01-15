@@ -41,7 +41,7 @@ div#ou-region2 {
 -------------------------------------------
 */
 
-
+/* 100% width */
 
 body.ou-pure div#ou-region1 {
 	margin:0 0 20px 0;
@@ -52,6 +52,19 @@ body.ou-pure div#ou-region2 {
 	width:100%;
 	margin:0;
 }
+
+/* Help Centre swap r1 and r2 */
+
+body.ou-help div#ou-region1 {
+	float:right;
+	width:72%;
+}
+
+body.ou-help div#ou-region2 {
+	float:left;
+	width:24%;
+}
+
 
 div.ou-c1of2, 
 div.ou-c1of3, 
