@@ -315,6 +315,7 @@ a.ou-advert .ou-advert-highlighted {
 -------------------------------------------
 */
 
+.ou-topics {margin-bottom:20px;}
 
 .ou-topics h2 {
 	font-size:1.5em;
@@ -329,9 +330,16 @@ a.ou-advert .ou-advert-highlighted {
 
 .ou-topics a:hover h2 {color:#000;}
 
-.ou-topics p {color:#666;}
+.ou-topics p {color:#666; margin:0;}
 
+#ou-content .ou-topics ul {margin:5px 0 0 0;}
 
+#ou-content .ou-topics ul li {
+	margin-bottom:3px; 
+	padding-left:0;
+}
+
+#ou-content .ou-topics ul li:before {content:none;}
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
