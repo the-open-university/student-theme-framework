@@ -277,35 +277,6 @@ dl.ou-toc dd {
 }
 
 
-/*
--------------------------------------------
-	Nav - Help Centre
--------------------------------------------
-*/
-
-.ou-nav-help li a {
-	text-decoration:none;
-	padding:11px 12px 10px 12px;
-	background-color:#ACD2FD;
-	border-bottom:1px solid #fff;
-	display:block;	
-}
-
-.ou-nav-help li.ou-nav-help-back a {
-	background-color:#eee;
-	color:black;
-}
-
-.ou-nav-help li a i {
-	float:right;
-	color:#195CA5;
-	font-size:1.1em;
-	vertical-align:middle;
-}
-
-.ou-nav-help li.ou-nav-help-back a i {color:#888;}
-
-.ou-nav-help li a:hover i {color:black;}
 
 /*
 -------------------------------------------
@@ -339,6 +310,7 @@ dl.ou-toc dd {
 	margin:0 10px 0 0;
 	zoom: 1;
     *display: inline;
+	color:#777;
 }
 
 #ou-content .ou-paged ul li a,

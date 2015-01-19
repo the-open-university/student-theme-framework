@@ -207,12 +207,15 @@ div.ou-c2of3 {margin-left: 5%;}
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
 div#ou-region1,
-div#ou-region2 {
+div#ou-region2,
+body.ou-help div#ou-region1,
+body.ou-help div#ou-region2 {
 	float: left;
 	width: 100%;
 	margin:0 0 25px 0;
 	padding:0;
 }
+
 
 
 
@@ -244,7 +247,7 @@ div.ou-c3of3,
 .cols-12 {
 	width: 100%;
 	float:none;
-	margin:0;
+	margin:0 0 15px 0;
 }
 
 

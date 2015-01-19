@@ -75,6 +75,11 @@ ul.ou-list-alt li a {text-decoration:none;}
 ul.ou-list-alt2 li a {text-decoration:none;}
 
 
+/* unordered list of links */
+
+#ou-content ul.ou-link-list li a {text-decoration:none;}
+
+
 /* unordered icon list */
 
 #ou-content ul.ou-icon-list {

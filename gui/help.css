@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* 
+
+	Help Centre Stuff 
+
+*/
+
+
+/*
+-------------------------------------------
+	Nav - Help Centre
+-------------------------------------------
+*/
+
+.ou-nav-help li a {
+	text-decoration:none;
+	padding:11px 28px 10px 12px;
+	background-color:#ACD2FD;
+	border-bottom:1px solid #fff;
+	display:block;
+	background-image:url(help-nav-sprites.png);
+	background-repeat:no-repeat;
+	background-position:right 10px;
+}
+
+.ou-nav-help li a:hover {
+	color:#000;
+	background-color:#C6E0FE;
+	background-position:right -90px;
+}
+
+.ou-nav-help li a.ou-selected {
+	background-color:#195CA5;
+	color:#fff;
+	background-position:right -190px;
+}
+
+.ou-nav-help li.ou-nav-help-back a {
+	background-color:#eee;
+	color:#666;
+	background-position:right -290px;
+}
+
+.ou-nav-help li.ou-nav-help-back a:hover {
+	color:black;
+	background-position:right -390px;
+}
+
+.ou-nav-help li em {
+	font-style:normal;
+	padding-right:4px;
+}
+
+
+
+/* MP articles */
+
+p.ou-multipage-count {
+	color:#666;
+	margin-bottom:3px;	
+}
+
+.ou-help-header {position:relative;}
+
+.ou-help-header h1 {padding-right:110px;} /* space for save page widget */
+
+
+.ou-help-header-save {
+	position:absolute;
+	right:0;
+	bottom:10px;
+	text-decoration:none;
+}
+
+
+
+/* Feedback widget */
+
+.ou-feedback-widget h2 {
+	font-size:1em;
+	font-weight:bold;
+	color:#555;
+	margin-top:0;
+}
+
+.ou-feedback-btn-container button {
+	color: #fff;
+	background-color: #69963D;
+	border: none;
+	border-radius: 4px;
+	padding: 6px 10px;
+	margin: 0 5px 0 0;
+	cursor: pointer;
+}
+
+.ou-feedback-btn-container button.ou-feedback-btn-no {background-color: #A63B2F;}
+
+.ou-feedback-btn-container button:hover {background-color:black;}
+
+
+
+
+
+
+
