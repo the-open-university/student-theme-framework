@@ -186,10 +186,6 @@ body.ou-sections #ou-site {
 	border-top:0;
 }
 
-body.ou-sections #ou-site-header {
-	border-bottom:1px solid #ddd;
-}
-
 ul.ou-sections {
 	max-width:1180px;
 	margin:0 auto;
