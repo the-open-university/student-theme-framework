@@ -92,7 +92,8 @@ ol.ou-ancestors:before, ol.ou-ancestors:after,
 .ou-paged:before, .ou-paged:after,
 .ou-mobile-menu:before, .ou-mobile-menu:after,
 .responsive-tabs-wrapper:before, .responsive-tabs-wrapper:after,
-#ou-content ul.ou-news li:before, #ou-content ul.ou-news li:after
+#ou-content ul.ou-news li:before, #ou-content ul.ou-news li:after,
+.ou-creative:before, .ou-creative:after
 {
 	content: "";
 	display: table;
@@ -109,7 +110,8 @@ ol.ou-ancestors:after,
 .ou-paged:after,
 .ou-mobile-menu:after,
 .responsive-tabs-wrapper:after,
-#ou-content ul.ou-news li:after
+#ou-content ul.ou-news li:after,
+.ou-creative:after
 {
 	clear:both;
 }
@@ -128,7 +130,8 @@ ol.ou-ancestors,
 .ou-paged,
 .ou-mobile-menu,
 .responsive-tabs-wrapper,
-#ou-content ul.ou-news li
+#ou-content ul.ou-news li,
+.ou-creative
 {
 	zoom: 1;
 }
