@@ -146,6 +146,8 @@ p {
 
 small {font-size: 95%;}
 
+smaller {font-size:90%; color:#666;}
+
 ins {
 	text-decoration:none;
 	background-color:#eee;
