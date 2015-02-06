@@ -13,6 +13,8 @@
 -------------------------------------------
 */
 
+.ou-nav-help {margin-bottom:25px;}
+
 .ou-nav-help li a {
 	text-decoration:none;
 	padding:11px 28px 10px 12px;
@@ -52,6 +54,12 @@
 	padding-right:4px;
 }
 
+
+/*
+-------------------------------------------
+	Other
+-------------------------------------------
+*/
 
 
 /* MP articles */
@@ -98,9 +106,51 @@ p.ou-multipage-count {
 
 .ou-feedback-btn-container button:hover {background-color:black;}
 
+/* search box */
 
+#ou-content .ou-quick-search form {
+	background-color:transparent;
+	color:#222;
+	padding:0;
+	position:relative;
+}
 
+#ou-content .ou-quick-search form input[type="search"] {
+	border:1px solid #CF6041;
+	border-radius:0;	
+	padding:12px 15px;
+	margin-bottom:15px;
+	background-color:#FCF7F5;
+}
 
+#ou-content .ou-quick-search form input[type="search"]:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(247, 192, 79, 0.6);
+}
 
+#ou-content .ou-quick-search form button {
+	border-radius: 0;
+	box-sizing: border-box;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	background: transparent;
+	background-image: url(icon-search.png);
+	background-position: 0 -17px;
+	background-repeat: no-repeat;
+	color: #0b55a8;
+	border: 0;
+	margin: 0;
+	padding:0;
+	width: 18px;
+	height: 17px;
+	cursor: pointer;
+	transition:none;
+}
 
+#ou-content .ou-quick-search button:hover {background-position: top right;}
+
+.ou-quick-search p {
+	color:#666;
+	font-size:95%;
+}
 
