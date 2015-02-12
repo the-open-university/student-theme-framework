@@ -7,6 +7,419 @@
 */
 
 
+
+/*
+-------------------------------------------
+	Help Home
+-------------------------------------------
+*/
+
+.hidden-except-screenreader {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+
+body.ou-help-home div#ou-region1 {width:100%;}
+
+
+body.ou-help-home .hero-top {
+	position: relative;
+	width: 100%;
+	height: 330px;
+	background: #CCC url(../img/hero-help.jpg);
+	margin-bottom:25px;
+}
+
+body.ou-help-home #ou-content .hero-top form {
+	background-color:transparent;
+	padding:0;	
+	margin:0 auto;
+	position:relative;
+	width:400px;
+	margin-top:28px;
+}
+
+body.ou-help-home .hero-top .search {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+}
+
+body.ou-help-home #ou-content .hero-top .search input[type="text"] {
+	width: 400px;
+	outline: none;
+	margin:0;
+	border:2px solid #CF6041;
+	border-radius:0;	
+	padding:12px 15px;
+	background-color:#FCF7F5;
+}
+
+body.ou-help-home #ou-content .hero-top .search input[type="text"]:focus {box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(247, 192, 79, 0.6); border:2px solid #ffc23d;}
+
+body.ou-help-home #ou-content .hero-top .search button.btn-submit {
+	border-radius: 0;
+	box-sizing: border-box;
+	position: absolute;
+	top: 13px;
+	right: 15px;
+	background: transparent;
+	background-image: url(icon-search.png);
+	background-position: 0 -17px;
+	background-repeat: no-repeat;
+	color: #0b55a8;
+	border: 0;
+	margin: 0;
+	padding:0;
+	width: 18px;
+	height: 17px;
+	cursor: pointer;
+	transition:none;
+}
+
+body.ou-help-home #ou-content .hero-top .search button.btn-submit:hover {background-position: top right;}
+
+
+/* your help centre */
+
+
+#ou-content .your-help-centre .responsive-tabs__panel {margin: 20px 0 0 0;}
+
+.your-help-centre h3 {
+	margin:5px 0 5px 0;
+	font-size:1.2em;
+}
+
+.your-help-centre h3 a {text-decoration:none;}
+
+.your-help-centre .ou-cols p {
+	margin-bottom:0;
+	color:#666;
+}
+
+.your-help-centre p i {
+	font-size:1.2em;
+	vertical-align:middle;
+}
+
+
+/* article finder */
+
+body.ou-help-home #ou-content div.article-finder {
+	display: block; /* changed */
+	margin: 0 auto;
+	width: 100%;
+}
+
+html.js body.ou-help-home #ou-content div.article-finder {
+	display: block;
+	overflow: hidden;
+}
+
+body.ou-help-home #ou-content div.article-finder:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+body.ou-help-home #ou-content div.article-finder > h2 {margin-top:0;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div {
+	position: relative;
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+}
+
+html.ie7 body.ou-help-home #ou-content div.article-finder div.steps > div {
+	width: 29%;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article {
+	margin-right: 0;
+}
+
+/*body.ou-help-home #ou-content div.article-finder div.steps > div:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background: #CCC;
+	top: 0px;
+	right: -9%;
+}*/
+
+body.ou-help-home #ou-content div.article-finder div.steps > div:last-child:after {
+	display: none;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > h3 {
+	padding-bottom: 0.6em;
+	margin-bottom: 0.8em;
+	border-bottom: #CCC 4px solid;
+	color: #555;
+	font-size: 1.1em;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > h3:after {
+	content: "\f0ab";
+	display: block;
+	position: relative;
+	float: right;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-family: FontAwesome;
+	color: #3d7900;
+	top: -15px;
+	opacity: 0;
+	visibility: hidden;
+	
+	-webkit-transition: top 0.35s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s linear;
+	-moz-transition: top 0.35s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s linear;
+	-ms-transition: top 0.35s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s linear;
+	-o-transition: top 0.35s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s linear;
+	transition: top 0.35s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s linear;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > div.spinner {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+	opacity: 0;
+	visibility: hidden;
+	
+	-webkit-transition: all 0.13s ease;
+	-moz-transition: all 0.13s ease;
+	-ms-transition: all 0.13s ease;
+	-o-transition: all 0.13s ease;
+	transition: all 0.13s ease;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category > div.spinner {
+	background: url(hc-article-finder-spinner1.gif) no-repeat;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article > div.spinner {
+	background: url(hc-article-finder-spinner2.gif) no-repeat;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.loading > div.spinner {
+	opacity: 1;
+	visibility: visible;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.topic > h3:after {color: #880088;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category > h3:after {color: #0b55a8;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article > h3:after {color: #CF6041;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.active > h3:after {
+	top: 0px;
+	opacity: 1;
+	visibility: visible;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.loading > h3:after {
+	opacity: 0;
+	visibility: hidden;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > h3 {margin-top:5px;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > h3 > strong {
+	color: #000;
+	padding-right: 0.3em;
+	font-weight: 700;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.topic > h3 {border-color: #880088;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category > h3 {border-color: #0b55a8;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article > h3 {border-color: #CF6041;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.topic.active > h3 {color: #880088;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.topic.active > h3 > strong {color: #880088;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category.active > h3 {color: #0b55a8;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category.active > h3 > strong {color: #26639F;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article.active > h3 {color: #CF6041;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article.active > h3 > strong {color: #C45231;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div:before {
+	font-family: FontAwesome;
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	width: 100px;
+	height: 100px;
+	top: 200px;
+	left: 50%;
+	margin-left: -50px;
+	color: #DEDEDE;
+	opacity: 1;
+	visibility: visible;
+	
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.selected:before {
+	opacity: 0;
+	visibility: hidden;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category:before {content: "\f00a";}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article:before {content: "\f036";}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li {
+	border-bottom: #DDD 1px solid;
+	position: relative;
+	left: -100%;
+	opacity: 0;
+	visibility: hidden;
+	margin:0;
+	padding:0;
+	
+	-webkit-transition: left 0.18s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.23s linear;
+	-moz-transition: left 0.18s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.23s linear;
+	-ms-transition: left 0.18s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.23s linear;
+	-o-transition: left 0.18s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.23s linear;
+	transition: left 0.18s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.23s linear;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li:before {content:"";}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.docked {
+	left: 0px;
+	opacity: 1;
+	visibility: visible;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li:last-child {border-bottom: 0;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a {
+	display: block;
+	position: relative;
+	padding: 0.5em 0.6em;
+	text-decoration: none;
+	color: #039;
+	background-color: #fff;
+	
+	-webkit-transition: all 0.13s ease;
+	-moz-transition: all 0.13s ease;
+	-ms-transition: all 0.13s ease;
+	-o-transition: all 0.13s ease;
+	transition: all 0.13s ease;
+}
+
+html.ie7 body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a {zoom: 1;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a:hover {background-color: #f5f5f5;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.active {border-bottom: none;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.active > a {
+	background-color: #396E8D;
+	color: #FFF;
+	padding-right: 25px;
+	font-weight: bold;
+}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.topic > ul > li.active > a {background-color: #880088;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.category > ul > li.active > a {background-color: #0b55a8;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div.article > ul > li.active > a {background-color: #CF6041;}
+
+body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.active > a:after {
+	content: "\f054";
+	display: block;
+	position: absolute;
+	top: 7px;
+	right: 8px;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* topic browser */
+
+.topic-browser h2 {margin-top:0;}
+
+.topic-browser a {text-decoration:none;}
+
+.topic-browser a h3 {
+	color:#039;
+	margin:10px 0 20px 0;
+	font-size:1em;
+}
+
+.topic-browser a:hover h3 {color:#000;}
+
+.topic-browser a img {
+	border-top:3px solid #fff;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.topic-browser a:hover img {border-top:3px solid #a6d0ff;}
+
+
+
+/* footer */
+
+#ou-site-footer ul.footer {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0 0 25px 0;
+	clear:both;
+}
+
+div#ou-site-footer li {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	padding: 0;
+	font-size:.9em;
+}
+
+div#ou-site-footer li a {text-decoration: none;}
+
+
+
 /*
 -------------------------------------------
 	Nav - Help Centre
@@ -105,6 +518,27 @@ p.ou-multipage-count {
 .ou-feedback-btn-container button.ou-feedback-btn-no {background-color: #A63B2F;}
 
 .ou-feedback-btn-container button:hover {background-color:black;}
+
+
+
+/*
+-------------------------------------------
+	FUTURE VERSION
+	http://the-open-university.github.io/student-theme-framework/example-pages-help-home-future.html
+-------------------------------------------
+*/
+
+
+body.ou-help-future div#ou-region1 {
+	float:right;
+	width:72%;
+}
+
+body.ou-help-future div#ou-region2 {
+	float:left;
+	width:24%;
+}
+
 
 /* search box */
 

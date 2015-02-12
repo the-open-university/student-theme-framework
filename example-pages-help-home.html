@@ -1,7 +1,7 @@
 ---
 title: Help Centre home
-classes: ou-sections ou-help
-order: 100
+classes: ou-sections ou-help ou-help-home
+order: 101
 parent: example-pages
 ident: true
 ---
@@ -32,238 +32,274 @@ ident: true
 
 <h1>Help Centre</h1>
 
-<div class="ou-quick-search">
-<form id="ou-quick-find">
-<input type="search" name="search-help" id="ou-search-help" placeholder="Type a question or keyword...">
-<button><span class="ou-hide">Submit</span></button>
+<div class="ou-grid">
+
+<div class="hero-top">
+<div class="search">
+
+<form method="GET" action="/students/help/quick-find">
+<label for="homepageQuickFindInput" class="hidden-except-screenreader">Search the Help Centre</label>
+<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input type="text" id="homepageQuickFindInput" name="q" class="ouQuickFind ui-autocomplete-input" placeholder="Type keyword or question..." autocomplete="off">
+<button type="submit" class="btn-submit" title="Search">
+<span class="ou-hide">Submit</span>
+</button>
 </form>
 
-<p>This searches Help Centre only. To search the entire OU network, please use the <a href="#">OU search</a></p>
+</div> <!-- end search -->
+</div> <!-- end hero-top -->
+
+</div> <!-- end ou-grid -->
+
+<div class="ou-grid your-help-centre">
+
+<div class="responsive-tabs">
+<h2>Recommended</h2>
+
+<div class="tab1">
+
+<p><i class="fa fa-thumbs-o-up colour1"></i> <small>These are recommended to you because you are a member of staff</small></p>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Staff guide</a></h3>
+<p>Important information about using the OU Help Centre.</p>
 </div>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Audience targetting</a></h3>
+<p>An explanation of how and why we target certain content.</p>
+</div>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">About the Help Centre</a></h3>
+<p>Describes the benefits of the new student Help Centre.</p>
+</div>
+
+<div class="ou-cols cols-3 col-last">
+<h3><a href="#">Induction <i class="fa fa-external-link"></i></a></h3>
+<p>Induction information for Access/Openings, undergraduate and postgraduate students.</p>
+</div>
+
+</div> <!-- end tab1 -->
+
+
+
+
+<h2>Popular</h2>
+
+<div class="tab2">
+
+<p><i class="fa fa-star colour3"></i> <small>The following articles contain information most sought by OU students.</small></p>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Getting ready for your next module</a></h3>
+<p>When and how you’ll get information and details on your tutor, study materials and dates for assessments and tutorials.</p>
+</div>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Changing your personal information</a></h3>
+<p>Find out how to update your personal information.</p>
+</div>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Falling behind <i class="fa fa-external-link"></i></a></h3>
+<p>Helpful advice if you’re struggling to keep up.</p>
+</div>
+
+<div class="ou-cols cols-3 col-last">
+<h3><a href="#">Telling us what you need</a></h3>
+<p>We support you more effectively when you disclose your disability to us.</p>
+</div>
+
+</div> <!-- end tab2 -->
+
+
+
+
+<h2>Saved</h2>
+
+<div class="tab3">
+
+<p><i class="fa fa-bookmark colour5"></i> <small>You have saved these pages. The option to unsave can be found on the article page itself.</small></p>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Changing your personal information</a></h3>
+<p>Find out how to update your personal information.</p>
+</div>
+
+<div class="ou-cols cols-3">
+<h3><a href="#">Alumni Q&amp;A</a></h3>
+<p>How to get in touch with other OU Alumni via the Alumni website.</p>
+</div>
+
+<div class="ou-cols cols-3">
+</div>
+
+<div class="ou-cols cols-3 col-last">
+</div>
+
+</div> <!-- end tab3 -->
+
+
+
+<h2>Contact us</h2>
+
+<div class="tab4">
+
+<p><i class="fa fa-phone colour2"></i> <small>The following contacts are specific to you based on your student journey. If you are getting in touch for specific help or guidance have you tried our search?</small></p>
+
+<div class="ou-cols cols-3">
+<h3>Registering and paying for your next module</h3>
+
+<p><a href="#">Email Student Registration and Enquiry Service</a></p>
+
+<p>Phone: +44 (0)300 303 5303<br>
+Mon to Fri 08:00 - 20:00<br>
+Sat 09:00 - 17:00</p>
+</div>
+
+<div class="ou-cols cols-3">
+</div>
+
+<div class="ou-cols cols-3">
+</div>
+
+<div class="ou-cols cols-3 col-last">
+</div>
+
+</div> <!-- end tab3 -->
+
+
+
+</div> <!-- end responsive-tabs -->
+
+</div> <!-- end ou-grid -->
 
 <hr>
 
 
-<div class="ou-grid ou-topics">
-<div class="ou-cols cols-4">
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour1"></i>
-  <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
-</span> Recommended</h2>
-<p>These are recommended because you are a member of staff.</p>
-<ul>
-<li><a href="#">Submit an assignment</a></li>
-<li><a href="#">Request an extension</a></li>
-<li><a href="#">Re-sit an exam</a></li>
-<li><a href="#">Catch up when falling behind</a></li>
-<li><a href="#">Appeal against a result</a></li>
-<li><a href="#" class="ou-topics-more">5 more <i class="fa fa-caret-down"></i></a></li>
-</ul>
+<div class="ou-grid">
+
+<div class="article-finder">
+<h2>Find an answer...</h2>
+
+<div class="steps">
+
+<div class="topic active">
+<h3><strong>Step 1</strong> Select a topic</h3>
+<ul><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/assessments-and-exams" data-topic-shortname="assessments-and-exams">Assessments and exams</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/changes-and-challenges" data-topic-shortname="changes-and-challenges">Changes and problems while you study</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/computing" data-topic-shortname="computing">Computing help</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/library" data-topic-shortname="library">Library</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/planning-registering-and-paying" data-topic-shortname="planning-registering-and-paying">Planning, enrolling and paying for studies</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/policies-and-complaints" data-topic-shortname="policies-and-complaints">Policies and complaints</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/disability" data-topic-shortname="disability">Services for disabled students</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/study-skills" data-topic-shortname="study-skills">Study skills</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/support-and-resources" data-topic-shortname="support-and-resources">Support and resources while you study</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/tutorials-and-residential-schools" data-topic-shortname="tutorials-and-residential-schools">Tutorials and residential schools</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/careers" data-topic-shortname="careers">Your career</a></li><li class="docked"><a href="http://www2.open.ac.uk/students/help/topic/completing-your-studies" data-topic-shortname="completing-your-studies">Completing your studies</a></li></ul>
 </div>
 
-<div class="ou-cols cols-4">
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour3"></i>
-  <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-</span> Popular</h2>
-<p>Information and articles most sought by OU students.</p>
-<ul>
-<li><a href="#">Module result dates</a></li>
-<li><a href="#">Exam timetables</a></li>
-<li><a href="#">Residential school dates</a></li>
-<li><a href="#">Tutorial dates</a></li>
-<li><a href="#">Graduation ceremonies</a></li>
-<li><a href="#" class="ou-topics-more">2 more <i class="fa fa-caret-down"></i></a></li>
-</ul>
+<div class="category">
+<div class="spinner"></div>
+<h3><strong>Step 2</strong> Select a category</h3>
+<ul></ul>
 </div>
 
-<div class="ou-cols cols-4 col-last">
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour5"></i>
-  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
-</span> Saved pages</h2>
-<p>You have saved these pages. Go to the article page to unsave.</p>
-<ul>
-<li><a href="#">TMA</a></li>
-<li><a href="#">CMA</a></li>
-<li><a href="#">End of module assessment (EMA)</a></li>
-<li><a href="#">Residential school</a></li>
-<li><a href="#">Module website</a></li>
-<li><a href="#" class="ou-topics-more">9 more <i class="fa fa-caret-down"></i></a></li>
-</ul>
+<div class="article">
+<div class="spinner"></div>
+<h3><strong>Step 3</strong> Select an answer</h3>
+<ul></ul>
 </div>
 
 </div>
-
-<div class="ou-grid ou-topics">
-<div class="ou-cols cols-4">
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x" style="color:#D55893;"></i>
-  <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-</span> How to</h2>
-<p>A sentence of text to describe this section in a bit more detail.</p>
-<ul>
-<li><a href="#">Submit an assignment</a></li>
-<li><a href="#">Request an extension</a></li>
-<li><a href="#">Catch up when falling behind</a></li>
-<li><a href="#">Appeal against a result</a></li>
-<li><a href="#">Apply for funding</a></li>
-<li><a href="#" class="ou-topics-more">2 more <i class="fa fa-caret-down"></i></a></li>
-</ul>
 </div>
 
-<div class="ou-cols cols-4">
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour9"></i>
-  <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
-</span> Important dates</h2>
-<p>A sentence of text to describe this section in a bit more detail.</p>
-<ul>
-<li><a href="#">Module result dates</a></li>
-<li><a href="#">Residential school dates</a></li>
-<li><a href="#">Tutorial dates</a></li>
-<li><a href="#">Graduation ceremonies</a></li>
-<li><a href="#">Assignment deadlines</a></li>
-<li><a href="#" class="ou-topics-more">4 more <i class="fa fa-caret-down"></i></a></li>
-</ul>
-</div>
-
-<div class="ou-cols cols-4 col-last">
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x" style="color:#46C4A8;"></i>
-  <i class="fa fa-question-circle fa-stack-1x fa-inverse"></i>
-</span> Terminology</h2>
-<p>A sentence of text to describe this section in a bit more detail.</p>
-<ul>
-<li><a href="#">TMA</a></li>
-<li><a href="#">PT3 page</a></li>
-<li><a href="#">End of module assessment (EMA)</a></li>
-<li><a href="#">Residential school</a></li>
-<li><a href="#">Module website</a></li>
-<li><a href="#" class="ou-topics-more">3 more <i class="fa fa-caret-down"></i></a></li>
-</ul>
-</div>
-
-</div> <!-- end ou-grid ou-topics -->
+</div> <!-- end ou-grid -->
 
 
 <hr>
 
-<div class="ou-grid ou-topics">
+<div class="ou-grid topic-browser">
 
-<h2><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour2"></i>
-  <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-</span> Who to contact</h2>
-<p>Did you know? Most answers can be found on this website - try the <a href="#ou-quick-find">Quick Find</a> before giving us a call.</p>
+<h2>Browse help topics</h2>
 
+<div class="ou-grid">
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/assessments-and-exams?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/assessments-and-exams.jpg" alt=""><h3>Assessments and exams</h3></a>
 </div>
 
-<div class="ou-grid ou-topics">
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/changes-and-challenges?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/changes-and-challenges.jpg" alt=""><h3>Changes and problems while you study</h3></a>
+</div>
 
-<div class="ou-cols cols-4">
-<ul>
-<li><a href="#">Registering and paying</a></li>
-<li><a href="#">Computing helpdesk</a></li>
-<li><a href="#">Student support teams</a></li>
-</ul>
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/library?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/library.jpg" alt=""><h3>Library</h3></a>
 </div>
-<div class="ou-cols cols-4">
-<ul>
-<li><a href="#">Library services</a></li>
-<li><a href="#">Concerns about submissions</a></li>
-<li><a href="#">Study materials, missing or late</a></li>
-</ul>
-</div>
-<div class="ou-cols cols-4 col-last">
-<ul>
-<li><a href="#">Financial support</a></li>
-<li><a href="#">Disabled students allowance</a></li>
-<li><a href="#">Tutorial information</a></li>
-</ul>
+
+<div class="ou-cols cols-3 col-last">
+<a href="http://www2.open.ac.uk/students/help/topic/computing?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/computing.jpg" alt=""><h3>Computing help</h3></a>
 </div>
 
 </div>
 
 <div class="ou-grid">
-<p><a href="#" class="ou-btn">All contacts</a></p>
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/planning-registering-and-paying?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/planning-registering-and-paying.jpg" alt=""><h3>Planning, enrolling and paying for studies</h3></a>
+</div>
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/policies-and-complaints?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/policies-and-complaints.jpg" alt=""><h3>Policies and complaints</h3></a>
+</div>
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/disability?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/disability.jpg" alt=""><h3>Services for disabled students</h3></a>
+</div>
+
+<div class="ou-cols cols-3 col-last">
+<a href="http://www2.open.ac.uk/students/help/topic/study-skills?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/study-skills.jpg" alt=""><h3>Study skills</h3></a>
+</div>
+
+</div>
+
+<div class="ou-grid">
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/support-and-resources?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/support-and-resources.jpg" alt=""><h3>Support and resources while you study</h3></a>
+</div>
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/tutorials-and-residential-schools?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/tutorials-and-residential-schools.jpg" alt=""><h3>Tutorials and residential schools</h3></a>
+</div>
+
+<div class="ou-cols cols-3">
+<a href="http://www2.open.ac.uk/students/help/topic/careers?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/careers.jpg" alt=""><h3>Your career</h3></a>
+</div>
+
+<div class="ou-cols cols-3 col-last">
+<a href="http://www2.open.ac.uk/students/help/topic/completing-your-studies?utm_source=helpcentre_front_page&amp;utm_medium=browse_topics&amp;utm_campaign=helpcentre_mi"><img src="http://www2.open.ac.uk/students/_data/images/helpcentre/topics/completing-your-studies.jpg" alt=""><h3>Completing your studies</h3></a>
+</div>
+
 </div>
 
 
 </div> <!-- end ou-grid -->
 
-
 </div> <!-- end ou-content -->
 </div> <!-- end ou-region1 -->
 
-<div id="ou-region2">
-
-<!-- ST: this needs work -->
-
-<ul class="ou-nav-help">
-<li><a href="#">Assessments and exams</a></li>
-<li><a href="#">Changes and problems while you study</a></li>
-<li><a href="#">Computing help</a></li>
-<li><a href="#"> Library services</a></li>
-<li><a href="#">Planning, enrolling and paying</a></li>
-<li><a href="#">Policies and complaints</a></li>
-<li><a href="#">Services for disabled students</a></li>
-<li><a href="#">Study skills</a></li>
-<li><a href="#"> Support and resources while you study</a></li>
-<li><a href="#">Tutorials and residential schools</a></li>
-<li><a href="#"> Your career</a></li>
-<li><a href="#">Completing your studies</a></li>
-</ul>
-
-<!-- end ST -->
-
-<!-- ST: review if this should go in the STF 
-
-<style>
-.box-yhc-inner ul {padding:0; margin:20px 0 0 0;}
-.box-yhc-inner ul li {margin-bottom:5px;}
-.box-yhc-inner ul li a  {text-decoration:none;}
-</style>
-
-<div class="box-yhc-inner">
-<ul>
-<li class="yhc-recommended"><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour1"></i>
-  <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
-</span> <a href="/students/help/#your-help-recommended">Recommended</a></li>
-
-<li class="yhc-popular"><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour3"></i>
-  <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-</span> <a href="/students/help/#your-help-popular">Popular</a></li>
-
-<li class="yhc-saved"><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour5"></i>
-  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
-</span> <a href="/students/help/#your-help-saved">Saved</a></li>
-
-<li class="yhc-contact"><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour2"></i>
-  <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-</span> <a href="/students/help/your-contacts">Contact us</a></li>
-</ul>
-</div>
--->
-<!-- end ST -->
-
-<div class="box ou-tip">
-<i class="fa fa-pencil colour3" style="float:right"></i><h2>Your learning plan</h2>
-<p>Complete the Skills Check and gain a personal learning plan targeted to your personal study needs and goals.<br>
-<a href="#">Start now</a></p>
-</div>
-
-
-</div> <!-- end ou-region2 -->
 
 </div> <!-- end ou-page -->
 
 </div> <!-- end ou-site-body -->
 
 <div id="ou-site-footer">
+
+<hr>
+
+<ul class="footer">
+<li><i class="fa fa-folder-open"></i></i> <a href="/students/help/about">About the Help Centre</a></li>
+<li><i class="fa fa-sitemap"></i> <a href="/students/help/sitemap">Sitemap</a></li>
+<li><i class="fa fa-list-ul"></i> <a href="/students/help/atoz">A-Z</a></li>
+<li><i class="fa fa-search"></i> <a href="/students/help/quick-find">Quick Find</a></li>
+<li><i class="fa fa-envelope"></i> <a href="/students/help/feedback">Feedback</a></li>
+<li><i class="fa fa-bug"></i> <a href="/students/help/bug-report">Report a bug</a></li>
+<li><i class="fa fa-phone"></i> <a href="/students/help/your-contacts" data-track-event="myContactsLinkFooter">Contact us</a></li>
+</ul>
+
+<p><small>This website is developed and maintained by Online Student Support Services. This page was last updated on 9th Jan 2015 at 19:03:04.</small></p>
+
 <a class="ou-to-top" href="#ou-content"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
 </div> <!-- end ou-site-footer -->

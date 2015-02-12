@@ -14,7 +14,8 @@
 #ou-org {width:100%;}
 
 #ou-header,
-#ou-site-body {
+#ou-site-body,
+#ou-site-footer {
 	max-width:1180px;
 	margin:0 auto;
 }
@@ -53,17 +54,6 @@ body.ou-pure div#ou-region2 {
 	margin:0;
 }
 
-/* Help Centre swap r1 and r2 */
-
-body.ou-help div#ou-region1 {
-	float:right;
-	width:72%;
-}
-
-body.ou-help div#ou-region2 {
-	float:left;
-	width:24%;
-}
 
 
 div.ou-c1of2, 

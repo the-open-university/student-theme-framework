@@ -144,9 +144,7 @@ p {
 	line-height:1.6em;
 }
 
-small {font-size: 95%;}
-
-smaller {font-size:90%; color:#666;}
+small {font-size: 90%; color:#666;}
 
 ins {
 	text-decoration:none;
