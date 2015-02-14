@@ -377,14 +377,16 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.activ
 
 /* topic browser */
 
+.topic-browser .ou-grid {margin-bottom:20px;}
+
 .topic-browser h2 {margin-top:0;}
 
 .topic-browser a {text-decoration:none;}
 
 .topic-browser a h3 {
 	color:#039;
-	margin:10px 0 20px 0;
-	font-size:1em;
+	margin:10px 0 0 0;
+	font-size:1.1em;
 }
 
 .topic-browser a:hover h3 {color:#000;}
@@ -397,28 +399,137 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.activ
 
 .topic-browser a:hover img {border-top:3px solid #a6d0ff;}
 
+.topic-browser p {
+	margin:4px 0 0 0;
+	line-height:1.4em;
+	color:#555;
+}
 
 
-/* footer */
+/*
+-------------------------------------------
+	Help Topic
+-------------------------------------------
+*/
+
+body.ou-help-topic div#ou-region1 {width:100%;}
+
+.hero {
+	position:relative;	
+}
+
+.hero a {text-decoration:none;}
+
+.hero p {
+	display: block;
+	position: absolute;
+	width: 40%;
+	left: auto;
+	right: 3%;
+	bottom: 17%;
+	background: #DD3E57;
+	background: rgb(221,62,87);
+	background: rgba(221,62,87, 0.8);
+	color: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	line-height: 120%;
+	text-align: right;
+	padding: 25px 20px;
+	margin: 0;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	font-size: 2.1em;	
+}
+
+
+/*
+-------------------------------------------
+	Help Category
+-------------------------------------------
+*/
+
+body.ou-help-category div#ou-region1 {width:100%;}
+
+.articles .article {padding:20px;	}
+
+.articles .article:nth-child(odd) {background:#e7eff7;}
+
+.articles .article h2 {
+	margin:0 0 6px 0;
+	font-size:1.2em;
+}
+
+.articles .article a {text-decoration:none;}
+
+.articles .article p {
+	margin-bottom:0;
+	color:#555;
+}
+
+#ou-content .articles .article ul {
+	margin-top:20px;
+	margin-bottom:0;
+}
+
+
+/*
+-------------------------------------------
+	Help Article
+-------------------------------------------
+*/
+
+.related-help {padding:40px 20px 20px 20px;	}
+
+.related-help h2 {
+	font-size:1.4em;
+	margin-top:0;
+	border-top:3px solid #b52a1e;
+	padding-top:15px;	
+}
+
+body.article-multi .related-help {padding-top:5px;}
+
+.related-help ul li {
+	margin-bottom:6px; 
+	border-bottom:1px solid #f5f5f5; 
+	padding:0 0 6px 4px;
+}
+
+.related-help ul li:last-child {border-bottom:0;}
+
+.related-help ul li a {text-decoration:none;}
+
+
+
+
+/*
+-------------------------------------------
+	Help Footer
+-------------------------------------------
+*/
+
 
 #ou-site-footer ul.footer {
 	display: block;
-	float: left;
 	width: 100%;
-	margin: 0 0 25px 0;
+	margin: 0 0 15px 0;
 	clear:both;
 }
 
-div#ou-site-footer li {
+#ou-site-footer ul.footer li {
 	display: inline-block;
 	margin: 0 15px 0 0;
 	padding: 0;
 	font-size:.9em;
 }
 
-div#ou-site-footer li a {text-decoration: none;}
+#ou-site-footer ul.footer li a {text-decoration: none;}
 
-
+#ou-site-footer ul.footer li i {display:none;}
 
 /*
 -------------------------------------------

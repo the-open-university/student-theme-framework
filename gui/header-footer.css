@@ -467,9 +467,7 @@ h1 {
 	text-decoration:none;
 }
 
-.ou-footer-links ul li:first-child a {
-	padding-left: 0;
-}
+.ou-footer-links ul li:first-child a {padding-left: 0;}
 
 .ou-footer-links ul li a:hover, 
 .ou-footer-links ul li a:focus {
@@ -480,10 +478,9 @@ h1 {
 .ou-footer .ou-footer-small-print {
 	padding-left: 15%;
 	padding-right: 66px;
-	color: #8090ac;
 }
 
-
+.ou-footer small {color: #8090ac;}
 
 
 
