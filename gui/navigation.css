@@ -25,13 +25,13 @@ ol.ou-ancestors li {
 	padding:0;	
 }
 
-ol.ou-ancestors {margin-bottom:25px;}
+ol.ou-ancestors {margin:5px 0 25px 0;}
 
 ol.ou-ancestors li {
 	float:left;
 	position:relative;
 	padding:0 15px 0 0;
-	margin:0 8px 0 0;
+	margin:0 8px 5px 0;
 	color:#777;
 }
 

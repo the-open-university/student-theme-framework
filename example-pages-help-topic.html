@@ -24,10 +24,24 @@ ident: true
 
 <div id="ou-region0">
 
+<div class="ou-breadcrumb">
 <ol class="ou-ancestors">
     <li><a href="example-pages-help-home.html">Help Centre</a></li>
     <li>Support and resources while you study</li>
 </ol>
+
+<div class="ou-quick-find">
+<form method="GET" action="/students/help/quick-find">
+<label for="homepageQuickFindInput" class="hidden-except-screenreader">Search the Help Centre</label>
+<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input type="text" id="homepageQuickFindInput" name="q" class="ouQuickFind ui-autocomplete-input" placeholder="Search Help" autocomplete="off">
+<button type="submit" class="btn-submit" title="Search">
+<span class="ou-hide">Submit</span>
+</button>
+</form>
+</div>
+
+</div> <!-- end ou-breadcrumb -->
 
 </div> <!-- end ou-region0 -->
 
