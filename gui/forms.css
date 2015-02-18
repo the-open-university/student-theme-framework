@@ -12,17 +12,48 @@
 
 
 #ou-content form {
-	background-color:#0b55a8;
-	color:#fff;
+	background-color:#e7eff7;
+	color:#555;
 	padding:25px 40px;
 }
 
+#ou-content form.ou-form-alt {
+	background-color:#0b55a8;
+	color:#fff;
+}
+
+#ou-content form  h2 {
+	font-size:1.2em;
+	color:black;
+	border-bottom:2px solid #a6d0ff;
+	padding-bottom:5px;
+	margin:0 0 30px 0;
+}
+
+#ou-content form.ou-form-alt h2 {color:white;}
+
+#ou-content form fieldset {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #fff;	
+}
+
+#ou-content form.ou-form-alt fieldset {border-bottom:1px solid #296BB3;}
+
+#ou-content form fieldset:last-child {
+	border-bottom:0;
+	margin-bottom:0;
+}
+
 #ou-content form fieldset legend {
-	color: #a6d0ff;
+	color: #000;
 	font-size: 1.1em;
 	display:block;
 	margin:0 0 15px 0;
+	line-height:140%;
 }
+
+#ou-content form.ou-form-alt fieldset legend {color: #a6d0ff;}
 
 #ou-content form label {
 	display: block;
@@ -38,12 +69,10 @@
 }
 
 #ou-content form ul {
-	margin-bottom:15px;
+	xmargin-bottom:15px;
 }
 
-#ou-content form ul li:before {
-	content:"";
-}
+#ou-content form ul li:before {content:"";}
 
 #ou-content form p:last-child {margin-bottom:0;}
 
@@ -69,13 +98,21 @@
 	font-size: 1em;
 	background: #ffffff;
 	padding: 8px 15px;
-	border: 4px solid transparent;
-	margin-bottom: 10px;
+	border: 4px solid #bbb;
+	margin-bottom: 20px;
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
+
+#ou-content form.ou-form-alt input[type="text"], 
+#ou-content form.ou-form-alt input[type="password"], 
+#ou-content form.ou-form-alt input[type="search"], 
+#ou-content form.ou-form-alt input[type="url"], 
+#ou-content form.ou-form-alt input[type="email"], 
+#ou-content form.ou-form-alt input[type="number"], 
+#ou-content form.ou-form-alt textarea {border: 4px solid transparent;}
 
 #ou-content form input[type="text"]:focus, 
 #ou-content form input[type="password"]:focus, 
@@ -152,11 +189,12 @@
 	font-size: 1em;
 	background: #ffffff;
 	padding: 8px 15px;
-	border: 4px solid transparent;
-	margin-bottom: 15px;
+	border: 4px solid #bbb;
 	position: relative;
 	overflow: hidden;
 }
+
+#ou-content form.ou-form-alt select {border: 4px solid #fff;}
 
 #ou-content form select:focus {
 	outline: 0;

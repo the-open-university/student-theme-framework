@@ -695,6 +695,112 @@ p.ou-multipage-count {
 
 
 
+
+/*
+-------------------------------------------
+	Sitemap
+-------------------------------------------
+*/
+
+
+#ou-content div.sitemap ul {
+	list-style-type: none;
+}
+
+#ou-content div.sitemap ul li a {
+	text-decoration: none;
+	line-height: 26px;
+}
+
+#ou-content div.sitemap ul li.root:before {
+	content: "\f07c  ";
+	font-family:'FontAwesome';
+	margin-right:4px;
+	color: #000;
+}
+
+#ou-content div.sitemap ul li.root {font-size: 18px;}
+
+#ou-content div.sitemap ul li {font-size: 14px;}
+
+#ou-content div.sitemap ul li:before {
+	font-size:1em;
+	position:static;
+	line-height:normal;	
+}
+
+#ou-content div.sitemap ul li:before {
+	content: "\f016  ";
+	font-family:'FontAwesome';
+	margin-right:4px;
+	color: #000;
+}
+
+#ou-content div.sitemap ul li.topic:before {
+	content: "\f009  ";
+	font-family:'FontAwesome';
+	margin-right:4px;
+	color: #880088;
+}
+
+#ou-content div.sitemap ul li.category:before {
+	content: "\f00a  ";
+	font-family:'FontAwesome';
+	margin-right:4px;
+	color: #0b55a8;
+}
+
+#ou-content div.sitemap ul li.article:before {
+	content: "\f036  ";
+	font-family:'FontAwesome';
+	margin-right:4px;
+	color: #CF6041;
+}
+
+
+/*
+-------------------------------------------
+	FEEDBACK
+-------------------------------------------
+*/
+
+div.ouforms div.ou-honigfalle {
+	position: absolute;
+	left: -9999em;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+.ou-breadcrumb {
+	padding-right:0;
+	position:static;
+}
+
+.ou-quick-find {
+	position:static;
+	width:250px;
+	margin-bottom:15px;
+	margin-top:-10px;
+}
+
+
+} /* end media query */
+
+
+
+
+
+
+
+
 /*
 -------------------------------------------
 	FUTURE VERSION

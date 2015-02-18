@@ -51,7 +51,7 @@ ident: true
 
 </div> <!-- end ou-grid -->
 
-<div class="ou-grid your-help-centre">
+<div class="ou-grid your-help-centre" id="your-help-centre">
 
 <div class="responsive-tabs">
 <h2>Recommended</h2>
@@ -287,19 +287,7 @@ Sat 09:00 - 17:00</p>
 
 <div id="ou-site-footer">
 
-<hr>
-
-<ul class="footer">
-<li><i class="fa fa-folder-open"></i> <a href="/students/help/about">About the Help Centre</a></li>
-<li><i class="fa fa-sitemap"></i> <a href="/students/help/sitemap">Sitemap</a></li>
-<li><i class="fa fa-list-ul"></i> <a href="/students/help/atoz">A-Z</a></li>
-<li><i class="fa fa-search"></i> <a href="/students/help/quick-find">Quick Find</a></li>
-<li><i class="fa fa-envelope"></i> <a href="/students/help/feedback">Feedback</a></li>
-<li><i class="fa fa-bug"></i> <a href="/students/help/bug-report">Report a bug</a></li>
-<li><i class="fa fa-phone"></i> <a href="/students/help/your-contacts" data-track-event="myContactsLinkFooter">Contact us</a></li>
-</ul>
-
-<p><small>This website is developed and maintained by Online Student Support Services. This page was last updated on 9th Jan 2015 at 19:03:04.</small></p>
+{% include help-footer.html %}
 
 <a class="ou-to-top" href="#ou-content"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
 </div> <!-- end ou-site-footer -->
