@@ -459,7 +459,7 @@ a.ou-rss:before {
 	content: "\f019";
 	display: inline-block;
 	padding-right:6px;
-	color:black;
+	color:#039;
 }
 
 a.ou-pdf:before {content:"\f1c1"; }
@@ -477,6 +477,24 @@ a.ou-print:before {content:"\f02f"; }
 a.ou-warning:before {content:"\f071"; }
 a.ou-help:before {content:"\f059"; }
 a.ou-rss:before {content:"\f143"; }
+
+a.ou-pdf:hover:before,
+a.ou-doc:hover:before,
+a.ou-xls:hover:before,
+a.ou-download:hover:before,
+a.ou-ppt:hover:before,
+a.ou-archive:hover:before,
+a.ou-audio:hover:before,
+a.ou-video:hover:before,
+a.ou-link:hover:before,
+a.ou-info:hover:before,
+a.ou-forum:hover:before,
+a.ou-print:hover:before,
+a.ou-warning:hover:before,
+a.ou-help:hover:before,
+a.ou-rss:hover:before {
+	color:#000;
+}
 
 
 /* to top */

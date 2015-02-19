@@ -611,6 +611,17 @@ body.article-multi .related-help {padding-top:5px;}
 
 #ou-site-footer ul.footer li i {display:none;}
 
+
+.box-yhc-inner ul {padding:0; margin:0;}
+.box-yhc-inner ul li {margin-right:15px; display:inline;}
+.box-yhc-inner ul li a  {text-decoration:none;}
+li.yhc-recommended i.fa-circle {color:#69963D;}
+li.yhc-popular i.fa-circle {color:#F7C04F;}
+li.yhc-saved i.fa-circle {color:#195CA5;}
+li.yhc-contact i.fa-circle {color:#A63B2F;}
+
+
+
 /*
 -------------------------------------------
 	Nav - Help Centre
@@ -791,10 +802,36 @@ div.ouforms div.ou-honigfalle {
 
 
 
+@media only screen and (max-width: 850px), screen and (max-device-width: 850px) {
 
+body.ou-help-home #ou-content .hero-top form {width:300px;}
+
+
+} /* end media query */
+
+
+@media only screen and (max-width: 640px), screen and (max-device-width: 640px) {
+
+body.ou-help-home .hero-top {
+	background-size:cover;
+	height:250px;
+}
+
+
+body.ou-help-home #ou-content div.article-finder {display: none;}
+
+} /* end media query */
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+	
+body.ou-help-home .hero-top {
+	background-position:top center;
+	background-size:cover;
+	height:200px;
+}
+	
+body.ou-help-home #ou-content .hero-top form {width:270px;}
 
 .ou-breadcrumb {
 	padding-right:0;
@@ -807,6 +844,15 @@ div.ouforms div.ou-honigfalle {
 	margin-bottom:15px;
 	margin-top:-10px;
 }
+
+.topic-browser .ou-grid {margin-bottom: 0;}
+
+.box-yhc-inner ul li {
+	display: block;
+	margin-bottom:8px;
+}
+
+#ou-site-footer ul.footer li {margin-bottom:5px;}
 
 
 } /* end media query */
@@ -839,14 +885,14 @@ body.ou-help-future div#ou-region2 {
 
 /* search box */
 
-#ou-content .ou-quick-find form {
+#ou-content .ou-quick-find-future form {
 	background-color:transparent;
 	color:#222;
 	padding:0;
 	position:relative;
 }
 
-#ou-content .ou-quick-find form input[type="search"] {
+#ou-content .ou-quick-find-future form input[type="search"] {
 	border:1px solid #CF6041;
 	border-radius:0;	
 	padding:12px 15px;
@@ -854,11 +900,11 @@ body.ou-help-future div#ou-region2 {
 	background-color:#FCF7F5;
 }
 
-#ou-content .ou-quick-find form input[type="search"]:focus {
+#ou-content .ou-quick-find-future form input[type="search"]:focus {
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(247, 192, 79, 0.6);
 }
 
-#ou-content .ou-quick-find form button {
+#ou-content .ou-quick-find-future form button {
 	border-radius: 0;
 	box-sizing: border-box;
 	position: absolute;
@@ -878,9 +924,9 @@ body.ou-help-future div#ou-region2 {
 	transition:none;
 }
 
-#ou-content .ou-quick-find button:hover {background-position: top right;}
+#ou-content .ou-quick-find-future button:hover {background-position: top right;}
 
-.ou-quick-find p {
+.ou-quick-find-future p {
 	color:#666;
 	font-size:95%;
 }

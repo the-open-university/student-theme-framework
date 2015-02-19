@@ -180,7 +180,9 @@ div.ou-c2of3 {margin-left: 5%;}
 
 @media only screen and (max-width: 1180px), screen and (max-device-width: 1180px) {
 
-#ou-header, #ou-site-body {
+#ou-header, 
+#ou-site-body,
+#ou-site-footer {
 	max-width: none;
 	padding: 0 15px;
 }

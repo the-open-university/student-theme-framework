@@ -214,9 +214,9 @@ a.ou-skip:active {
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
-h1 {
+/*h1 {
 	margin: 0 0 5px 0;
-}
+}*/
 
 #ou-header {
 	background-color:#002158;
