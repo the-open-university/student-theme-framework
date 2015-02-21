@@ -493,16 +493,35 @@ a.ou-link:hover:before {color:#000;}
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
 
+a.ou-pdf,
+a.ou-doc,
+a.ou-xls,
+a.ou-download,
+a.ou-ppt,
+a.ou-archive,
+a.ou-audio,
+a.ou-video,
+a.ou-print,
+a.ou-rss,
+a.ou-warning,
+a.ou-info,
+a.ou-forum,
+a.ou-help {background-size:16px 16px;}
 
-a.ou-help {
-	background-image:url(icon-pdf@2x.png);
-	background-size:16px 16px;
-}
-
-
-
-
-
+a.ou-pdf {background-image:url(icon-pdf@2x.png);}
+a.ou-doc {background-image:url(icon-doc@2x.png);}
+a.ou-xls {background-image:url(icon-xls@2x.png);}
+a.ou-download {background-image:url(icon-download@2x.png);}
+a.ou-ppt {background-image:url(icon-ppt@2x.png);}
+a.ou-archive {background-image:url(icon-archive@2x.png);}
+a.ou-audio {background-image:url(icon-audio@2x.png);}
+a.ou-video {background-image:url(icon-video@2x.png);}
+a.ou-print {background-image:url(icon-print@2x.png);}
+a.ou-rss {background-image:url(icon-rss@2x.png);}
+a.ou-warning {background-image:url(icon-warning@2x.png);}
+a.ou-info {background-image:url(icon-info@2x.png);}
+a.ou-forum {background-image:url(icon-forum@2x.png);}
+a.ou-help {background-image:url(icon-help@2x.png);}
 
 
 } /* end media query */
