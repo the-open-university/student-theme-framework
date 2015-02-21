@@ -429,7 +429,7 @@ body.ou-help-topic div#ou-region1 {width:100%;}
 	width: 40%;
 	left: auto;
 	right: 3%;
-	bottom: 17%;
+	bottom: 25%;
 	background: #DD3E57;
 	background: rgb(221,62,87);
 	background: rgba(221,62,87, 0.8);
@@ -806,6 +806,31 @@ div.ouforms div.ou-honigfalle {
 
 body.ou-help-home #ou-content .hero-top form {width:300px;}
 
+.hero p {
+	width: 50%;
+	font-size: 2em;
+}
+
+
+} /* end media query */
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+.topic-browser .ou-grid {margin-bottom:0;}
+
+.hero p {
+	width: 50%;
+	font-size: 1.8em;
+	bottom:10%;
+}
+
+.ou-quick-find {top: -5px;}
+
+.ou-article-browser .cols-6 {
+	width:100%; 
+	margin:0;
+}
 
 } /* end media query */
 
@@ -817,8 +842,40 @@ body.ou-help-home .hero-top {
 	height:250px;
 }
 
-
 body.ou-help-home #ou-content div.article-finder {display: none;}
+
+body.ou-help-home ul.ou-list-cols2 {
+	-moz-column-count: 1;
+    -moz-column-gap: 0;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0;
+    column-count: 1;
+    column-gap: 0;
+}
+
+.hero p {
+	width: 60%;
+	right: 3%;
+	bottom: 10%;
+	padding: 15px 10px;
+	font-size: 1.6em;
+}
+
+.ou-breadcrumb {
+	padding-right: 0;
+	padding-top: 50px;
+}
+
+.ou-quick-find {
+	top: 0;
+	left: 0;
+	right:auto;
+	width: 350px;
+}
+
+#ou-region0 .ou-quick-find form input[type="text"] {width: 318px;}
+
+
 
 } /* end media query */
 
@@ -833,18 +890,6 @@ body.ou-help-home .hero-top {
 	
 body.ou-help-home #ou-content .hero-top form {width:270px;}
 
-.ou-breadcrumb {
-	padding-right:0;
-	position:static;
-}
-
-.ou-quick-find {
-	position:static;
-	width:250px;
-	margin-bottom:15px;
-	margin-top:-10px;
-}
-
 .topic-browser .ou-grid {margin-bottom: 0;}
 
 .box-yhc-inner ul li {
@@ -853,6 +898,14 @@ body.ou-help-home #ou-content .hero-top form {width:270px;}
 }
 
 #ou-site-footer ul.footer li {margin-bottom:5px;}
+
+.hero p {font-size: 1.2em;}
+
+.ou-quick-find {width: 280px;}
+
+#ou-region0 .ou-quick-find form input[type="text"] {width: 248px;}
+
+
 
 
 } /* end media query */

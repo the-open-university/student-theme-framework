@@ -25,7 +25,7 @@ order: 1
 
 <h1>{{ page.title }}</h1>
 
-<p>12 column grid with 2% gutters. Each row must add up to 12. The last column needs the class "col-last" to remove the margin for old IE.</p>
+<p>12 column grid with 2% gutters. Each row must add up to 12. The last column needs the class "col-last" to remove the margin for old IE (CSS last-child fixes this for everything else).</p>
 
 <h2>Equal width columns</h2>
 
@@ -53,14 +53,14 @@ order: 1
 <div class="ou-cols cols-2 col-last">2</div>
 </div>
 
-<div class="ou-grid">
+<div class="ou-grid ou-cols-4">
 <div class="ou-cols cols-3">3</div>
 <div class="ou-cols cols-3">3</div>
 <div class="ou-cols cols-3">3</div>
 <div class="ou-cols cols-3 col-last">3</div>
 </div>
 
-<div class="ou-grid">
+<div class="ou-grid ou-cols-3">
 <div class="ou-cols cols-4">4</div>
 <div class="ou-cols cols-4">4</div>
 <div class="ou-cols cols-4 col-last">4</div>
@@ -98,6 +98,51 @@ order: 1
 <div class="ou-cols cols-1">1</div>
 <div class="ou-cols cols-5 col-last">5</div>
 </div>
+
+<hr>
+
+<h2>3 or 4 columns</h2>
+
+
+
+<h3>Without iPad responsiveness</h3>
+
+<p>Same as above. You will maintain 3 or 4 columns except for mobile view when all columns resize to 100% width.</p>
+
+<div class="ou-grid">
+<div class="ou-cols cols-3">3</div>
+<div class="ou-cols cols-3">3</div>
+<div class="ou-cols cols-3">3</div>
+<div class="ou-cols cols-3 col-last">3</div>
+</div>
+
+<div class="ou-grid">
+<div class="ou-cols cols-4">4</div>
+<div class="ou-cols cols-4">4</div>
+<div class="ou-cols cols-4 col-last">4</div>
+</div>
+
+<h3>With iPad responsiveness</h3>
+
+<p>If your layout has 3 or 4 columns, each column of equal width, you can <strong>add the class "ou-cols-3" or "ou-cols-4" to the container</strong> which gives you iPad responsiveness (between 767px and 400px your 3 or 4 columns become 2 columns). Resize the browser window to see the difference.</p>
+
+<div class="ou-grid ou-cols-4">
+<div class="ou-cols cols-3">3</div>
+<div class="ou-cols cols-3">3</div>
+<div class="ou-cols cols-3">3</div>
+<div class="ou-cols cols-3 col-last">3</div>
+</div>
+
+<div class="ou-grid ou-cols-3">
+<div class="ou-cols cols-4">4</div>
+<div class="ou-cols cols-4">4</div>
+<div class="ou-cols cols-4 col-last">4</div>
+</div>
+
+
+
+
+
 
 
 

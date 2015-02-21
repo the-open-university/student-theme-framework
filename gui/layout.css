@@ -209,6 +209,16 @@ body.ou-help div#ou-region2 {
 }
 
 
+.ou-cols-4 .cols-3,
+.ou-cols-3 .cols-4 {
+	width:48%;
+	margin-bottom:15px;
+}
+
+.ou-cols-4 .cols-3:nth-child(2n+1),
+.ou-cols-3 .cols-4:nth-child(2n+1) {clear: left;}
+
+
 
 
 } /* end media query */
@@ -225,6 +235,8 @@ div.ou-c2of2,
 div.ou-c1of3, 
 div.ou-c2of3, 
 div.ou-c3of3,
+.ou-cols-4 .cols-3,
+.ou-cols-3 .cols-4,
 .cols-1,
 .cols-2,
 .cols-3,

@@ -439,21 +439,41 @@ a.ou-external:after {
 
 /* link icons */
 
-a.ou-pdf:before,
-a.ou-doc:before,
-a.ou-xls:before,
-a.ou-download:before,
-a.ou-ppt:before,
-a.ou-archive:before,
-a.ou-audio:before,
-a.ou-video:before,
-a.ou-link:before,
-a.ou-info:before,
-a.ou-forum:before,
-a.ou-print:before,
-a.ou-warning:before,
-a.ou-help:before,
-a.ou-rss:before {
+a.ou-pdf,
+a.ou-doc,
+a.ou-xls,
+a.ou-download,
+a.ou-ppt,
+a.ou-archive,
+a.ou-audio,
+a.ou-video,
+a.ou-print,
+a.ou-rss,
+a.ou-warning,
+a.ou-info,
+a.ou-forum,
+a.ou-help {
+	background-image:url(icon-pdf.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding-left:22px;	
+}
+
+a.ou-doc {background-image:url(icon-doc.png);}
+a.ou-xls {background-image:url(icon-xls.png);}
+a.ou-download {background-image:url(icon-download.png);}
+a.ou-ppt {background-image:url(icon-ppt.png);}
+a.ou-archive {background-image:url(icon-archive.png);}
+a.ou-audio {background-image:url(icon-audio.png);}
+a.ou-video {background-image:url(icon-video.png);}
+a.ou-print {background-image:url(icon-print.png);}
+a.ou-rss {background-image:url(icon-rss.png);}
+a.ou-warning {background-image:url(icon-warning.png);}
+a.ou-info {background-image:url(icon-info.png);}
+a.ou-forum {background-image:url(icon-forum.png);}
+a.ou-help {background-image:url(icon-help.png);}
+
+a.ou-link:before {
 	font-family: 'FontAwesome';
 	font-weight:normal;
 	content: "\f019";
@@ -462,39 +482,31 @@ a.ou-rss:before {
 	color:#039;
 }
 
-a.ou-pdf:before {content:"\f1c1"; }
-a.ou-doc:before {content:"\f1c2"; }
-a.ou-xls:before {content:"\f1c3"; }
-a.ou-download:before {content:"\f019";}
-a.ou-ppt:before {content:"\f1c4"; }
-a.ou-archive:before {content:"\f1c6";}
-a.ou-audio:before {content:"\f1c7";}
-a.ou-video:before {content:"\f1c8";}
 a.ou-link:before {content:"\f061"; }
-a.ou-info:before {content:"\f05a"; }
-a.ou-forum:before {content:"\f1d7"; }
-a.ou-print:before {content:"\f02f"; }
-a.ou-warning:before {content:"\f071"; }
-a.ou-help:before {content:"\f059"; }
-a.ou-rss:before {content:"\f143"; }
 
-a.ou-pdf:hover:before,
-a.ou-doc:hover:before,
-a.ou-xls:hover:before,
-a.ou-download:hover:before,
-a.ou-ppt:hover:before,
-a.ou-archive:hover:before,
-a.ou-audio:hover:before,
-a.ou-video:hover:before,
-a.ou-link:hover:before,
-a.ou-info:hover:before,
-a.ou-forum:hover:before,
-a.ou-print:hover:before,
-a.ou-warning:hover:before,
-a.ou-help:hover:before,
-a.ou-rss:hover:before {
-	color:#000;
+a.ou-link:hover:before {color:#000;}
+
+
+/* Retina */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+a.ou-help {
+	background-image:url(icon-pdf@2x.png);
+	background-size:16px 16px;
 }
+
+
+
+
+
+
+
+} /* end media query */
+
 
 
 /* to top */
