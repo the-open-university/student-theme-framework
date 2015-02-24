@@ -329,6 +329,9 @@ img.ou-go2 {margin-left:15px;}
 
 img.ou-border {max-width:95%;}
 
+img.ou-go1.ou-border,
+img.ou-go2.ou-border {max-width:140px;}
+
 
 /* blockquotes */
 
