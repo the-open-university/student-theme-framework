@@ -502,7 +502,7 @@ body.ou-help-category div#ou-region1 {width:100%;}
 -------------------------------------------
 */
 
-.related-help {padding:40px 20px 20px 20px;	}
+.related-help {padding:40px 0 20px 0;}
 
 .related-help h2 {
 	font-size:1.4em;
@@ -525,7 +525,7 @@ body.article-multi .related-help {padding-top:5px;}
 
 .ou-breadcrumb {
 	display:block;
-	padding-right:280px;
+	padding-right:30%;
 	position:relative;
 }
 
@@ -537,7 +537,7 @@ body.article-multi .related-help {padding-top:5px;}
 	position:absolute;
 	top:-10px;
 	right:0;
-	width:250px;
+	width:26%;
 }
 
 #ou-region0 .ou-quick-find form {
@@ -548,13 +548,14 @@ body.article-multi .related-help {padding-top:5px;}
 }
 
 #ou-region0 .ou-quick-find form input[type="text"] {
-	width: 218px;
+	width: 100%;
 	outline: none;
 	margin:0;
 	border:1px solid #CF6041;
 	border-radius:0;	
 	padding:10px 15px;
 	background-color:#FCF7F5;
+	box-sizing:border-box;
 }
 
 #ou-region0 .ou-quick-find form input[type="text"]:focus {
@@ -873,10 +874,6 @@ body.ou-help-home ul.ou-list-cols2 {
 	width: 100%;
 }
 
-#ou-region0 .ou-quick-find form input[type="text"] {width: 90%;}
-
-#ou-region0 .ou-quick-find form button {right:6%;}
-
 } /* end media query */
 
 
@@ -924,6 +921,23 @@ body.ou-help-home #ou-content .hero-top form {width:270px;}
 
 
 
+
+/* Retina */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+#ou-region0 .ou-quick-find form button,
+body.ou-help-home #ou-content .hero-top .search button.btn-submit {
+	background-image:url(icon-search@2x.png);
+	background-size:18px 34px;
+}
+
+
+
+} /* end media query */
 
 
 
