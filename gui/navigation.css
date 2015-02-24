@@ -723,10 +723,20 @@ a.add-block:hover {border-color:#539d3c;}
 
 ul.ou-sections {border-bottom:0;}
 
+/*
 ul.ou-sections li a {
 	padding: 8px 10px;
 	border: 0;
 }
+*/
+
+ul.ou-sections li a {
+	padding: 12px 6px;
+	border: 0;
+	font-size:.85em;
+	font-weight:normal;
+}
+
 
 .ou-breadcrumb-and-tag ol.ou-ancestors,
 .ou-breadcrumb-and-tag p {
@@ -734,6 +744,10 @@ ul.ou-sections li a {
 	float:none;
 	text-align:left;
 }
+
+ol.ou-ancestors {margin-bottom:15px;}
+
+ol.ou-ancestors li {font-size:.9em;}
 
 
 

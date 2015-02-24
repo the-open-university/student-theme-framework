@@ -335,10 +335,24 @@ pre code::-moz-selection {
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
+h1 {font-size: 1.8em; }
 
-/* blockquotes */
+h2 {font-size: 1.6em;}
+
+h3 {font-size: 1.4em;}
+
+h4 {font-size: 1.3em;}
+
+h5 {font-size: 1.1em; }
+
+h6 {font-size: 1em;}
+
+
+hr {margin: 20px 0;}
 
 blockquote p {font-size:1em;}
+
+
 
 
 } /* end media query */

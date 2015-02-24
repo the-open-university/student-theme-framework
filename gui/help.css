@@ -870,12 +870,12 @@ body.ou-help-home ul.ou-list-cols2 {
 	top: 0;
 	left: 0;
 	right:auto;
-	width: 350px;
+	width: 100%;
 }
 
-#ou-region0 .ou-quick-find form input[type="text"] {width: 318px;}
+#ou-region0 .ou-quick-find form input[type="text"] {width: 90%;}
 
-
+#ou-region0 .ou-quick-find form button {right:6%;}
 
 } /* end media query */
 
@@ -901,11 +901,23 @@ body.ou-help-home #ou-content .hero-top form {width:270px;}
 
 .hero p {font-size: 1.2em;}
 
-.ou-quick-find {width: 280px;}
+.ou-help-header {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
 
-#ou-region0 .ou-quick-find form input[type="text"] {width: 248px;}
+.ou-help-header h1 {
+	border-bottom:none;
+	margin-bottom:5px;
+	padding-right:0;
+}
 
+.ou-help-header .ou-help-header-save {
+	position:static;	
+}
 
+#ou-content div.sitemap ul {margin-left:0;}
 
 
 } /* end media query */
