@@ -723,15 +723,8 @@ a.add-block:hover {border-color:#539d3c;}
 
 ul.ou-sections {border-bottom:0;}
 
-/*
 ul.ou-sections li a {
-	padding: 8px 10px;
-	border: 0;
-}
-*/
-
-ul.ou-sections li a {
-	padding: 12px 6px;
+	padding: 10px 6px;
 	border: 0;
 	font-size:.85em;
 	font-weight:normal;
