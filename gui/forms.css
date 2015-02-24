@@ -201,6 +201,15 @@
 	border-color: #ffc23d;
 }
 
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+
+#ou-content form {padding:25px 30px;}
+
+} /* end media query */
+
+
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 	

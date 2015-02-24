@@ -307,6 +307,10 @@ ol.ou-list-cols3 {
 #ou-content ul.ou-links li:before {content:"";}
 #ou-content ul.ou-links li a {text-decoration:none;}
 
+/* Sitemap */
+
+ul.ou-sitemap a {text-decoration:none;}
+
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 

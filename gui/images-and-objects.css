@@ -320,8 +320,14 @@ a.ou-advert .ou-advert-highlighted {
 img.ou-go1,
 img.ou-go2,
 #ou-content ul.ou-news img {
-	max-width:180px;
+	max-width:140px;
 }
+
+img.ou-go1 {margin-right:15px;}
+
+img.ou-go2 {margin-left:15px;}
+
+img.ou-border {max-width:95%;}
 
 
 /* blockquotes */
