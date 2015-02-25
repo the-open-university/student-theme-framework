@@ -170,10 +170,23 @@ ol.ou-ancestors li a:hover {
 }
 
 .ou-context-nav h2 {
-	padding: 0 0 8px 0;
+	padding: 0 0 10px 0;
 	margin: 0;
 	background-color: #a6d0ff;
+	font-size:1.2em;
 }
+
+
+/* TESTING */
+
+
+.ou-full-nav ul li.ou-expanded,
+.ou-context-nav ul li.ou-expanded  {background-color:#e7eff7;}
+
+.ou-full-nav ul li.ou-expanded li a,
+.ou-context-nav ul li.ou-expanded li a,
+.ou-full-nav ul li.ou-expanded li strong,
+.ou-context-nav ul li.ou-expanded li strong {padding-left:38px;}
 
 
 /*

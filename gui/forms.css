@@ -69,10 +69,18 @@
 }
 
 #ou-content form ul {
-	xmargin-bottom:15px;
+	/*margin-bottom:15px;*/
 }
 
 #ou-content form ul li:before {content:"";}
+
+#ou-content form ul.ou-form-list {margin-bottom:20px;}
+
+#ou-content form ul.ou-form-list li {padding-left:20px;}
+
+#ou-content form ul.ou-form-list li:before {content: "\2022";}
+
+#ou-content form.ou-form-alt ul.ou-form-list li:before {color: #a6d0ff;}
 
 #ou-content form p:last-child {margin-bottom:0;}
 
@@ -200,6 +208,10 @@
 	outline: 0;
 	border-color: #ffc23d;
 }
+
+
+#ou-content form fieldset textarea:last-child {margin-bottom:0;}
+
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 

@@ -229,7 +229,7 @@ div.ou-action-block {
 
 #ou-content a.ou-action {
 	position:relative;
-	padding:10px 0 10px 5px;	
+	padding:10px 40px 10px 5px;	
 }
 
 #ou-content a.ou-action:nth-child(even) {
@@ -237,15 +237,13 @@ div.ou-action-block {
 	border-bottom:1px solid #ddd;
 }
 
-#ou-content a.ou-action span.ou-title {
-	font-size:1.2em;
-}
+#ou-content a.ou-action span.ou-title {font-size:1.2em;}
 
 #ou-content a.ou-action span.ou-desc {
 	color:#777;
 	font-weight:normal;
 	font-size:.9em;
-	margin-top:3px;
+	margin-top:8px;
 }
 
 #ou-content a.ou-action:after {
@@ -254,14 +252,14 @@ div.ou-action-block {
 	content: " \f0a9";
 	color: #539d3c;
 	right: 5px;
-	top: 18px;
+	top: 40%;
 	font-size:20px;
 }
 
 #ou-content a.ou-action:hover:after {
 	color: #000;
 	font-size:30px;
-	top:16px;
+	top:40%;
 	right:2px;
 	overflow:visible;
 }
