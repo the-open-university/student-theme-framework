@@ -166,6 +166,29 @@
 }
 
 
+/* articles */
+
+.ou-articles .ou-articles-article {padding:20px;}
+
+.ou-articles .ou-articles-article:nth-child(odd) {background:#e7eff7;}
+
+.ou-articles-article h2 {
+	margin:0 0 6px 0;
+	font-size:1.2em;
+}
+
+.ou-articles-article a {text-decoration:none;}
+
+.ou-articles-article p {
+	margin-bottom:0;
+	color:#555;
+}
+
+#ou-content .ou-articles-article ul {
+	margin-top:20px;
+	margin-bottom:0;
+}
+
 
 
 

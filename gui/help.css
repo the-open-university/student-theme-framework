@@ -458,26 +458,6 @@ body.ou-help-topic div#ou-region1 {width:100%;}
 
 body.ou-help-category div#ou-region1 {width:100%;}
 
-.articles .article {padding:20px;	}
-
-.articles .article:nth-child(odd) {background:#e7eff7;}
-
-.articles .article h2 {
-	margin:0 0 6px 0;
-	font-size:1.2em;
-}
-
-.articles .article a {text-decoration:none;}
-
-.articles .article p {
-	margin-bottom:0;
-	color:#555;
-}
-
-#ou-content .articles .article ul {
-	margin-top:20px;
-	margin-bottom:0;
-}
 
 .ou-article-browser ul li a {text-decoration:none;}
 
@@ -615,9 +595,7 @@ body.article-multi .related-help {padding-top:5px;}
 #ou-site-footer ul.footer li i {display:none;}
 
 
-.box-yhc-inner ul {padding:0; margin:0;}
-.box-yhc-inner ul li {margin-right:15px; display:inline;}
-.box-yhc-inner ul li a  {text-decoration:none;}
+
 li.yhc-recommended i.fa-circle {color:#69963D;}
 li.yhc-popular i.fa-circle {color:#F7C04F;}
 li.yhc-saved i.fa-circle {color:#195CA5;}

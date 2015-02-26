@@ -732,6 +732,43 @@ a.add-block:hover {border-color:#539d3c;}
 
 
 
+/*
+-------------------------------------------
+	Horizontal icon links
+-------------------------------------------
+*/
+
+ul.ou-icon-links {
+	padding:0;
+	margin:0;
+}
+
+ul.ou-icon-links li {
+	margin-right:15px; 
+	display:inline;
+}
+
+ul.ou-icon-links li a  {text-decoration:none;}
+
+ul.ou-icon-links li.ou-icon-links-facebook i.fa-circle {color:#3b5998;}
+ul.ou-icon-links li.ou-icon-links-twitter i.fa-circle {color:#4099FF;}
+ul.ou-icon-links li.ou-icon-links-linkedin i.fa-circle {color:#0e76a8;}
+
+
+/* incase used in region1 */
+
+#ou-content ul.ou-icon-links {margin-left:0;}
+
+#ou-content ul.ou-icon-links li {padding-left:0;}
+
+#ou-content ul.ou-icon-links li:before {content:"";}
+
+
+
+
+
+
+
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
 
 
@@ -744,6 +781,7 @@ ul.ou-sections li a {
 	font-weight:normal;
 }
 
+ul.ou-sections li:last-child a {border-right: none;}
 
 .ou-breadcrumb-and-tag ol.ou-ancestors,
 .ou-breadcrumb-and-tag p {
@@ -755,6 +793,8 @@ ul.ou-sections li a {
 ol.ou-ancestors {margin-bottom:15px;}
 
 ol.ou-ancestors li {font-size:.9em;}
+
+
 
 .ou-topics {margin-bottom:0;}
 
