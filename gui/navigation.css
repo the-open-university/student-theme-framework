@@ -177,7 +177,7 @@ ol.ou-ancestors li a:hover {
 }
 
 
-/* TESTING */
+/* TESTING FOR LIBRARY EXAMPLE PAGES */
 
 
 .ou-full-nav ul li.ou-expanded,
@@ -186,7 +186,7 @@ ol.ou-ancestors li a:hover {
 .ou-full-nav ul li.ou-expanded li a,
 .ou-context-nav ul li.ou-expanded li a,
 .ou-full-nav ul li.ou-expanded li strong,
-.ou-context-nav ul li.ou-expanded li strong {padding-left:38px;}
+.ou-context-nav ul li.ou-expanded li strong {padding-left:25px;}
 
 
 /*

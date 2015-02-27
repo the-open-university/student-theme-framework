@@ -168,9 +168,26 @@
 
 /* articles */
 
-.ou-articles .ou-articles-article {padding:20px;}
+.ou-articles-article:before,
+.ou-articles-article:after {
+	content: "";
+	display: table;
+}
 
-.ou-articles .ou-articles-article:nth-child(odd) {background:#e7eff7;}
+.ou-articles-article:after {clear:both;}
+
+.ou-articles-article {
+	padding:20px; 
+	zoom:1;
+}
+
+.ou-articles-article img {
+	float:left;
+	margin:0 20px 0 0;
+	max-width:120px;
+}
+
+.ou-articles-article:nth-child(odd) {background:#e7eff7;}
 
 .ou-articles-article h2 {
 	margin:0 0 6px 0;
