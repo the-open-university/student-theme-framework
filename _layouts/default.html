@@ -13,6 +13,10 @@
 
 <link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" />
 
+<!-- highlight <pre> for styleguide only -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 <!-- favicons -->
@@ -57,6 +61,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/responsive-tabs.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script>
 $(document).ready(function() {
     RESPONSIVEUI.responsiveTabs();

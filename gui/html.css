@@ -210,7 +210,10 @@ blockquote p:last-child {margin-bottom:0;}
 */
 
 
-dl dt {font-weight:bold;}
+dl dt {
+	font-weight:bold;
+	margin-bottom:5px;
+}
 
 dl dd {margin-bottom:15px;}
 
@@ -292,11 +295,7 @@ hr {
 
 pre {
 	overflow: auto;
-	margin: 0 0 15px 0;
-	padding: 15px 25px;
-	color: #fff;
-	border-top: 3px solid #000;
-	background-color:#333;
+	margin: 0 0 20px 0;
 	white-space: pre-wrap;       /* css-3 */
 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
 	white-space: -pre-wrap;      /* Opera 4-6 */
@@ -310,7 +309,8 @@ pre {
 }
 
 pre code {
-	padding: 0;
+	padding: 15px;
+	margin:0;
 	color: #fff;
 	font-size: 12px;
 	font-weight:normal;

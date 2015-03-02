@@ -69,36 +69,33 @@ parent: navigation
 
 <h3>Implementation</h3>
 
-<pre>
-&lt;!-- in the head below the other stylesheets --&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;gui/responsive-tabs.css&quot; /&gt;<br>
-&lt;!-- before the closing body tag --&gt;
-&lt;script src=&quot;js/responsive-tabs.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
+<pre><code><!-- in the head below the other stylesheets -->
+<link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
+
+<!-- before the closing body tag -->
+<script src="js/responsive-tabs.min.js"></script>
+<script>
 $(document).ready(function() {
 RESPONSIVEUI.responsiveTabs();
 })
-&lt;/script&gt;
-</pre>
+</script></code></pre>
 
 <h3>HTML structure</h3>
 
-<pre>
-&lt;div class=&quot;responsive-tabs&quot;&gt;
-&lt;h2&gt;Tab 1 title&lt;/h2&gt;
-&lt;div&gt;
+<pre><code><div class="responsive-tabs">
+<h2>Tab 1 title</h2>
+<div>
 Tab 1 content
-&lt;/div&gt;
-&lt;h2&gt;Tab 2 title&lt;/h2&gt;
-&lt;div&gt;
+</div>
+<h2>Tab 2 title</h2>
+<div>
 Tab 2 content
-&lt;/div&gt;
-&lt;h2&gt;Tab 3 title&lt;/h2&gt;
-&lt;div&gt;
+</div>
+<h2>Tab 3 title</h2>
+<div>
 Tab 3 content
-&lt;/div&gt;
-&lt;/div&gt;
-</pre>
+</div>
+</div></code></pre>
 
 <hr>
 
@@ -112,7 +109,6 @@ Tab 3 content
 </ul>
 
 <p>A dummy sentence here to see the space between the tab bar and the content.</p>
-
 
 
 <div class="ou-paged">

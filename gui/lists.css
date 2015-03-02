@@ -80,6 +80,33 @@ ul.ou-list-alt2 li a {text-decoration:none;}
 #ou-content ul.ou-link-list li a {text-decoration:none;}
 
 
+/* unordered tick list */
+
+#ou-content ul.ou-tick-list li {padding-left:22px;}
+
+#ou-content ul.ou-tick-list li:before {
+	content: "\f00c";
+	font-family:FontAwesome;
+	font-size:1em;
+	color:#539d3c;
+	top:5px;
+}
+
+/* unordered cross list */
+
+#ou-content ul.ou-cross-list li {padding-left:22px;}
+
+#ou-content ul.ou-cross-list li:before {
+	content: "\f00d";
+	font-family:FontAwesome;
+	font-size:1em;
+	color:#b52a1e;
+	top:5px;
+}
+
+
+
+
 /* unordered icon list */
 
 #ou-content ul.ou-icon-list {
