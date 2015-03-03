@@ -1,6 +1,6 @@
 ---
 title: Help Centre Article
-classes: ou-sections ou-help
+classes: ou-sections ou-help yhc-test
 order: 104
 parent: example-pages
 ident: true
@@ -59,6 +59,8 @@ ident: true
 <h1>Volunteer with the audio recording centre</h1>
 <a href="#" class="ou-help-header-save"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-bookmark fa-stack-1x fa-inverse"></i></span> Save page</a>
 </div>
+
+<img src="img/img-example12.jpg" alt="" class="ou-go2">
 
 <p>The Audio Recording Centre was founded in 1989 in partnership with the Royal National Institute of Blind People. Volunteers from the OU and the local community do all the readings that are recorded here.</p>
 
@@ -148,8 +150,220 @@ ident: true
 </div> <!-- end ou-site-body -->
 
 <div id="ou-site-footer">
-
+<!--
 {% include help-footer.html %}
+-->
+
+
+
+<hr>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+    $("#trigger-1").click(function(){
+        $("#target-1").slideToggle("fast");
+		$("#trigger-1").toggleClass("selected");
+		
+		$("#target-2").hide();
+		$("#trigger-2").removeClass("selected");
+		
+		$("#target-3").hide();
+		$("#trigger-3").removeClass("selected");
+		
+		$("#target-4").hide();
+		$("#trigger-4").removeClass("selected");
+		return false;
+    });
+
+    $("#trigger-2").click(function(){
+        $("#target-2").slideToggle("fast");
+		$("#trigger-2").toggleClass("selected");
+
+		$("#target-1").hide();
+		$("#trigger-1").removeClass("selected");
+		
+		$("#target-3").hide();
+		$("#trigger-3").removeClass("selected");
+		
+		$("#target-4").hide();
+		$("#trigger-4").removeClass("selected");
+		return false;
+    });
+
+    $("#trigger-3").click(function(){
+        $("#target-3").slideToggle("fast");
+		$("#trigger-3").toggleClass("selected");
+
+		$("#target-2").hide();
+		$("#trigger-2").removeClass("selected");
+		
+		$("#target-1").hide();
+		$("#trigger-1").removeClass("selected");
+		
+		$("#target-4").hide();
+		$("#trigger-4").removeClass("selected");
+		return false;
+    });
+
+    $("#trigger-4").click(function(){
+        $("#target-4").slideToggle("fast");
+		$("#trigger-4").toggleClass("selected");
+
+		$("#target-2").hide();
+		$("#trigger-2").removeClass("selected");
+		
+		$("#target-3").hide();
+		$("#trigger-3").removeClass("selected");
+		
+		$("#target-1").hide();
+		$("#trigger-1").removeClass("selected");
+		return false;
+    });
+	
+});
+</script>
+
+<ul class="ou-icon-links">
+<li><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x colour1"></i>
+  <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+</span> <a href="#" id="trigger-1">Recommended pages <i class="fa fa-caret-down"></i></a></li>
+
+<li><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x colour3"></i>
+  <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+</span> <a href="example-pages-help-home.html#your-help-centre" id="trigger-2">Popular pages <i class="fa fa-caret-down"></i></a></li>
+
+<li><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x colour5"></i>
+  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
+</span> <a href="example-pages-help-home.html#your-help-centre" id="trigger-3">Saved pages <i class="fa fa-caret-down"></i></a></li>
+
+<li><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x colour2"></i>
+  <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+</span> <a href="example-pages-help-home.html#your-help-centre" id="trigger-4">Contact us <i class="fa fa-caret-down"></i></a></li>
+</ul>
+
+
+<div class="hide" id="target-1">
+
+<div class="ou-row ipad">
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Submit an assignment</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Request an extension</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Residential school dates</a>
+</div>
+<div class="three-columns last">
+<a href="#"><i class="fa fa-file-o"></i> Graduation ceremonies </a>
+</div>
+</div>
+
+<div class="ou-row ipad no-space">
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Exam timetables</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Tutorial dates</a>
+</div>
+<div class="three-columns">
+</div>
+<div class="three-columns last">
+</div>
+</div>
+
+
+</div>
+
+<div class="hide" id="target-2">
+
+
+<div class="ou-row ipad">
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Module result dates</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> End of module assessment (EMA)</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Catch up when falling behind</a>
+</div>
+<div class="three-columns last">
+<a href="#"><i class="fa fa-file-o"></i> Tutorial dates</a>
+</div>
+</div>
+
+<div class="ou-row ipad no-space">
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> CMA</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> TMA</a>
+</div>
+<div class="three-columns">
+<a href="#"><i class="fa fa-file-o"></i> Residential schools</a>
+</div>
+<div class="three-columns last">
+<a href="#"><i class="fa fa-file-o"></i> Where does my exam take place?</a>
+</div>
+</div>
+
+
+
+</div>
+
+<div class="hide" id="target-3">
+<p><i class="fa fa-exclamation-triangle" style="color:red;"></i> Whoops! You haven't saved any pages yet. Look for "Save page" alongside the main page titles.</p>
+</div>
+
+<div class="hide" id="target-4">
+
+<div class="ou-row no-space ipad">
+<div class="six-columns">
+<p style="color:#000; margin-bottom:8px;"><strong>For help with your module content, including assignments</strong></p>
+<ul>
+<li><a href="#">Mr Sanjeev Gulev</a> for DD101</li>
+<li><a href="#">Mr Kapil Dev</a> for DD102</li>
+<li><a href="#">Mrs Margaret Jenkins</a> for AA100</li>
+</ul>
+</div>
+
+<div class="six-columns last">
+<p style="color:#000; margin-bottom:8px;"><strong>For administrative support and specialist advice</strong></p>
+<ul>
+<li><a href="#">Social Sciences Student Support Team</a> for BA Honours Social Policy and Criminolgy</li>
+<li>Phone: 0290 157348 </li>
+<li>Mon - Fri 8:30 - 5:00</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+
+
+<hr style="margin-top:15px;">
+
+<ul class="footer">
+<li><i class="fa fa-folder-open"></i> <a href="#">About the Help Centre</a></li>
+<li><i class="fa fa-sitemap"></i> <a href="example-pages-help-sitemap.html">Sitemap</a></li>
+<li><i class="fa fa-list-ul"></i> <a href="example-pages-help-atoz.html">A-Z</a></li>
+<li><i class="fa fa-search"></i> <a href="#">Quick Find</a></li>
+<li><i class="fa fa-envelope"></i> <a href="example-pages-help-feedback.html">Feedback</a></li>
+<li><i class="fa fa-bug"></i> <a href="#">Report a bug</a></li>
+<li><i class="fa fa-phone"></i> <a href="example-pages-help-home.html#your-help-centre" data-track-event="myContactsLinkFooter">Contact us</a></li>
+</ul>
+
+<p><small>This website is developed and maintained by Online Student Support Services. This page was last updated on 9th Jan 2015 at 19:03:04.</small></p>
+
+
 
 <a class="ou-to-top" href="#ou-content"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
 </div> <!-- end ou-site-footer -->

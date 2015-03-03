@@ -1,6 +1,6 @@
 ---
 title: Help Centre Home 2
-classes: ou-sections ou-help ou-help-home
+classes: ou-sections ou-help ou-help-home ou-help-home2
 order: 101
 parent: example-pages
 ident: true
@@ -41,14 +41,14 @@ ident: true
 </a>
 </div>
 
-<div class="hero-top" style="height:80px; background-image: none; background-color:#cf6041; margin-bottom:0;">
+<div class="hero-top" style="height:80px; background-image: none; background-color:#eee; margin-bottom:0;">
 <div class="search" style="background:transparent; height:80px;">
 
 <form method="GET" action="/students/help/quick-find" style="margin-top:17px;">
 <label for="homepageQuickFindInput" class="hidden-except-screenreader">Search the Help Centre</label>
 <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
 <input type="text" id="homepageQuickFindInput" name="q" class="ouQuickFind ui-autocomplete-input" placeholder="Type keyword or question..." autocomplete="off">
-<button type="submit" class="btn-submit" title="Search">
+<button type="submit" class="btn-submit" title="Search" style="top:15px">
 <span class="ou-hide">Submit</span>
 </button>
 </form>
@@ -64,7 +64,7 @@ ident: true
 
 <hr>
 
-<div class="ou-grid">
+<div class="ou-row ipad">
 
 <div class="four-columns steps">
 <div style="margin-right:0; width:100%; border-right:1px solid #ddd;">
@@ -89,8 +89,28 @@ ident: true
 <li><a href="#">Tutorial dates</a></li>
 <li><a href="#">Graduation ceremonies</a></li>
 <li><a href="#">Catch up when falling behind</a></li>
+<li><a href="#">Appeal against a result </a></li>
+</ul>
+
+
+<h2 style="font-size:1.4em; margin-top:15px;"><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x colour5"></i>
+  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
+</span> Your saved pages</h2>
+
+<ul class="ou-link-list">
+<li><a href="#">TMA</a></li>
+<li><a href="#">CMA</a></li>
+<li><a href="#">End of module assessment (EMA)</a></li>
+<li><a href="#">Catch up when falling behind</a></li>
 <li><a href="#">Appeal against a result</a></li>
 </ul>
+
+
+
+</div>
+
+<div class="four-columns" style="margin-right:0;">
 
 <h2 style="font-size:1.4em; margin-top:0;"><span class="fa-stack">
   <i class="fa fa-circle fa-stack-2x colour1"></i>
@@ -107,32 +127,11 @@ ident: true
 <li><a href="#">Exam timetables</a></li>
 </ul>
 
-</div>
-
-<div class="four-columns" style="margin-right:0;">
-
-<h2 style="font-size:1.4em; margin-top:0;"><span class="fa-stack">
-  <i class="fa fa-circle fa-stack-2x colour5"></i>
-  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
-</span> Your saved pages</h2>
-
-<ul class="ou-link-list">
-<li><a href="#">TMA</a></li>
-<li><a href="#">CMA</a></li>
-<li><a href="#">End of module assessment (EMA)</a></li>
-<li><a href="#">Catch up when falling behind</a></li>
-<li><a href="#">Appeal against a result</a></li>
-<li><a href="#">Residential school</a></li>
-<li><a href="#">Residential school dates</a></li>
-<li><a href="#">Tutorial dates</a></li>
-<li><a href="#">Graduation ceremonies</a></li>
-</ul>
-
-
 
 </div>
 
-</div>
+</div> <!-- end ou-row -->
+
 </div>
 
 </div> <!-- end ou-grid -->
