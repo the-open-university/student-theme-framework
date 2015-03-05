@@ -1,8 +1,13 @@
 // 
-// OU ICE v4 JAVASCRIPTS
+//	OU Student Theme Framework js
 //
 
+// RESPONSIVE TABS
 
+
+
+	
+	
 // BACK TO TOP LINK
 
 jQuery(document).ready(function(){
@@ -44,46 +49,6 @@ $(function() {
 	      }
 	    }
 	  });
-});
-
-// SHOW/HIDE MARKUP FOR STYLE GUIDE
-
-$(document).ready(function(){	
-
-	// change brackets
-  
-	$('code').each(function() {
-		$(this).text($(this).html());
-	});
-	
-  // hide code highlight
-  
-  $('.code').hide(); 
-	
-  $("span.code-toggle a").click(function(event) {   
-     // Prevent default click action if javascript is enabled
-     event.preventDefault();  
-	 // if code section is hidden
-	 if($(this).parent().parent().next().is(':hidden')) {
-	 // show code section
-	 $(this).parent().parent().next().slideToggle('fast');
-	 // load code from .txt
-     //$(this).parent().next().load($(this).attr("href"), function() {	 
-	   // ensure that HTML characters are shown not rendered	 
-	   //var htmlStr = $(this).html();        
-	   //$(this).text(htmlStr);	   		     
-     //})  
-	 // otherwise just hide code section
-	 } else {
-	   $(this).parent().parent().next().slideToggle('fast'); 		   
-	}	
-	// switch label depending on whether code section is shown or hidden
-	//if($(this).text() == "Show markup") {
-	//	$(this).text("Hide markup");		
-	//} else {
-	//	$(this).text("Show markup")
-	//}	
-  })    
 });
 
 

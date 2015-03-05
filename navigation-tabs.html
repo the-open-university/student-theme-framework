@@ -82,24 +82,34 @@ RESPONSIVEUI.responsiveTabs();
 
 <h3>HTML structure</h3>
 
-<pre><code><div class="responsive-tabs">
-<h2>Tab 1 title</h2>
-<div>
-Tab 1 content
-</div>
-<h2>Tab 2 title</h2>
-<div>
-Tab 2 content
-</div>
-<h2>Tab 3 title</h2>
-<div>
-Tab 3 content
-</div>
-</div></code></pre>
+<p>&lt;div class=&quot;responsive-tabs&quot;&gt;<br>
+  &lt;h2&gt;Tab 1 title&lt;/h2&gt;<br>
+  &lt;div&gt;<br>
+  Tab 1 content<br>
+  &lt;/div&gt;<br>
+  &lt;h2&gt;Tab 2 title&lt;/h2&gt;<br>
+  &lt;div&gt;<br>
+  Tab 2 content<br>
+  &lt;/div&gt;<br>
+  &lt;h2&gt;Tab 3 title&lt;/h2&gt;<br>
+  &lt;div&gt;<br>
+  Tab 3 content<br>
+  &lt;/div&gt;<br>
+  &lt;/div&gt;</p>
 
 <hr>
 
-<h2>Flat HTML tabs</h2>
+<h2>Flat HTML tabs <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h2>
+
+<pre class="code"><code><ul class="ou-tabs">
+<li><a href="#" class="ou-selected">OU profile</a></li>
+<li><a href="#">Online appearance</a></li>
+<li><a href="#">Preferred settings</a></li>
+<li><a href="#">Change password</a></li>
+</ul></code>
+</pre>
+
+<p>You might want to remove the dynamic element and have the links go to different pages. If so this is the structure you need.</p>
 
 <ul class="ou-tabs">
 <li><a href="#" class="ou-selected">OU profile</a></li>
@@ -113,13 +123,14 @@ Tab 3 content
 
 <div class="ou-paged">
 <ul>
-<li><a class="ou-previous" href="navigation-pagination.html">Prev</a></li>
-<li><a class="ou-next" href="navigation-context-nav.html">Next</a></li>
+<li><a class="ou-previous" href="navigation-table-of-contents.html">Prev</a></li>
+<li><a class="ou-next" href="navigation-topics.html">Next</a></li>
 </ul> 
 </div>
 
 
-</div> <!-- end ou-content --></div> <!-- end ou-region1 -->
+</div> <!-- end ou-content -->
+</div> <!-- end ou-region1 -->
 
 <div id="ou-region2">
 {% include region2.html %}

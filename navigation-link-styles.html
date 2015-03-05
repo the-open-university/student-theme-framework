@@ -84,12 +84,24 @@ parent: navigation
 <code><p><a class="ou-standalone-link" href="#"><i class="fa fa-caret-right"></i> View all messages</a></p></code>
 </pre>
 
+<p>If a link is by itself somewhere it sometimes helps to reinforce what it is with an extra signifier.</p>
+
 <p><a class="ou-standalone-link" href="#"><i class="fa fa-caret-right"></i> View all messages</a></p>
 
 <hr>
 
+<h2>External link <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h2>
 
-<h2>Horizontal icon links <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h2>
+<pre class="code"><code><p><a class="ou-external" href="http://www.bbc.co.uk">BBC News</a></p></code></pre>
+
+<p>Include a signifier for external links with the ou-external class.</p>
+
+<p><a class="ou-external" href="http://www.bbc.co.uk">BBC News</a></p>
+
+<hr>
+
+
+<h2 id="icon-links">Horizontal icon links <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h2>
 
 <pre class="code">
 <code><ul class="ou-icon-links">
@@ -133,24 +145,30 @@ parent: navigation
   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
 </span> <a href="#">LinkedIn</a></li>
 
+<li class="ou-icon-links-googleplus"><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+</span> <a href="#">Google +</a></li>
+
 </ul>
 
 <p>Add the following classes to the list item (&lt;li&gt;) in order to get the correct social media icon colour:</p>
 
-<ul class="ou-icon-links">
+<ul>
 <li>Facebook = ou-icon-links-facebook</li>
-  <li>Twitter = ou-icon-links-twitter</li>
-  <li>LinkedIn = ou-icon-links-linkedin</li>
+<li>Twitter = ou-icon-links-twitter</li>
+<li>LinkedIn = ou-icon-links-linkedin</li>
+<li>Google + = ou-icon-links-googleplus</li>
 </ul>
 
 <h3>Other icons</h3>
 
-<p>For different icons, find the icon name on <a href="http://fortawesome.github.io/Font-Awesome/icons/">this page</a> and put it in the list item as shown below in bold:</p>
+<p>For different icons, find the icon name on <a href="http://fortawesome.github.io/Font-Awesome/icons/">this page</a> and put it in the list item as shown below in bold red:</p>
 
 <p>&lt;ul class=&quot;ou-icon-links&quot;&gt;<br>
 &lt;li&gt;&lt;span class=&quot;fa-stack&quot;&gt;<br>
 &lt;i class=&quot;fa fa-circle fa-stack-2x&quot;&gt;&lt;/i&gt;<br>
-&lt;i class=&quot;fa fa-<strong>rocket</strong> fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;<br>
+&lt;i class=&quot;fa fa-<strong style="color:red;">rocket</strong> fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;<br>
 &lt;/span&gt; &lt;a href=&quot;#&quot;&gt;This is a rocket ship&lt;/a&gt;&lt;/li&gt;<br>
 &lt;/ul&gt;
 </p>
@@ -167,7 +185,7 @@ parent: navigation
 <p>Make the background circle of your icons a different colour by specifying a <a href="colour.html#colour-classes">colour class</a> from the OU pallette:</p>
 <p>&lt;ul class=&quot;ou-icon-links&quot;&gt;<br>
   &lt;li&gt;&lt;span class=&quot;fa-stack&quot;&gt;<br>
-  &lt;i class=&quot;fa fa-circle fa-stack-2x <strong>colour1</strong>&quot;&gt;&lt;/i&gt;<br>
+  &lt;i class=&quot;fa fa-circle fa-stack-2x <strong style="color:red;">colour1</strong>&quot;&gt;&lt;/i&gt;<br>
   &lt;i class=&quot;fa fa-rocket fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;<br>
   &lt;/span&gt; &lt;a href=&quot;#&quot;&gt;This is a green rocket ship&lt;/a&gt;&lt;/li&gt;<br>
   &lt;/ul&gt;</p>
@@ -182,7 +200,7 @@ parent: navigation
 <p>To use a colour not in the OU pallette you can insert an inline style like so:</p>
 <p>&lt;ul class=&quot;ou-icon-links&quot;&gt;<br>
   &lt;li&gt;&lt;span class=&quot;fa-stack&quot;&gt;<br>
-  &lt;i class=&quot;fa fa-circle fa-stack-2x&quot; <strong>style=&quot;color:#F00&quot;</strong>&gt;&lt;/i&gt;<br>
+  &lt;i class=&quot;fa fa-circle fa-stack-2x&quot; <strong style="color:red;">style=&quot;color:#F00&quot;</strong>&gt;&lt;/i&gt;<br>
   &lt;i class=&quot;fa fa-rocket fa-stack-1x fa-inverse&quot;&gt;&lt;/i&gt;<br>
   &lt;/span&gt; &lt;a href=&quot;#&quot;&gt;This is a bright red rocket ship&lt;/a&gt;&lt;/li&gt;<br>
   &lt;/ul&gt;</p>
@@ -198,13 +216,14 @@ parent: navigation
 
 <div class="ou-paged">
 <ul>
-<li><a class="ou-previous" href="navigation-sitemap.html">Prev</a></li>
-<li><a class="ou-next" href="colour.html">Next</a></li>
+<li><a class="ou-previous" href="navigation-context-nav.html">Prev</a></li>
+<li><a class="ou-next" href="navigation-pagination.html">Next</a></li>
 </ul> 
 </div>
 
 
-</div> <!-- end ou-content --></div> <!-- end ou-region1 -->
+</div> <!-- end ou-content -->
+</div> <!-- end ou-region1 -->
 
 <div id="ou-region2">
 {% include region2.html %}

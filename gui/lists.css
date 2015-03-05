@@ -24,6 +24,7 @@
 #ou-content ul li {
 	margin-bottom: 5px;
 	position: relative;
+	z-index:100; /* so items can float alongside happily */
 	padding-left: 20px;
 	line-height:1.6em;
 }

@@ -1,7 +1,7 @@
 ---
 title: Navigation
 classes: website
-order: 50
+order: 6
 parent: index
 ---
 <div id="ou-site">
@@ -24,7 +24,9 @@ parent: index
 <div id="ou-content" class="ou-content">
 
 <h1>{{ page.title }}</h1>
-<p>Content</p>
+
+{% include menu.html parent="navigation" %}
+
 
 
 <div class="ou-paged">
@@ -35,7 +37,9 @@ parent: index
 </div>
 
 
-</div> <!-- end ou-content --></div> <!-- end ou-region1 -->
+</div> <!-- end ou-content -->
+
+</div> <!-- end ou-region1 -->
 
 <div id="ou-region2">
 {% include region2.html %}

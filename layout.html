@@ -1,7 +1,7 @@
 ---
 title: Layout
 classes: website
-order: 40
+order: 5
 parent: index
 ---
 <div id="ou-site">
@@ -24,13 +24,16 @@ parent: index
 <div id="ou-content" class="ou-content">
 
 <h1>{{ page.title }}</h1>
-<p>Content coming soon. Please use the navigation sub-links to see the different layouts in the meantime.</p>
+
+<p>Various ways to lay out your pages. See the <a href="layout-grid.html">grid</a> for advanced layout capabilities.</p>
+
+{% include menu.html parent="layout" %}
 
 
 <div class="ou-paged">
 <ul>
 <li><a class="ou-previous" href="fonts.html">Prev</a></li>
-<li><a class="ou-next" href="layout-plain-and-simple.html">Next</a></li>
+<li><a class="ou-next" href="layout-alignment.html">Next</a></li>
 </ul> 
 </div>
 

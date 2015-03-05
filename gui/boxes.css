@@ -207,6 +207,21 @@
 }
 
 
+/* Side piece */
+
+.ou-side-piece {
+	float:right;
+	width:30%;
+	border-left:4px solid #a6d0ff;
+	padding-left:20px;
+	margin:0 0 20px 30px;
+	position:relative;
+	z-index:200;
+}
+
+.ou-side-piece h2 {font-size:1.5em;}
+
+#ou-content .ou-side-piece ul {margin-left:0;}
 
 
 /* Action block (ice3) */
@@ -303,4 +318,17 @@ div.ou-action-block {
 	right:2px;
 	overflow:visible;
 }
+
+
+@media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
+
+.ou-side-piece {
+	float:none;
+	width:auto;
+	padding-left:20px;
+	margin:0 0 20px 0;	
+}
+
+
+} /* end media query */
 
