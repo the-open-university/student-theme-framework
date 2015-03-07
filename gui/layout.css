@@ -381,28 +381,28 @@ body.ou-help div#ou-region2 {
 }
 
 
-.ipad {margin-bottom:0;}
+.tablet {margin-bottom:0;}
 
-.ipad .one-column,
-.ipad .two-columns,
-.ipad .three-columns,
-.ipad .four-columns,
-.ipad .five-columns,
-.ipad .six-columns,
-.ipad .seven-columns,
-.ipad .eight-columns,
-.ipad .nine-columns,
-.ipad .ten-columns,
-.ipad .eleven-columns,
-.ipad .twelve-columns {
+.tablet .one-column,
+.tablet .two-columns,
+.tablet .three-columns,
+.tablet .four-columns,
+.tablet .five-columns,
+.tablet .six-columns,
+.tablet .seven-columns,
+.tablet .eight-columns,
+.tablet .nine-columns,
+.tablet .ten-columns,
+.tablet .eleven-columns,
+.tablet .twelve-columns {
 	width:48%;
 	margin-right:4%;
 	margin-bottom:15px;
 }
 
-.ipad div:nth-child(2n+1) {clear: left;}
+.tablet div:nth-child(2n+1) {clear: left;}
 
-.ipad div:nth-child(even) {margin-right: 0;}
+.tablet div:nth-child(even) {margin-right: 0;}
 
 
 
@@ -474,18 +474,18 @@ div.ou-c3of3,
 .ten-columns,
 .eleven-columns,
 .twelve-columns,
-.ipad .one-column,
-.ipad .two-columns,
-.ipad .three-columns,
-.ipad .four-columns,
-.ipad .five-columns,
-.ipad .six-columns,
-.ipad .seven-columns,
-.ipad .eight-columns,
-.ipad .nine-columns,
-.ipad .ten-columns,
-.ipad .eleven-columns,
-.ipad .twelve-columns {
+.tablet .one-column,
+.tablet .two-columns,
+.tablet .three-columns,
+.tablet .four-columns,
+.tablet .five-columns,
+.tablet .six-columns,
+.tablet .seven-columns,
+.tablet .eight-columns,
+.tablet .nine-columns,
+.tablet .ten-columns,
+.tablet .eleven-columns,
+.tablet .twelve-columns {
 	width: 100%;
 	float:none;
 	margin:0 0 15px 0;
