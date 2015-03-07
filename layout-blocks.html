@@ -1,0 +1,274 @@
+---
+title: Blocks
+classes: website
+parent: layout
+---
+<div id="ou-site">
+
+<div id="ou-site-header">
+</div> <!-- end ou-site-header -->
+
+<div id="ou-site-body">
+
+<div id="ou-page">
+
+<div id="ou-region0">
+
+</div> <!-- end ou-region0 -->
+
+<div id="ou-region1">
+{% include breadcrumb.html %}
+
+
+<div id="ou-content" class="ou-content">
+
+<h1>{{ page.title }}</h1>
+
+<p>Introducing OU Blocks. It's a way to float same sized blocks of content within the same container with no restrictions on how many you have.</p>
+
+<p>You could do a similar thing using the <a href="layout-grid.html">grid</a> but that requires separate divs for each row of content, and that's not very useful if, for example, you have a long list of items you want to keep  together in the same container. 
+The other advantage of Blocks is that you don't have to specify the size of each block - you simply add a class to the container to say 2, 3, 4 or 5 columns and then the blocks within automatically adjust their size accordingly.</p>
+
+<div class="box ou-info">
+<p><strong>Note</strong>: All block layouts become two columns for iPad/mobile screen sizes.</p>
+</div>
+
+<hr>
+
+<h2>2 columns</h2>
+
+<div class="blocks-two-columns ou-grid">
+
+<div class="block">
+<p>1</p>
+</div>
+
+<div class="block">
+<p>2</p>
+</div>
+
+<div class="block">
+<p>3</p>
+</div>
+
+<div class="block">
+<p>4</p>
+</div>
+
+<div class="block">
+<p>5</p>
+</div>
+
+<div class="block">
+<p>6</p>
+</div>
+
+<div class="block">
+<p>7</p>
+</div>
+    
+<div class="block">
+<p>8</p>
+</div>
+
+</div>
+
+<hr>
+
+<h2>3 columns</h2>
+
+<div class="blocks-three-columns ou-grid">
+
+<div class="block">
+<p>1</p>
+</div>
+
+<div class="block">
+<p>2</p>
+</div>
+
+<div class="block">
+<p>3</p>
+</div>
+
+<div class="block">
+<p>4</p>
+</div>
+
+<div class="block">
+<p>5</p>
+</div>
+
+<div class="block">
+<p>6</p>
+</div>
+
+<div class="block">
+<p>7</p>
+</div>
+    
+<div class="block">
+<p>8</p>
+</div>
+
+</div>
+
+
+<hr>
+
+
+<h2>4 columns</h2>
+
+
+<div class="blocks-four-columns ou-grid">
+
+<div class="block">
+<p>1</p>
+</div>
+
+<div class="block">
+<p>2</p>
+</div>
+
+<div class="block">
+<p>3</p>
+</div>
+
+<div class="block">
+<p>4</p>
+</div>
+
+<div class="block">
+<p>5</p>
+</div>
+
+<div class="block">
+<p>6</p>
+</div>
+
+<div class="block">
+<p>7</p>
+</div>
+    
+<div class="block">
+<p>8</p>
+</div>
+
+</div>
+
+<hr>
+
+
+<h2>5 columns</h2>
+
+<div class="blocks-five-columns ou-grid">
+
+<div class="block">
+<p>1</p>
+</div>
+
+<div class="block">
+<p>2</p>
+</div>
+
+<div class="block">
+<p>3</p>
+</div>
+
+<div class="block">
+<p>4</p>
+</div>
+
+<div class="block">
+<p>5</p>
+</div>
+
+<div class="block">
+<p>6</p>
+</div>
+
+<div class="block">
+<p>7</p>
+</div>
+    
+<div class="block">
+<p>8</p>
+</div>
+
+</div>
+
+
+<hr>
+
+<h2>As list items</h2>
+
+<p>In the above examples all the blocks are divs. You can also achieve the same thing using an unordered list. The same column counts are available - 2, 3, 4 and 5 - just add the correct class to the container as with the div examples.</p>
+
+
+<div class="blocks-three-columns ou-grid">
+
+<ul>
+
+<li>
+<p>1</p>
+</li>
+
+<li>
+<p>2</p>
+</li>
+
+<li>
+<p>3</p>
+</li>
+
+<li>
+<p>4</p>
+</li>
+
+<li>
+<p>5</p>
+</li>
+
+<li>
+<p>6</p>
+</li>
+
+<li>
+<p>7</p>
+</li>
+    
+<li>
+<p>8</p>
+</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+
+<div class="ou-paged">
+<ul>
+<li><a class="ou-previous" href="layout.html">Prev</a></li>
+<li><a class="ou-next" href="layout-carousel-and-sections.html">Next</a></li>
+</ul> 
+</div>
+
+
+</div> <!-- end ou-content -->
+</div> <!-- end ou-region1 -->
+
+<div id="ou-region2">
+{% include region2.html %}
+</div> <!-- end ou-region2 -->
+
+</div> <!-- end ou-page -->
+
+</div> <!-- end ou-site-body -->
+
+<div id="ou-site-footer">
+<a class="ou-to-top" href="#ou-content"><i class="fa fa-arrow-circle-up"></i> Back to top</a>
+</div> <!-- end ou-site-footer -->

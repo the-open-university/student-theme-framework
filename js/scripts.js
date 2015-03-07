@@ -76,3 +76,46 @@ $(document).ready(function(){
 		return false;
 	})
 });
+
+
+// ACCORDION
+
+$(document).ready(function(){
+
+function openFirstPanel(){
+	$('.ou-accordion > dt:first-child').addClass('active');
+	$('.ou-accordion > dt:first-child').next().addClass('active').show();
+}
+
+(function($) {
+    
+  var allPanels = $('.ou-accordion > dd').hide();
+  var allDts = $('.ou-accordion > dt');
+  
+  openFirstPanel();
+    
+  $('.ou-accordion > dt > a').click(function() {
+      $this = $(this);
+      $target =  $this.parent().next();
+      $dt = $this.parent();
+	  	  
+      if($target.hasClass('active')){
+	  		  
+        $target.removeClass('active').hide(); 
+        		
+		$dt.removeClass('active');
+      }
+	  
+	  else{
+		allDts.removeClass('active');
+        allPanels.removeClass('active').hide();
+        $target.addClass('active').show();
+        $dt.addClass('active');
+      }
+      
+    return false;
+  });
+
+})(jQuery);
+
+});
