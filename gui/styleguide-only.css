@@ -79,7 +79,7 @@ span.colours-swatch {
 
 .styleguide .box h2 {margin:0 0 10px 0;}
 
-.block {background-color: #eee;}
+.block, #ou-content .blocks-three-columns ul li {background-color: #eee;}
 
-.block p {text-align:center; margin-bottom:0;}
+.block p, #ou-content .blocks-three-columns ul li p {text-align:center; margin-bottom:0;}
 
