@@ -84,12 +84,15 @@ $(document).ready(function(){
 
 function openFirstPanel(){
 	$('.ou-accordion > dt:first-child').addClass('active');
-	$('.ou-accordion > dt:first-child').next().addClass('active').show();
+	$('.ou-accordion > dt:first-child').next().addClass('active');
+	
+	$('.ou-accordion.hide-all > dt:first-child').removeClass('active');
+	$('.ou-accordion.hide-all > dt:first-child').next().removeClass('active');
 }
 
 (function($) {
     
-  var allPanels = $('.ou-accordion > dd').hide();
+  var allPanels = $('.ou-accordion > dd');
   var allDts = $('.ou-accordion > dt');
   
   openFirstPanel();
@@ -98,18 +101,26 @@ function openFirstPanel(){
       $this = $(this);
       $target =  $this.parent().next();
       $dt = $this.parent();
+	  $container = $this.parent().parent();
 	  	  
       if($target.hasClass('active')){
 	  		  
-        $target.removeClass('active').hide(); 
+        $target.removeClass('active'); 
         		
 		$dt.removeClass('active');
       }
 	  
+	  else if($container.hasClass('allow-reveal-all')){
+		  
+        $target.addClass('active');
+        $dt.addClass('active');
+		
+	  }
+	  
 	  else{
 		allDts.removeClass('active');
-        allPanels.removeClass('active').hide();
-        $target.addClass('active').show();
+        allPanels.removeClass('active');
+        $target.addClass('active');
         $dt.addClass('active');
       }
       

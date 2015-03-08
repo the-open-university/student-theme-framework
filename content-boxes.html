@@ -23,7 +23,7 @@ parent: content
 <div id="ou-content" class="ou-content">
 
 <h1>{{ page.title }}</h1>
-<p>Here you will find all the various box styles you can use with the OU Student Theme.</p>
+<p>Here you will find all the various box styles you can use with the OU Student Theme. </p>
 
 
 <h2 id="accordion">Accordion <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h2>
@@ -47,7 +47,7 @@ parent: content
 <dt><a href="#">Registering and paying for your next module</a></dt>
 <dd>
 <p><a href="#">Email Student Registration and Enquiry Service</a></p>
-<p>Phone: +44 (0)845 300 60 90 - Mon to Fri 08:00 - 20:00 and Sat 09:00 - 17:00</p>
+<p>Phone: +44 (0)845 300 60 90 - Monday to Friday 08:00 - 20:00 and Sat 09:00 - 17:00</p>
 </dd>
 
 <dt><a href="#">Your tutor</a></dt>
@@ -74,6 +74,66 @@ parent: content
 <dd>
 <p>This would be the content in panel 4.</p>
 </dd>
+
+</dl>
+
+<h3>Allow reveal all <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h3>
+
+<pre class="code"><code><!-- important: the below class should be "ou-accordion" without the spaces. I had to include the spaces so that jquery doesn't render it and change the code -->
+
+<dl class="ou - accordion allow-reveal-all">
+<dt><a href="#">Panel 1</a></dt>
+<dd><p>This would be the content in panel 1.</p></dd>
+<dt><a href="#">Panel 2</a></dt>
+<dd><p>This would be the content in panel 2.</p></dd>
+<dt><a href="#">Panel 3</a></dt>
+<dd><p>This would be the content in panel 3.</p></dd>
+<dt><a href="#">Panel 4</a></dt>
+<dd><p>This would be the content in panel 4.</p></dd>
+</dl></code></pre>
+
+<p>Want to be able to open more than one item at once? Add the class "<strong>allow-reveal-all</strong>" to the container.</p>
+
+<dl class="ou-accordion allow-reveal-all">
+
+<dt><a href="#">Panel 1</a></dt>
+<dd><p>This would be the content in panel 1.</p></dd>
+<dt><a href="#">Panel 2</a></dt>
+<dd><p>This would be the content in panel 2.</p></dd>
+<dt><a href="#">Panel 3</a></dt>
+<dd><p>This would be the content in panel 3.</p></dd>
+<dt><a href="#">Panel 4</a></dt>
+<dd><p>This would be the content in panel 4.</p></dd>
+
+</dl>
+
+<h3>Hide all by default <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h3>
+
+<pre class="code"><code><!-- important: the below class should be "ou-accordion" without the spaces. I had to include the spaces so that jquery doesn't render it and change the code -->
+
+<dl class="ou - accordion hide-all">
+<dt><a href="#">Panel 1</a></dt>
+<dd><p>This would be the content in panel 1.</p></dd>
+<dt><a href="#">Panel 2</a></dt>
+<dd><p>This would be the content in panel 2.</p></dd>
+<dt><a href="#">Panel 3</a></dt>
+<dd><p>This would be the content in panel 3.</p></dd>
+<dt><a href="#">Panel 4</a></dt>
+<dd><p>This would be the content in panel 4.</p></dd>
+</dl></code></pre>
+
+<p>Add the class "<strong>hide-all</strong>" to the container to close all items on page load.</p>
+
+<dl class="ou-accordion hide-all">
+
+<dt><a href="#">Panel 1</a></dt>
+<dd><p>This would be the content in panel 1.</p></dd>
+<dt><a href="#">Panel 2</a></dt>
+<dd><p>This would be the content in panel 2.</p></dd>
+<dt><a href="#">Panel 3</a></dt>
+<dd><p>This would be the content in panel 3.</p></dd>
+<dt><a href="#">Panel 4</a></dt>
+<dd><p>This would be the content in panel 4.</p></dd>
 
 </dl>
 
@@ -131,6 +191,7 @@ parent: content
 
 </dl>
 
+<p>The "<strong>allow-reveal-all</strong>" and "<strong>hide-all</strong>" classes can also be used with the accordion light. </p>
 
 <hr>
 
@@ -142,7 +203,7 @@ parent: content
 <pre class="code">
 <code><div class="box ou-action">
 <h2>Do this now</h2>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce sed velit vel odio cursus consequat. Nam at est. Vivamus lacinia felis eu neque. Morbi ac mi. Pellentesque interdum nisi. Aenean pretium porta lectus. Nunc nisl. Aenean interdum quam id massa. In aliquam commodo massa. Maecenas a risus. Morbi tempor. Aliquam erat volutpat </p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Fusce sed velit vel odio cursus consequat. Nam at est. Vivamus lacinia felis eu neque. Morbi ac mi. Pellentesque interdum nisi. Aenean pretium porta lectus. Nunc nisl. Aenean interdum quam id massa. In aliquam commodo massa. Maecenas a risus. Morbi tempor. Aliquam erat volutpat </p>
 </div></code>
 </pre>
 
