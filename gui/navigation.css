@@ -83,6 +83,7 @@ ol.ou-ancestors li a:hover {
 */
 
 
+
 .ou-full-nav,
 .ou-context-nav {
 	background: #fff;
@@ -795,9 +796,13 @@ ol.ou-ancestors {margin-bottom:15px;}
 
 ol.ou-ancestors li {font-size:.9em;}
 
-
-
 .ou-topics {margin-bottom:0;}
+
+ul.ou-icon-links li {
+	margin:0 0 10px 0; 
+	display:block;
+}
+
 
 
 

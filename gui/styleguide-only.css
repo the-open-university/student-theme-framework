@@ -9,6 +9,17 @@
 
 
 
+.ou-full-nav .subnav {visibility:hidden; height:0px;}
+
+.ou-full-nav .subnav.active {visibility:visible; height:auto;}
+
+.ou-full-nav li.active-parent a {background-color:#e7eff7;}
+
+.ou-full-nav li.active-parent.top-level a {background-color:#fff;}
+
+
+
+
 #ou-content span.code-toggle a {
 	float:right;
 	display:inline-block;
@@ -80,7 +91,9 @@ span.colours-swatch {
 
 .styleguide .box h2 {margin:0 0 10px 0;}
 
-.block, #ou-content .blocks-three-columns ul li {background-color: #eee;}
+.styleguide .block, 
+.styleguide .blocks-three-columns ul li {background-color: #eee;}
 
-.block p, #ou-content .blocks-three-columns ul li p {text-align:center; margin-bottom:0;}
+.styleguide .block p, 
+.styleguide .blocks-three-columns ul li p {text-align:center; margin-bottom:0;}
 

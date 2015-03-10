@@ -26,6 +26,9 @@
 
 body.ou-help-home div#ou-region1 {width:100%;}
 
+body.ou-help-home3 div#ou-region1 {width:72%; float:right;}
+
+body.ou-help-home3 div#ou-region2 {width:24%; float:left;}
 
 body.ou-help-home .hero-top {
 	position: relative;
@@ -38,7 +41,8 @@ body.ou-help-home .hero-top {
 body.ou-help-home3 .hero-top {height:auto; background-image:none;}
 
 
-body.ou-help-home #ou-content .hero-top form {
+body.ou-help-home #ou-content .hero-top form,
+body.ou-help-home3 #ou-content .search form {
 	background-color:transparent;
 	padding:0;	
 	margin:0 auto;
@@ -47,8 +51,7 @@ body.ou-help-home #ou-content .hero-top form {
 	margin-top:28px;
 }
 
-body.ou-help-home3 #ou-content .hero-top form {margin-top:0; width:100%;}
-
+body.ou-help-home3 #ou-content .search form {margin-top:0; width:100%;}
 
 body.ou-help-home .hero-top .search {
 	position: absolute;
@@ -60,10 +63,11 @@ body.ou-help-home .hero-top .search {
 	text-align: center;
 }
 
-body.ou-help-home3 .hero-top .search {height:auto; position:static; background:#fff;}
+body.ou-help-home3 .search {height:auto; position:static; background:#fff;}
 
 
-body.ou-help-home #ou-content .hero-top .search input[type="text"] {
+body.ou-help-home #ou-content .hero-top .search input[type="text"],
+body.ou-help-home3 #ou-content .search input[type="text"] {
 	width: 400px;
 	outline: none;
 	margin:0;
@@ -75,16 +79,17 @@ body.ou-help-home #ou-content .hero-top .search input[type="text"] {
 	background-color:#fff;
 }
 
-body.ou-help-home3 #ou-content .hero-top .search input[type="text"] {width:100%;}
+body.ou-help-home3 #ou-content .search input[type="text"] {width:100%;}
 
-
-body.ou-help-home #ou-content .hero-top .search input[type="text"]:focus {
+body.ou-help-home #ou-content .hero-top .search input[type="text"]:focus,
+body.ou-help-home3 #ou-content .search input[type="text"]:focus {
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(355, 355, 355, 0.6); 
 	border:4px solid #000;
 	background-color:#FCF7F5;
 }
 
-body.ou-help-home #ou-content .hero-top .search button.btn-submit {
+body.ou-help-home #ou-content .hero-top .search button.btn-submit,
+body.ou-help-home3 #ou-content .search button.btn-submit {
 	border-radius: 0;
 	box-sizing: border-box;
 	position: absolute;
@@ -104,9 +109,10 @@ body.ou-help-home #ou-content .hero-top .search button.btn-submit {
 	transition:none;
 }
 
-body.ou-help-home3 #ou-content .hero-top .search button.btn-submit {top:15px;}
+body.ou-help-home3 #ou-content .search button.btn-submit {top:15px;}
 
-body.ou-help-home #ou-content .hero-top .search button.btn-submit:hover {background-position: top right;}
+body.ou-help-home #ou-content .hero-top .search button.btn-submit:hover,
+body.ou-help-home3 #ou-content .search button.btn-submit:hover {background-position: top right;}
 
 
 /* your help centre */
@@ -131,44 +137,46 @@ body.ou-help-home #ou-content .hero-top .search button.btn-submit:hover {backgro
 	vertical-align:middle;
 }
 
+body.ou-help-home3 h2 {font-size:1.4em; margin-top:0;}
+
 
 /* article finder */
 
-body.ou-help-home #ou-content div.article-finder {
+div.article-finder {
 	display: block; /* changed */
 	margin: 0 auto;
 	width: 100%;
 }
 
-html.js body.ou-help-home #ou-content div.article-finder {
+html.js div.article-finder {
 	display: block;
 	overflow: hidden;
 }
 
-body.ou-help-home #ou-content div.article-finder:after {
+div.article-finder:after {
 	content: '';
 	display: block;
 	clear: both;
 }
 
-body.ou-help-home #ou-content div.article-finder > h2 {margin-top:0;}
+div.article-finder > h2 {margin-top:0;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div {
+#ou-content div.article-finder div.steps > div {
 	position: relative;
 	float: left;
 	width: 30%;
 	margin-right: 5%;
 }
 
-html.ie7 body.ou-help-home #ou-content div.article-finder div.steps > div {
+html.ie7 div.article-finder div.steps > div {
 	width: 29%;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article {
+#ou-content div.article-finder div.steps > div.article {
 	margin-right: 0;
 }
 
-/*body.ou-help-home #ou-content div.article-finder div.steps > div:after {
+/*div.article-finder div.steps > div:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -179,11 +187,11 @@ body.ou-help-home #ou-content div.article-finder div.steps > div.article {
 	right: -9%;
 }*/
 
-body.ou-help-home #ou-content div.article-finder div.steps > div:last-child:after {
+div.article-finder div.steps > div:last-child:after {
 	display: none;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > h3 {
+div.article-finder div.steps > div > h3 {
 	padding-bottom: 0.6em;
 	margin-bottom: 0.8em;
 	border-bottom: #CCC 4px solid;
@@ -191,7 +199,7 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > h3 {
 	font-size: 1.1em;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > h3:after {
+div.article-finder div.steps > div > h3:after {
 	content: "\f0ab";
 	display: block;
 	position: relative;
@@ -211,7 +219,7 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > h3:after {
 	transition: top 0.35s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s linear;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > div.spinner {
+div.article-finder div.steps > div > div.spinner {
 	width: 16px;
 	height: 16px;
 	position: absolute;
@@ -228,63 +236,63 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > div.spinner {
 	transition: all 0.13s ease;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category > div.spinner {
+div.article-finder div.steps > div.category > div.spinner {
 	background: url(hc-article-finder-spinner1.gif) no-repeat;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article > div.spinner {
+div.article-finder div.steps > div.article > div.spinner {
 	background: url(hc-article-finder-spinner2.gif) no-repeat;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.loading > div.spinner {
+div.article-finder div.steps > div.loading > div.spinner {
 	opacity: 1;
 	visibility: visible;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.topic > h3:after {color: #880088;}
+div.article-finder div.steps > div.topic > h3:after {color: #880088;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category > h3:after {color: #0b55a8;}
+div.article-finder div.steps > div.category > h3:after {color: #0b55a8;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article > h3:after {color: #CF6041;}
+div.article-finder div.steps > div.article > h3:after {color: #CF6041;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.active > h3:after {
+div.article-finder div.steps > div.active > h3:after {
 	top: 0px;
 	opacity: 1;
 	visibility: visible;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.loading > h3:after {
+div.article-finder div.steps > div.loading > h3:after {
 	opacity: 0;
 	visibility: hidden;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > h3 {margin-top:5px;}
+div.article-finder div.steps > div > h3 {margin-top:5px;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > h3 > strong {
+div.article-finder div.steps > div > h3 > strong {
 	color: #000;
 	padding-right: 0.3em;
 	font-weight: 700;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.topic > h3 {border-color: #880088;}
+div.article-finder div.steps > div.topic > h3 {border-color: #880088;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category > h3 {border-color: #0b55a8;}
+div.article-finder div.steps > div.category > h3 {border-color: #0b55a8;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article > h3 {border-color: #CF6041;}
+div.article-finder div.steps > div.article > h3 {border-color: #CF6041;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.topic.active > h3 {color: #880088;}
+div.article-finder div.steps > div.topic.active > h3 {color: #880088;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.topic.active > h3 > strong {color: #880088;}
+div.article-finder div.steps > div.topic.active > h3 > strong {color: #880088;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category.active > h3 {color: #0b55a8;}
+div.article-finder div.steps > div.category.active > h3 {color: #0b55a8;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category.active > h3 > strong {color: #26639F;}
+div.article-finder div.steps > div.category.active > h3 > strong {color: #26639F;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article.active > h3 {color: #CF6041;}
+div.article-finder div.steps > div.article.active > h3 {color: #CF6041;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article.active > h3 > strong {color: #C45231;}
+div.article-finder div.steps > div.article.active > h3 > strong {color: #C45231;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div:before {
+div.article-finder div.steps > div:before {
 	font-family: FontAwesome;
 	display: block;
 	position: absolute;
@@ -305,23 +313,24 @@ body.ou-help-home #ou-content div.article-finder div.steps > div:before {
 	transition: all 0.3s ease;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.selected:before {
+div.article-finder div.steps > div.selected:before {
 	opacity: 0;
 	visibility: hidden;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category:before {content: "\f00a";}
+div.article-finder div.steps > div.category:before {content: "\f00a";}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article:before {content: "\f036";}
+div.article-finder div.steps > div.article:before {content: "\f036";}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul {
+div.article-finder div.steps > div > ul,
+#ou-content div.article-finder div.steps > div > ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li {
+div.article-finder div.steps > div > ul > li {
 	border-bottom: #DDD 1px solid;
 	position: relative;
 	left: -100%;
@@ -337,17 +346,19 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li {
 	transition: left 0.18s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.23s linear;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li:before {content:"";}
+#ou-content div.article-finder div.steps > div > ul > li {margin:0; padding:0;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.docked {
+#ou-content div.article-finder div.steps > div > ul > li:before {content:"";}
+
+div.article-finder div.steps > div > ul > li.docked {
 	left: 0px;
 	opacity: 1;
 	visibility: visible;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li:last-child {border-bottom: 0;}
+div.article-finder div.steps > div > ul > li:last-child {border-bottom: 0;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a {
+div.article-finder div.steps > div > ul > li > a {
 	display: block;
 	position: relative;
 	padding: 8px 25px 8px 15px;
@@ -362,7 +373,7 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a {
 	
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a:hover:after {
+div.article-finder div.steps > div > ul > li > a:hover:after {
 	content: "\f054";
 	font-family:FontAwesome;
 	font-size:1em;
@@ -372,26 +383,26 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a:h
 	right:8px;
 }
 
-html.ie7 body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a {zoom: 1;}
+html.ie7 div.article-finder div.steps > div > ul > li > a {zoom: 1;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li > a:hover {background-color: #fff; color:#000;}
+div.article-finder div.steps > div > ul > li > a:hover {background-color: #fff; color:#000;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.active {border-bottom: none;}
+div.article-finder div.steps > div > ul > li.active {border-bottom: none;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.active > a {
+div.article-finder div.steps > div > ul > li.active > a {
 	background-color: #396E8D;
 	color: #FFF;
 	padding-right: 25px;
 	font-weight: bold;
 }
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.topic > ul > li.active > a {background-color: #880088;}
+div.article-finder div.steps > div.topic > ul > li.active > a {background-color: #880088;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.category > ul > li.active > a {background-color: #0b55a8;}
+div.article-finder div.steps > div.category > ul > li.active > a {background-color: #0b55a8;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div.article > ul > li.active > a {background-color: #CF6041;}
+div.article-finder div.steps > div.article > ul > li.active > a {background-color: #CF6041;}
 
-body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.active > a:after {
+div.article-finder div.steps > div > ul > li.active > a:after {
 	content: "\f054";
 	display: block;
 	position: absolute;
@@ -444,36 +455,6 @@ body.ou-help-home #ou-content div.article-finder div.steps > div > ul > li.activ
 
 body.ou-help-topic div#ou-region1 {width:100%;}
 
-.hero {
-	position:relative;	
-}
-
-.hero a {text-decoration:none;}
-
-.hero p {
-	display: block;
-	position: absolute;
-	width: 40%;
-	left: auto;
-	right: 3%;
-	bottom: 25%;
-	background: #DD3E57;
-	background: rgb(221,62,87);
-	background: rgba(221,62,87, 0.8);
-	color: #fff;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300;
-	line-height: 120%;
-	text-align: right;
-	padding: 25px 20px;
-	margin: 0;
-	-ms-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-text-size-adjust: 100%;
-	font-size: 2.1em;	
-}
 
 
 /*
@@ -853,24 +834,19 @@ div.ouforms div.ou-honigfalle {
 
 body.ou-help-home #ou-content .hero-top form {width:300px;}
 
-.hero p {
-	width: 50%;
-	font-size: 2em;
-}
-
 
 } /* end media query */
 
 
 @media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
 
-.topic-browser .ou-grid {margin-bottom:0;}
+body.ou-help-home3 div#ou-region1 {width:100%; float:left;}
 
-.hero p {
-	width: 50%;
-	font-size: 1.8em;
-	bottom:10%;
-}
+body.ou-help-home3 div#ou-region2 {width:100%; float:left;}
+
+body.ou-help-home3 h2 {font-size:1.2em; margin-top:0;}
+
+.topic-browser .ou-grid {margin-bottom:0;}
 
 .ou-quick-find {top: -5px;}
 
@@ -878,6 +854,8 @@ body.ou-help-home #ou-content .hero-top form {width:300px;}
 	width:100%; 
 	margin:0;
 }
+
+body.ou-help-home2 .yhc .block {width: 100%;}
 
 } /* end media query */
 
@@ -893,6 +871,14 @@ body.ou-help-home #ou-content div.article-finder {display: none;}
 
 body.ou-help-home2 #ou-content div.article-finder {display: block;} /* refers to example-pages-help-home2.html - delete if necessary */
 
+
+body.ou-help-home2 .steps {
+	width: 100%;
+	margin-right:0;
+}
+
+body.ou-help-home2 .article-finder .eight-columns {width:100%;}
+
 body.ou-help-home ul.ou-list-cols2 {
 	-moz-column-count: 1;
     -moz-column-gap: 0;
@@ -902,13 +888,6 @@ body.ou-help-home ul.ou-list-cols2 {
     column-gap: 0;
 }
 
-.hero p {
-	width: 70%;
-	right: 0;
-	bottom: 3px;
-	padding: 15px 10px;
-	font-size: 1.6em;
-}
 
 .ou-breadcrumb {
 	padding-right: 0;
@@ -942,9 +921,11 @@ body.ou-help-home #ou-content .hero-top form {width:270px;}
 	margin-bottom:8px;
 }
 
-#ou-site-footer ul.footer li {margin-bottom:5px;}
+#ou-site-footer ul.footer li {
+	margin:0 0 5px 0;
+	display:block;
+}
 
-.hero p {font-size: 1.2em;}
 
 .ou-help-header {
 	border-bottom: 1px solid #ddd;

@@ -85,6 +85,9 @@ div.ou-go2 h2,
 div.ou-go3 h2 {margin-top:0;}
 
 
+
+
+
 /* image and button */
 
 .ou-img-and-btn {
@@ -96,6 +99,54 @@ div.ou-go3 h2 {margin-top:0;}
 	bottom:	20px;
 	right:20px;
 	margin-bottom:0;
+}
+
+
+/*
+-------------------------------------------
+	Hero with text
+-------------------------------------------
+*/
+
+
+.hero {
+	position:relative;
+	margin-bottom:25px;
+}
+
+.hero img {float:left;}
+
+.hero a {text-decoration:none;}
+
+.hero p {
+	display: block;
+	position: absolute;
+	width: 40%;
+	left: auto;
+	right: 3%;
+	bottom: 25%;
+	background: #DD3E57;
+	background: rgb(221,62,87);
+	background: rgba(221,62,87, 0.8);
+	color: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	line-height: 120%;
+	text-align: right;
+	padding: 25px 20px;
+	margin: 0;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	font-size: 2.1em;	
+}
+
+.hero-two-thirds p {
+	bottom:0;
+	right:0;
+	width:60%;
 }
 
 
@@ -313,6 +364,51 @@ a.ou-advert .ou-advert-highlighted {
 }
 
 
+@media only screen and (max-width: 850px), screen and (max-device-width: 850px) {
+
+.hero p {
+	width: 50%;
+	font-size: 2em;
+	bottom:0;
+	right:0;
+}
+
+.hero-two-thirds p {
+	font-size:1.8em;
+	width:70%;
+}
+
+
+} /* end media query */
+
+
+@media only screen and (max-width: 767px), screen and (max-device-width: 767px) {
+
+
+.hero p {
+	font-size: 1.8em;
+	width:60%;
+	padding: 15px 10px;
+}
+
+.hero-two-thirds p {font-size:1.6em;}
+
+} /* end media query */
+
+
+
+@media only screen and (max-width: 640px), screen and (max-device-width: 640px) {
+
+
+.hero p {
+	width: 70%;
+	font-size: 1.6em;
+}
+
+.hero-two-thirds p {font-size:1.4em;}
+
+
+} /* end media query */
 
 
 @media only screen and (max-width: 400px), screen and (max-device-width: 400px) {
@@ -332,6 +428,7 @@ img.ou-border {max-width:95%;}
 img.ou-go1.ou-border,
 img.ou-go2.ou-border {max-width:140px;}
 
+.hero p {font-size: 1.2em;}
 
 /* blockquotes */
 

@@ -2,11 +2,7 @@
 //	OU Student Theme Framework js
 //
 
-// RESPONSIVE TABS
 
-
-
-	
 	
 // BACK TO TOP LINK
 
