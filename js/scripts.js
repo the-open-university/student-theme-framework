@@ -88,8 +88,8 @@ function openFirstPanel(){
 
 (function($) {
     
-  var allPanels = $('.ou-accordion > dd');
-  var allDts = $('.ou-accordion > dt');
+  //var allPanels = $('.ou-accordion > dd');
+  //var allDts = $('.ou-accordion > dt');
   
   openFirstPanel();
     
@@ -98,6 +98,8 @@ function openFirstPanel(){
       $target =  $this.parent().next();
       $dt = $this.parent();
 	  $container = $this.parent().parent();
+	  $allPans = $this.parent().siblings('dd');
+	  $allTitles = $this.parent().siblings('dt');
 	  	  
       if($target.hasClass('active')){
 	  		  
@@ -114,8 +116,8 @@ function openFirstPanel(){
 	  }
 	  
 	  else{
-		allDts.removeClass('active');
-        allPanels.removeClass('active');
+		$allTitles.removeClass('active');
+        $allPans.removeClass('active');
         $target.addClass('active');
         $dt.addClass('active');
       }

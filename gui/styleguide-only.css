@@ -9,9 +9,9 @@
 
 
 
-.ou-full-nav .subnav {visibility:hidden; height:0px;}
+.ou-full-nav .subnav {display:none;}
 
-.ou-full-nav .subnav.active {visibility:visible; height:auto;}
+.ou-full-nav .subnav.active {display:block;}
 
 .ou-full-nav li.active-parent a {background-color:#e7eff7;}
 
