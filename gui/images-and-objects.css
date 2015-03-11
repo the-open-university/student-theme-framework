@@ -121,10 +121,10 @@ div.ou-go3 h2 {margin-top:0;}
 .hero p {
 	display: block;
 	position: absolute;
-	width: 40%;
+	width: 60%;
 	left: auto;
-	right: 3%;
-	bottom: 25%;
+	right: 0;
+	bottom: 0;
 	background: #DD3E57;
 	background: rgb(221,62,87);
 	background: rgba(221,62,87, 0.8);
@@ -143,11 +143,7 @@ div.ou-go3 h2 {margin-top:0;}
 	font-size: 2.1em;	
 }
 
-.hero-two-thirds p {
-	bottom:0;
-	right:0;
-	width:60%;
-}
+.hero:hover p {background:#DD3E57;}
 
 
 
@@ -203,6 +199,9 @@ p.ou-welcome {
 	Media
 -------------------------------------------
 */
+
+object,
+.ou-video iframe {max-width: 100%;}
 
 #ou-content a.ou-toggle {
 	text-decoration:none;
@@ -366,14 +365,8 @@ a.ou-advert .ou-advert-highlighted {
 
 @media only screen and (max-width: 850px), screen and (max-device-width: 850px) {
 
-.hero p {
-	width: 50%;
-	font-size: 2em;
-	bottom:0;
-	right:0;
-}
 
-.hero-two-thirds p {
+.hero p {
 	font-size:1.8em;
 	width:70%;
 }
@@ -386,12 +379,11 @@ a.ou-advert .ou-advert-highlighted {
 
 
 .hero p {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	width:60%;
 	padding: 15px 10px;
 }
 
-.hero-two-thirds p {font-size:1.6em;}
 
 } /* end media query */
 
@@ -402,10 +394,8 @@ a.ou-advert .ou-advert-highlighted {
 
 .hero p {
 	width: 70%;
-	font-size: 1.6em;
+	font-size: 1.4em;
 }
-
-.hero-two-thirds p {font-size:1.4em;}
 
 
 } /* end media query */

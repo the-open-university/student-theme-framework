@@ -256,6 +256,8 @@ note: this may not be necessary - use <hr> between items instead
 
 /* articles */
 
+.ou-articles {margin-bottom:20px;}
+
 .ou-articles-article:before,
 .ou-articles-article:after {
 	content: "";
