@@ -35,6 +35,8 @@ ol.ou-ancestors li {
 	color:#777;
 }
 
+ol.ou-ancestors li:before {content:"";}
+
 ol.ou-ancestors li:after {
 	font-family: 'FontAwesome';
 	color:#999;
