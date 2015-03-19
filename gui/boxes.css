@@ -153,6 +153,8 @@ note: this may not be necessary - use <hr> between items instead
 
 /* Alternative styles */
 
+/* style1 - light blue dashed border */
+
 .box-style1 {
 	border-left-width:2px;
 	border-left-style: dashed;
@@ -160,12 +162,41 @@ note: this may not be necessary - use <hr> between items instead
 	background-color:#E7EFF7;
 }
 
+/* style2 - light grey dashed border */
+
 .box-style2 {
 	border-left-width:2px;
 	border-left-style: dashed;
 	border:2px dashed #ddd;
 	background-color:#fff;
 }
+
+/* style3 - blue box white text */
+
+.box-style3 {
+	background-color:#0b55a8;
+	color:#a6d0ff;
+	padding:25px;
+	margin:0 0 25px 0;
+}
+
+.box-style3 h2 {
+	color:#fff; 
+	margin-top:0;
+}
+
+.box-style3 a {color:#fff; text-decoration:underline;}
+
+.box-style3 a:hover {color:#ffc23d; text-decoration:none;}
+
+.box-style3 hr {
+	border-bottom: 1px solid #a6d0ff;
+	margin:20px 0;
+}
+
+.box-style3 p:last-child {margin-bottom:0;}
+
+.box-style3 ul {margin-bottom:20px;}
 
 /* accordion */
 
@@ -312,6 +343,10 @@ note: this may not be necessary - use <hr> between items instead
 .ou-side-piece h2 {font-size:1.5em;}
 
 #ou-content .ou-side-piece ul {margin-left:0;}
+
+
+
+
 
 
 /* Action block (ice3) */

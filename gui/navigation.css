@@ -470,7 +470,7 @@ a.ou-info,
 a.ou-forum,
 a.ou-help {
 	background-image:url(icon-pdf.png);
-	background-position:top left;
+	background-position:0 3px;
 	background-repeat:no-repeat;
 	padding-left:22px;	
 }

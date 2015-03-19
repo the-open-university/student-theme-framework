@@ -387,12 +387,19 @@ ul.ou-zebra li.ou-odd {
 /* Icon links  */
 
 #ou-content ul.ou-links li,
-ul.ou-links li {padding-left:0;}
+ul.ou-links li {
+	padding-left:0;
+	margin-bottom:5px;
+	line-height:1.6em;
+}
 
 #ou-content ul.ou-links li:before,
 ul.ou-links li:before {content:"";}
 
-ul.ou-links li a {text-decoration:none;}
+ul.ou-links li a {
+	text-decoration:none;
+	display:inline-block;
+}
 
 
 /* Sitemap */
