@@ -217,7 +217,8 @@ ul.ou-sections li {
 	margin:0;
 	padding:0;
 	list-style:none;
-	display:inline;
+	float:left;
+	position:relative;
 }
 
 ul.ou-sections li a {
@@ -247,6 +248,23 @@ ul.ou-sections li a.ou-selected {
 
 ul.ou-sections li a.ou-selected:hover {
 	text-decoration:none;
+}
+
+/* arrow for users who change their bg colour */
+
+ul.ou-sections li a.ou-selected:after {
+  display: inline-block;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #0b55a8;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -10px;
 }
 
 
