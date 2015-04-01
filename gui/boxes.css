@@ -40,7 +40,7 @@ note: this may not be necessary - use <hr> between items instead
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	font-size:1em;
-	margin:2px 0 4px 0;
+	margin:2px 0 6px 0;
 }
 
 
@@ -111,26 +111,21 @@ note: this may not be necessary - use <hr> between items instead
 	list-style:none;
 }
 
-#ou-content .ou-download ul li {
-	margin:0 0 5px 0;
-}
+#ou-content .ou-download ul li {margin:0 0 5px 0;}
 
 #ou-content .ou-download ul li a {
 	text-decoration:none;
+	display:inline-block;
 }
 
-#ou-content .ou-download ul li:before {
-	content:"";
-}
+#ou-content .ou-download ul li:before {content:"";}
 
 
 /* Key points */
 
 
 #ou-content .ou-keypoints ol,
-#ou-content .ou-keypoints ul {
-	margin:15px 0 10px 0;
-}
+#ou-content .ou-keypoints ul {margin:15px 0 10px 0;}
 
 
 
@@ -271,7 +266,7 @@ note: this may not be necessary - use <hr> between items instead
 .ou-accordion dd h4 {
 	font-size:1em;
 	font-weight:bold;
-	margin:0 0 5px 0;
+	margin:0 0 6px 0;
 }
 
 .ou-accordion dt:last-of-type, 
@@ -283,6 +278,10 @@ note: this may not be necessary - use <hr> between items instead
 	margin-left:0;
 }
 
+#ou-content .ou-accordion dd ul,
+#ou-content .ou-accordion dd ol {margin-left:0;}
+
+.ou-accordion hr {margin:15px 0;}
 
 
 /* articles */

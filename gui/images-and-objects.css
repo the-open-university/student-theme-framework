@@ -143,6 +143,19 @@ div.ou-go3 h2 {margin-top:0;}
 	font-size: 2.1em;	
 }
 
+#ou-region2 .hero p {
+	position:static;
+	display:block;
+	font-size:1.2em;
+	padding:12px 18px;
+	line-height:130%;
+	text-align:left;
+	width:100%;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+
 .hero p.bg-colour1 {background:#539d3c !important; background: rgb(83, 157, 60) !important; background: rgba(83, 157, 60, 0.8) !important; } /* green */
 .hero p.bg-colour2 {background:#b52a1e !important; background: rgb(181, 42, 30) !important; background: rgba(181, 42, 30, 0.8) !important; } /* red */
 .hero p.bg-colour3 {background:#ffc23d !important; background: rgb(255, 194, 61) !important; background: rgba(255, 194, 61, 0.8) !important; color:#000; } /* gold */
@@ -395,6 +408,80 @@ a.ou-advert .ou-advert-highlighted {
 	font-size:1.4em;
 	margin-bottom:0;
 }
+
+
+/*
+-------------------------------------------
+	Calendar
+-------------------------------------------
+*/
+
+.ou-calendar {margin-bottom:25px;}
+
+.ou-calendar .ou-calendar-row {
+	margin-bottom:12px;
+	padding-bottom:12px;
+	border-bottom:1px solid #eee;
+}
+
+.ou-calendar .ou-calendar-row:last-child {
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.ou-calendar .ou-calendar-date {
+	width:55px;
+	height:auto;
+	float:left;
+	margin-right:10px;
+}
+
+.ou-calendar .ou-calendar-date em {
+	font-style:normal;
+	font-size:.9em;
+	color:#fff;
+	background:#b52a1e;
+	padding:3px;
+	text-align:center;
+	text-transform:uppercase;
+	display:block;
+}
+
+.ou-calendar .ou-calendar-date strong {
+	text-align:center;
+	color:#000;
+	font-size:25px;
+	font-weight:normal;
+	display:block;
+	background:#f5f5f5;
+	background: linear-gradient(to bottom, #f5f5f5 0%, #f5f5f5 50%, #eeeeee 50%, #eeeeee 100%);
+	padding:10px 0;
+}
+
+.ou-calendar .ou-calendar-info {
+	color:#666;
+	margin-left:65px;
+}
+
+.ou-calendar .ou-calendar-info h2,
+.ou-calendar .ou-calendar-info h3 {
+	font-size:1em;
+	font-weight:bold;
+	color:black;
+	margin:0 0 3px 0;
+}
+
+.ou-calendar .ou-calendar-info h2 a,
+.ou-calendar .ou-calendar-info h3 a {text-decoration:none;}
+
+.ou-calendar .ou-calendar-info p {
+	margin-bottom:0;
+	font-size:.9em;
+}
+
+
+
 
 
 @media only screen and (max-width: 850px), screen and (max-device-width: 850px) {

@@ -13,15 +13,18 @@
 
 /* unordered */
 
-#ou-content ul {
+#ou-content ul,
+#ou-region2 ul.ou-standard-list {
 	margin:0 0 15px 25px;
 	list-style-type: none;
 	padding: 0;
 }
 
-#ou-content ul ul {margin:0 0 0 25px;}
+#ou-content ul ul,
+#ou-region2 ul.ou-standard-list ul {margin:0 0 0 25px;}
 
-#ou-content ul li {
+#ou-content ul li,
+#ou-region2 ul.ou-standard-list li {
 	margin-bottom: 5px;
 	position: relative;
 	z-index:100; /* so items can float alongside happily */
@@ -29,7 +32,8 @@
 	line-height:1.6em;
 }
 
-#ou-content ul li:before {
+#ou-content ul li:before,
+#ou-region2 ul.ou-standard-list li:before {
 	content: "\2022";
 	color: #0b55a8;
 	font-size: 1.8em;
@@ -179,7 +183,7 @@ ul.ou-icon-list li a i {
 #ou-content ul.ou-news,
 ul.ou-news {
 	list-style-type: none;
-	margin: 0 0 15px 0;
+	margin: 0 0 20px 0;
 	padding: 0;
 }
 
@@ -197,19 +201,25 @@ ul.ou-news h3 {
 
 #ou-content ul.ou-news li,
 ul.ou-news li {
-	margin: 0;
-	padding: 0 0 0 0;
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
 	list-style-type: none;
 	border-bottom: 1px solid #ddd;
 }
+
+#ou-content ul.ou-news li:last-child,
+ul.ou-news li:last-child {border-bottom:none;}
 
 #ou-content ul.ou-news li:before {
 	content:"";
 }
 
+#ou-content ul.ou-news li p:last-child,
+ul.ou-news li p:last-child {margin-bottom:0;}
+
 p.ou-date {
 	color: #777;
-	margin:15px 0 8px 0;
+	margin:0 0 8px 0;
 }
 
 ul.ou-news img {
@@ -218,8 +228,10 @@ ul.ou-news img {
 	width:200px;
 }
 
+
 #ou-region2 ul.ou-news img {
 	width:100px;
+	margin-bottom:5px;
 }
 
 
