@@ -347,6 +347,8 @@ dl.ou-toc dd {
 	color:#777;
 }
 
+#ou-content .ou-paged ul li:last-child {margin-right:0;}
+
 #ou-content .ou-paged ul li a,
 #ou-content .ou-paged ul li strong {
 	-webkit-border-radius: 4px;
@@ -409,6 +411,8 @@ dl.ou-toc dd {
 	display:inline-block;
 	margin:0;
 	padding:0;
+	position:relative;
+	z-index:100;
 }
 
 #ou-content ul.ou-tabs li:before {content:"";}
@@ -424,6 +428,8 @@ dl.ou-toc dd {
 	display:inline-block;
 	text-decoration:none;
 }
+
+#ou-content ul.ou-tabs li:first-child a {border-left:0;}
 
 #ou-content ul.ou-tabs li a:hover {
 	background: #a6d0ff;
