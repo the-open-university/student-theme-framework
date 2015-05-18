@@ -27,16 +27,14 @@ parent: layout
 <ul>
   <li>12 column grid with 2% gutters</li>
   <li>Each row cannot exceed 12 columns</li>
-  <li>Last column requires the class <strong>last</strong> to 
-    remove the margin for old IE (CSS last-child fixes this for everything else).</li>
 </ul>
 
 <p>The basic structure for a three column layout looks like this:</p>
 
 <pre><code class="html"><div class="ou-row">
-<div class="four-columns"> First col </div>
-<div class="four-columns"> Second col </div>
-<div class="four-columns last"> Third col </div>
+<div class="grid4"> First col </div>
+<div class="grid4"> Second col </div>
+<div class="grid4"> Third col </div>
 </div></code></pre>
 
 <p>And that gives you:</p>
@@ -44,12 +42,12 @@ parent: layout
 <div class="styleguide">
 
 <div class="ou-row">
-<div class="four-columns"> First col </div>
-<div class="four-columns"> Second col </div>
-<div class="four-columns last"> Third col </div>
+<div class="grid4"> First col </div>
+<div class="grid4"> Second col </div>
+<div class="grid4"> Third col </div>
 </div>
 
-<p>The reason it says "four-columns" is that each row is divided into 12 columns, so if you want a three column layout with all equal widths, you divide 12 by 3 which gives you 4.</p>
+<p>The reason it says "grid4" is that each row is divided into 12 columns, so if you want a three column layout with all equal widths, you divide 12 by 3 which gives you 4.</p>
 
 <hr>
 
@@ -59,96 +57,96 @@ parent: layout
 
 <pre class="code">
 <code><div class="ou-row">
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column last">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
 </div>
 
 <div class="ou-row">
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns last">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
 </div>
 
 <div class="ou-row">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div>
 
 <div class="ou-row">
-<div class="four-columns">4</div>
-<div class="four-columns">4</div>
-<div class="four-columns last">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
 </div>
 
 <div class="ou-row">
-<div class="six-columns">6</div>
-<div class="six-columns last">6</div>
+<div class="grid6">6</div>
+<div class="grid6">6</div>
 </div>
 
 <div class="ou-row">
-<div class="twelve-columns">12</div>
+<div class="grid12">12</div>
 </div></code>
 </pre>
 
 <div class="ou-row">
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="one-column last">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
 </div>
 
 <div class="ou-row">
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns">2</div>
-<div class="two-columns last">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
+<div class="grid2">2</div>
 </div>
 
 <div class="ou-row">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div>
 
 <div class="ou-row">
-<div class="four-columns">4</div>
-<div class="four-columns">4</div>
-<div class="four-columns last">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
 </div>
 
 <div class="ou-row">
-<div class="six-columns">6</div>
-<div class="six-columns last">6</div>
+<div class="grid6">6</div>
+<div class="grid6">6</div>
 </div>
 
 <div class="ou-row">
-<div class="twelve-columns">12</div>
+<div class="grid12">12</div>
 </div>
 
 
@@ -158,51 +156,51 @@ parent: layout
 
 <pre class="code">
 <code><div class="ou-row">
-<div class="two-columns">2</div>
-<div class="four-columns">4</div>
-<div class="six-columns last">6</div>
+<div class="grid2">2</div>
+<div class="grid4">4</div>
+<div class="grid6">6</div>
 </div>
 
 <div class="ou-row">
-<div class="eight-columns">8</div>
-<div class="one-column">1</div>
-<div class="three-columns last">3</div>
+<div class="grid8">8</div>
+<div class="grid1">1</div>
+<div class="grid3">3</div>
 </div>
 
 <div class="ou-row">
-<div class="five-columns">5</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="five-columns last">5</div>
+<div class="grid5">5</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid5">5</div>
 </div></code>
 </pre>
 
 <p>Note that the columns in each row add up to 12 to make a full row.</p>
 
 <div class="ou-row">
-<div class="two-columns">2</div>
-<div class="four-columns">4</div>
-<div class="six-columns last">6</div>
+<div class="grid2">2</div>
+<div class="grid4">4</div>
+<div class="grid6">6</div>
 </div>
 
 <div class="ou-row">
-<div class="eight-columns">8</div>
-<div class="one-column">1</div>
-<div class="three-columns last">3</div>
+<div class="grid8">8</div>
+<div class="grid1">1</div>
+<div class="grid3">3</div>
 </div>
 
 <div class="ou-row">
-<div class="five-columns">5</div>
-<div class="one-column">1</div>
-<div class="one-column">1</div>
-<div class="five-columns last">5</div>
+<div class="grid5">5</div>
+<div class="grid1">1</div>
+<div class="grid1">1</div>
+<div class="grid5">5</div>
 </div>
 
 <p>They can add up to less than 12 if you don't want to use the full width:</p>
 
 <div class="ou-row">
-<div class="six-columns">6</div>
-<div class="two-columns last">2</div>
+<div class="grid6">6</div>
+<div class="grid2">2</div>
 </div>
 
 
@@ -212,25 +210,25 @@ parent: layout
 
 <pre class="code">
 <code><div class="ou-row tablet">
-<div class="two-columns">2</div>
-<div class="three-columns">3</div>
-<div class="one-column">1</div>
-<div class="three-columns">3</div>
-<div class="two-columns">2</div>
-<div class="one-column last">1</div>
+<div class="grid2">2</div>
+<div class="grid3">3</div>
+<div class="grid1">1</div>
+<div class="grid3">3</div>
+<div class="grid2">2</div>
+<div class="grid1">1</div>
 </div>
 
 <div class="ou-row tablet">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div>
 
 <div class="ou-row tablet">
-<div class="four-columns">4</div>
-<div class="four-columns">4</div>
-<div class="four-columns last">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
 </div></code>
 </pre>
 
@@ -240,25 +238,25 @@ add the class <strong>tablet</strong> to the container.</p>
 <p>If on desktop, resize your browser window to see these switch to a two column layout between 401px and 767px:</p>
 
 <div class="ou-row tablet">
-<div class="two-columns">2</div>
-<div class="three-columns">3</div>
-<div class="one-column">1</div>
-<div class="three-columns">3</div>
-<div class="two-columns">2</div>
-<div class="one-column last">1</div>
+<div class="grid2">2</div>
+<div class="grid3">3</div>
+<div class="grid1">1</div>
+<div class="grid3">3</div>
+<div class="grid2">2</div>
+<div class="grid1">1</div>
 </div>
 
 <div class="ou-row tablet">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div>
 
 <div class="ou-row tablet">
-<div class="four-columns">4</div>
-<div class="four-columns">4</div>
-<div class="four-columns last">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
+<div class="grid4">4</div>
 </div>
 
 <hr>
@@ -267,20 +265,20 @@ add the class <strong>tablet</strong> to the container.</p>
 
 <pre class="code">
 <code><div class="ou-row mobile">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div></code>
 </pre>
 
 <p>For a two column layout for mobile devices add the class <strong>mobile</strong> to the container.</p>
 
 <div class="ou-row mobile">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div>
 
 <hr>
@@ -289,20 +287,20 @@ add the class <strong>tablet</strong> to the container.</p>
 
 <pre class="code">
 <code><div class="ou-row tablet mobile">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div></code>
 </pre>
 
 <p>For a two column layout for tablet and mobile screen sizes add the classes <strong>tablet mobile</strong> to the container:</p>
 
 <div class="ou-row tablet mobile">
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns">3</div>
-<div class="three-columns last">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
+<div class="grid3">3</div>
 </div>
 
 <hr>
@@ -312,8 +310,8 @@ add the class <strong>tablet</strong> to the container.</p>
 
 <pre class="code">
 <code><div class="ou-row no-space">
-<div class="six-columns">6</div>
-<div class="six-columns last">6</div>
+<div class="grid6">6</div>
+<div class="grid6">6</div>
 </div></code>
 </pre>
 
@@ -322,8 +320,8 @@ add the class <strong>tablet</strong> to the container.</p>
 
 
 <div class="ou-row no-space">
-<div class="six-columns">6</div>
-<div class="six-columns last">6</div>
+<div class="grid6">6</div>
+<div class="grid6">6</div>
 </div>
 
 </div> <!-- end .styleguide -->
