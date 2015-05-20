@@ -686,15 +686,15 @@ body.article-multi-alt #ou-content ul.ou-list-alt2 li {padding-left:0;}
 
 /* MP article alt 2 - May 2015 */
 
-body.article-multi-alt2 #ou-site {background:#f5f5f5;}
+body.article-multi-alt2 .ou-footer {margin-top:0;}
+
+body.article-multi-alt2 #ou-site {background:#f5f5f5; padding-bottom:40px;}
 
 body.article-multi-alt2 #ou-site-header {background:#fff;}
 
 body.article-multi-alt2 div#ou-region1 {float:right; width:72%;}
 
 body.article-multi-alt2 div#ou-region2 {float:left; width:24%;}
-
-body.article-multi-alt2 .ou-help-top {xborder-bottom:1px solid #ddd;}
 
 body.article-multi-alt2 div#ou-region1 .ou-content {
 	background:#fff;
@@ -722,6 +722,19 @@ body.article-multi-alt2 ul.article-list-of-pages li ul li {padding:4px 15px;}
 body.article-multi-alt2 #ou-site-body {margin-top: 30px;}
 
 body.article-multi-alt2 #ou-region2 .ou-quick-find form input[type="text"]:focus {border:1px solid #333;}
+
+body.article-multi-alt2 #ou-content .ou-paged {float:none;}
+
+body.article-multi-alt2 #ou-content .ou-paged {float:none; margin-top:30px;}
+
+body.article-multi-alt2 #ou-content .ou-paged ul li a {margin-bottom:0;}
+
+body.article-multi-alt2 #ou-content .ou-help-top .ou-paged {float:left; margin-top:0;}
+
+
+
+
+
 
 /*
 -------------------------------------------
