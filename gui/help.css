@@ -633,10 +633,7 @@ body.article-multi-alt .ou-breadcrumb {height:50px;}
 	border-bottom:1px solid #eee;
 }
 
-.ou-help-top .ou-help-top-parent {
-	margin-bottom:5px;
-	xfont-weight:bold;
-}
+.ou-help-top .ou-help-top-parent {margin-bottom:5px;}
 
 .ou-help-top .ou-help-top-parent a {text-decoration:none;}
 
@@ -671,29 +668,60 @@ body.article-multi-alt .related-help i {float:right;}
 	background:#eee;
 }
 
-body.article-multi-alt #ou-content .ou-paged {
-	float:left;
-}
+body.article-multi-alt #ou-content .ou-paged {float:left;}
 
-body.article-multi-alt #ou-content .ou-help-top .ou-paged {
-	float:none;
-}
+body.article-multi-alt #ou-content .ou-help-top .ou-paged {float:none;}
 
-body.article-multi-alt #ou-content .ou-help-top .ou-paged ul li {
-	margin-right:5px;
-}
+body.article-multi-alt #ou-content .ou-help-top .ou-paged ul li {margin-right:5px;}
 
-
-body.article-multi-alt #ou-content .ou-help-top .ou-paged ul li a {
-	padding:5px 8px;
-}
-
+body.article-multi-alt #ou-content .ou-help-top .ou-paged ul li a {padding:5px 8px;}
 
 body.article-multi-alt #ou-content .ou-paged ul {margin-top:0;}
 
 body.article-multi-alt #ou-content ul.ou-list-alt2 {padding-bottom:0;}
 
 body.article-multi-alt #ou-content ul.ou-list-alt2 li {padding-left:0;}
+
+
+
+/* MP article alt 2 - May 2015 */
+
+body.article-multi-alt2 #ou-site {background:#f5f5f5;}
+
+body.article-multi-alt2 #ou-site-header {background:#fff;}
+
+body.article-multi-alt2 div#ou-region1 {float:right; width:72%;}
+
+body.article-multi-alt2 div#ou-region2 {float:left; width:24%;}
+
+body.article-multi-alt2 .ou-help-top {xborder-bottom:1px solid #ddd;}
+
+body.article-multi-alt2 div#ou-region1 .ou-content {
+	background:#fff;
+	border:1px solid #ddd;
+	border-radius:3px;
+	padding:25px 40px;
+}
+
+body.article-multi-alt2 #ou-region2 .ou-quick-find form input[type="text"] {
+	border:1px solid #ddd;
+	border-radius:3px;	
+}
+
+body.article-multi-alt2 #ou-region2 .ou-quick-find form button {background-position:top left;}
+
+body.article-multi-alt2 ul.article-list-of-pages li.selected {
+	background:#0b55a8;
+	color:#fff;	
+}
+
+body.article-multi-alt2 ul.ou-list-alt2 li {padding:0;}
+
+body.article-multi-alt2 ul.article-list-of-pages li ul li {padding:4px 15px;}
+
+body.article-multi-alt2 #ou-site-body {margin-top: 30px;}
+
+
 
 
 /*
