@@ -721,8 +721,7 @@ body.article-multi-alt2 ul.article-list-of-pages li ul li {padding:4px 15px;}
 
 body.article-multi-alt2 #ou-site-body {margin-top: 30px;}
 
-
-
+body.article-multi-alt2 #ou-region2 .ou-quick-find form input[type="text"]:focus {border:1px solid #333;}
 
 /*
 -------------------------------------------
