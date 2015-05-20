@@ -731,6 +731,23 @@ body.article-multi-alt2 #ou-content .ou-paged ul li a {margin-bottom:0;}
 
 body.article-multi-alt2 #ou-content .ou-help-top .ou-paged {float:left; margin-top:0;}
 
+/* MP article alt 3 - May 2015 */
+
+body.article-multi-alt3 div#ou-region1 .ou-content {
+	background:#fff;
+	border:none;
+	border-left:1px solid #ddd;
+	border-radius:0;
+	padding:0 40px 25px 40px;
+}
+
+/* MP article alt 5 - May 2015 */
+
+body.article-multi-alt5 div#ou-region1 .ou-content {
+	border-left:none;
+	border-right:1px solid #ddd;
+	padding:0 40px 25px 0;
+}
 
 
 
