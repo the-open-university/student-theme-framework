@@ -86,9 +86,50 @@ ul.ou-list-alt2 li {
 ul.ou-list-alt2 li a {text-decoration:none;}
 
 
+
+
 /* unordered list of links */
 
 ul.ou-link-list li a {text-decoration:none;}
+
+
+/* 	
+	Unordered list of links 2
+	(with black caret icons)
+*/
+
+#ou-content ul.ou-link-list2,
+ul.ou-link-list2 {
+	margin:0 0 20px 0;
+	padding:0;
+}
+
+#ou-content ul.ou-link-list2 li,
+ul.ou-link-list2 li {
+	margin-bottom: 10px;
+	position: relative;
+	z-index:100; /* so items can float alongside happily */
+	padding-left: 15px;
+	line-height:130%;
+}
+
+#ou-content ul.ou-link-list2 li:before,
+ul.ou-link-list2 li:before {
+	display: inline-block;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid #222;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+
+ul.ou-link-list2 li a {text-decoration:none;}
+
 
 
 /* unordered tick list */

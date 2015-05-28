@@ -766,6 +766,76 @@ body.topic-alt2 .ou-topics h2 {font-size:1.1em; color:black; font-weight:bold;}
 body.home-alt2 .ou-topics h2 {font-size:1.1em;}
 
 
+/* Cat alt3 - May 2015 */
+
+body.cat-alt3 #ou-content .ou-articles ol {
+	margin-top:20px;
+	-moz-column-count:2;	
+	-webkit-column-count:2;
+	column-count:2;
+}
+
+
+
+
+/* Home alt3 - May 2015 */
+
+.your-help h2 {
+	font-size:1em;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 0 15px 0;	
+	position:relative;
+}
+
+.your-help h2 a i {
+	position:absolute;
+	right:0;
+	top:5px;	
+}
+
+#ou-region2 .your-help hr {margin:20px 0;}
+
+.sidebar-links {margin-bottom:20px;}
+
+.sidebar-links li a {text-decoration:none;}
+
+.sidebar-links li {margin-bottom:8px; line-height:130%;}
+
+p.more-cats {font-weight:bold; margin:0;}
+
+body.topic-alt3 #ou-content .ou-topics ul {margin: 0 0 0 0;}
+
+body.topic-alt3 .ou-topics img {margin-bottom:15px;}
+
+body.topic-alt3 a.arrow-down,
+body.topic-alt3 a.arrow-up {
+	display:inline-block; 
+	position:relative; 
+	padding-right:15px;
+}
+
+body.topic-alt3 a.arrow-down:after,
+body.topic-alt3 a.arrow-up:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #039;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top:-3px;
+}
+
+body.topic-alt3 a.arrow-up:after {
+	border-top: none;
+	border-bottom: 5px solid #039;
+}
+
+
 
 /*
 -------------------------------------------
