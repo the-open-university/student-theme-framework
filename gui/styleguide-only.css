@@ -7,7 +7,7 @@
 -------------------------------------------
 */
 
-
+body.styleguide-only #ou-site-body {margin: 40px auto;}
 
 .ou-full-nav .subnav {display:none;}
 

@@ -87,15 +87,51 @@ ul.ou-list-alt2 li a {text-decoration:none;}
 
 
 
+/*
+	Unordered alternative 3
+	(black bullet points)
+*/
 
-/* unordered list of links */
+#ou-content ul.ou-list-alt3,
+ul.ou-list-alt3 {
+	margin:0 0 15px 25px;
+	list-style-type: none;
+	padding: 0;
+}
 
-ul.ou-link-list li a {text-decoration:none;}
+#ou-content ul.ou-list-alt3 ul,
+ul.ou-list-alt3 ul {margin:0 0 0 25px;}
+
+#ou-content ul.ou-list-alt3 li,
+ul.ou-list-alt3 li {
+	margin-bottom: 5px;
+	position: relative;
+	z-index:100; /* so items can float alongside happily */
+	padding-left: 20px;
+	line-height:1.6em;
+}
+
+#ou-content ul.ou-list-alt3 li:before,
+ul.ou-list-alt3 li:before {
+	content: "\2022";
+	color: #000;
+	font-size: 1.8em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 90%;
+}
+
+
+
+/* list of links */
+
+.ou-link-list li a {text-decoration:none;}
 
 
 /* 	
 	Unordered list of links 2
-	(with black caret icons)
+	(black caret icons)
 */
 
 #ou-content ul.ou-link-list2,

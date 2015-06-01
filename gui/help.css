@@ -775,6 +775,11 @@ body.cat-alt3 #ou-content .ou-articles ol {
 	column-count:2;
 }
 
+body.cat-alt3 .ou-articles-article h2 a {
+ 	color:black;
+	font-weight:bold;
+}
+
 
 
 
