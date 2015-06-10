@@ -165,7 +165,7 @@
 <li><a href="#">Reading and writing maths</a></li>
 <li><a href="#">Time management skills</a></li>
 </ul>
-<p class="more-cats"><a href="#" class="arrow-down">X more in this category</a></p>
+<p class="more-cats"><a href="#" class="arrow-down">More in this category</a></p>
 </div>
 
 <div class="block">
@@ -184,7 +184,7 @@
 <li><a href="#">Reading and writing maths</a></li>
 <li><a href="#">Time management skills</a></li>
 </ul>
-<p class="more-cats"><a href="#" class="arrow-down">X more in this category</a></p>
+<p class="more-cats"><a href="#" class="arrow-down">More in this category</a></p>
 </div>
 
 <div class="block">
@@ -203,7 +203,7 @@
 <li><a href="#">Time management skills</a></li>
 <li><a href="#">Time management skills</a></li>
 </ul>
-<p class="more-cats"><a href="#" class="arrow-down">X more in this category</a></p>
+<p class="more-cats"><a href="#" class="arrow-down">More in this category</a></p>
 
 </div>
 
@@ -461,11 +461,11 @@ var $self = $(this);
 
 $(this).toggleClass("arrow-down arrow-up");
 
-if ($self.text() == "X more in this category")
+if ($self.text() == "More in this category")
 	   $self.text("Show less");
 
 else
-        $self.text("X more in this category");
+        $self.text("More in this category");
 
 $(this).parent().prev("ul.more-cats-list").slideToggle("fast");
 	return false;
