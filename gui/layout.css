@@ -237,7 +237,10 @@ div.ou-c2of3 {margin-left: 5%;}
 -------------------------------------------
 */
 
-#ou-site-ident {text-align:left;}
+#ou-site-ident {
+	text-align:left;
+	margin-bottom:20px;
+}
 
 #ou-site-ident p#ou-site-title {
 	margin:0 auto;
@@ -258,7 +261,7 @@ div.ou-c2of3 {margin-left: 5%;}
 #ou-site-ident p#ou-site-description {
 	margin:0 auto;
 	max-width:1180px;
-	padding:0 0 20px 0;
+	padding:0 0 0 0;
 	color:#777;
 }
 

@@ -23,7 +23,6 @@
 	overflow: hidden;
 }
 
-
 body.ou-help-home div#ou-region1 {width:100%;}
 
 body.ou-help-home3 div#ou-region1 {width:72%; float:right;}
@@ -789,15 +788,29 @@ body.cat-alt3 .ou-articles-article h2 a {
 	font-size:1em;
 	font-weight:bold;
 	font-family:Arial, Helvetica, sans-serif;
-	margin:0 0 15px 0;	
+	margin:0 0 10px 0;	
 	position:relative;
+}
+
+.your-help h2 a {
+	color:black;
+	text-decoration:none;	
 }
 
 .your-help h2 a i {
 	position:absolute;
 	right:0;
-	top:5px;	
+	top:5px;
+	color:black;	
 }
+
+.your-help p {
+	font-size:.9em;
+	color:#666;
+	padding-left:30px;
+}
+
+.your-help h2 i.fa-info-circle {color:#888;}
 
 #ou-region2 .your-help hr {margin:20px 0;}
 
@@ -839,6 +852,28 @@ body.topic-alt3 a.arrow-up:after {
 	border-top: none;
 	border-bottom: 5px solid #039;
 }
+
+li.removable {
+	position:relative;
+	padding-right:20px;
+}
+
+li.removable a.remove {
+	display:none;
+	width:12px;
+	height:12px;
+	position:absolute;
+	right:0;
+	top:5px;
+	color:#b52a1e;
+}
+
+li.removable a.remove:hover {color:black;}
+
+li.removable a.remove i {float:left;}
+
+li.removable:hover a.remove {display:block;}
+
 
 
 
