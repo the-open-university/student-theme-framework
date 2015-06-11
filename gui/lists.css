@@ -27,7 +27,7 @@
 #ou-region2 ul.ou-standard-list li {
 	margin-bottom: 5px;
 	position: relative;
-	z-index:100; /* so items can float alongside happily */
+	/*z-index:100;  so items can float alongside happily */
 	padding-left: 20px;
 	line-height:1.6em;
 }
@@ -106,7 +106,7 @@ ul.ou-list-alt3 ul {margin:0 0 0 25px;}
 ul.ou-list-alt3 li {
 	margin-bottom: 5px;
 	position: relative;
-	z-index:100; /* so items can float alongside happily */
+	/*z-index:100;  so items can float alongside happily */
 	padding-left: 20px;
 	line-height:1.6em;
 }
@@ -144,7 +144,7 @@ ul.ou-link-list2 {
 ul.ou-link-list2 li {
 	margin-bottom: 10px;
 	position: relative;
-	z-index:100; /* so items can float alongside happily */
+	/*z-index:100;  so items can float alongside happily */
 	padding-left: 15px;
 	line-height:130%;
 }
