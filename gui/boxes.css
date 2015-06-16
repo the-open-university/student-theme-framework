@@ -47,7 +47,6 @@ note: this may not be necessary - use <hr> between items instead
 /* Modifiers */
 
 .ou-action {border-color:#539d3c}
-.ou-activity {border-color:#ffc23d;}
 .ou-contact {border-color:#880088;}
 .ou-download {border-color:#539d3c;}
 .ou-example {border-color:#312B39;}
@@ -62,6 +61,24 @@ note: this may not be necessary - use <hr> between items instead
 .ou-steps {border-color:#880088;}
 .ou-careers {border-color:#CF6041;}
 
+/* Activity */
+
+.ou-activity {
+	border-left:none;
+	border-top:3px solid #8A3288;
+	border-bottom:3px solid #8A3288;
+	background:transparent;
+	background-image:url(icon-activity.png);
+	background-position:15px 15px;
+	background-repeat:no-repeat;
+	padding:20px 15px 20px 75px;
+}
+
+.ou-activity a.ou-button {
+	margin-bottom:0;
+	color:#fff;
+	background:	#8A3288;
+}
 
 /* Box and Feature Block */
 
@@ -464,6 +481,21 @@ div.ou-action-block {
 .ou-accordion dd {padding: 5px 10px 15px 40px;}
 
 
+
+} /* end media query */
+
+
+/* Retina */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+
+
+.ou-activity {
+	background-image:url(icon-activity@2x.png);
+	background-size:42px 42px;
+}
 
 } /* end media query */
 
