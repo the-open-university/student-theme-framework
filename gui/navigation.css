@@ -693,8 +693,9 @@ a.ou-button:focus {
 #ou-content .ou-topics ul {margin:10px 0 0 0;}
 
 #ou-content .ou-topics ul li {
-	margin-bottom:3px; 
+	margin-bottom:6px; 
 	padding-left:0;
+	line-height:1.4em;
 }
 
 #ou-content .ou-topics ul li:before {content:none;}
