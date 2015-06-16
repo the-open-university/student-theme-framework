@@ -630,6 +630,41 @@ a.add-block:hover {border-color:#539d3c;}
 
 /**/
 
+/* buttons */
+
+
+a.ou-button {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	background: #ffc23d;
+	color: #0b55a8;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 14px 10px 14px;
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-right:5px;
+	border: none;
+	-webkit-appearance: button;
+	cursor: pointer;
+	line-height:normal;
+}
+
+
+a.ou-button:hover, 
+a.ou-button:focus {
+	background: #539d3c;
+	color: #fff;
+	text-decoration: none;
+}
+
 
 
 /*
