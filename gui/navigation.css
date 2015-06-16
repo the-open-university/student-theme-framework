@@ -652,10 +652,11 @@ a.ou-button {
 	margin-bottom: 15px;
 	margin-right:5px;
 	border: none;
-	-webkit-appearance: button;
 	cursor: pointer;
 	line-height:normal;
 }
+
+a.ou-button.no-space {margin-bottom:0;}
 
 
 a.ou-button:hover, 
