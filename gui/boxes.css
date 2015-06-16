@@ -65,8 +65,8 @@ note: this may not be necessary - use <hr> between items instead
 
 .ou-activity {
 	border-left:none;
-	border-top:3px solid #8A3288;
-	border-bottom:3px solid #8A3288;
+	border-top:2px solid #8A3288;
+	border-bottom:2px solid #8A3288;
 	background:transparent;
 	background-image:url(icon-activity.png);
 	background-position:15px 15px;
