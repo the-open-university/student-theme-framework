@@ -394,7 +394,7 @@ a.ou-advert:hover {
 
 a.ou-advert i {
 	color:#CF6041;
-	font-size:70px;
+	font-size:60px;
 	margin-bottom:10px;
 }
 
@@ -408,6 +408,8 @@ a.ou-advert .ou-advert-highlighted {
 	font-size:1.4em;
 	margin-bottom:0;
 }
+
+a.ou-advert h2 {font-size:1.4em;}
 
 
 /*
