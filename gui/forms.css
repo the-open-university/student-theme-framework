@@ -90,7 +90,8 @@
 #ou-content form input[type="url"], 
 #ou-content form input[type="email"], 
 #ou-content form input[type="number"], 
-#ou-content form textarea {
+#ou-content form textarea,
+textarea {
 	color:black;
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
