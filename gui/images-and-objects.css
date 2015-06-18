@@ -398,7 +398,8 @@ a.ou-advert i {
 	margin-bottom:10px;
 }
 
-a.ou-advert .ou-advert-text {
+a.ou-advert .ou-advert-text,
+a.ou-advert p {
 	color:#666;
 	margin-bottom:5px;
 }
