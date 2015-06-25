@@ -377,7 +377,6 @@ ol.ou-list-cols3 {
 
 /* ordered */
 
-#ou-content ol,
 ol {
 	margin:0 0 15px 25px;
 	counter-reset: item;
@@ -386,10 +385,8 @@ ol {
 
 ol {margin:0 0 15px 0;}
 
-#ou-content ol ol,
 ol ol {margin:0 0 0 25px;}
 
-#ou-content ol li,
 ol li {
 	position: relative;
 	padding-left: 25px;
@@ -397,7 +394,6 @@ ol li {
 	line-height:1.6em;
 }
 
-#ou-content ol li:before,
 ol li:before {
 	content: counter(item) ". ";
 	counter-increment: item;
