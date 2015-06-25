@@ -158,7 +158,8 @@ ol.ou-ancestors li a:hover {
 }
 
 .ou-full-nav ul ul li.ou-expanded a:after,
-.ou-context-nav ul ul li.ou-expanded a:after {
+.ou-context-nav ul ul li.ou-expanded a:after,
+.ou-context-nav ul ul li.ou-expanded strong:after {
 	content:"\f078";
 	font-family: 'FontAwesome';
 	font-size:12px;
@@ -166,6 +167,8 @@ ol.ou-ancestors li a:hover {
 	float:right;
 	color: #a6d0ff;
 }
+
+.ou-context-nav ul ul li.ou-expanded strong:after {color:#fff;}
 
 .ou-full-nav ul ul li.ou-expanded ul a:after,
 .ou-context-nav ul ul li.ou-expanded ul a:after {
