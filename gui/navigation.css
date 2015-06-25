@@ -162,7 +162,7 @@ ol.ou-ancestors li a:hover {
 	content:"\f078";
 	font-family: 'FontAwesome';
 	font-size:12px;
-	margin-top:4px;
+	margin-top:0;
 	float:right;
 	color: #a6d0ff;
 }
@@ -178,18 +178,6 @@ ol.ou-ancestors li a:hover {
 	background-color: #a6d0ff;
 	font-size:1.2em;
 }
-
-
-/* TESTING FOR LIBRARY EXAMPLE PAGES */
-
-
-.ou-full-nav ul li.ou-expanded,
-.ou-context-nav ul li.ou-expanded  {background-color:#e7eff7;}
-
-.ou-full-nav ul li.ou-expanded li a,
-.ou-context-nav ul li.ou-expanded li a,
-.ou-full-nav ul li.ou-expanded li strong,
-.ou-context-nav ul li.ou-expanded li strong {padding-left:25px;}
 
 
 /*
