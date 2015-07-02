@@ -119,11 +119,39 @@ ol.ou-ancestors li a:hover {
 }
 
 .ou-full-nav ul li a:hover,
-.ou-context-nav ul li a:hover  {
-	background-color:#e7eff7;
-	color:black;
+.ou-context-nav ul li a:hover  {color:black;}
+
+/* new */
+.ou-full-nav ul ul li a,
+.ou-full-nav ul ul li strong,
+.ou-context-nav ul ul li a,
+.ou-context-nav ul ul li strong {
+	padding:9px 12px 8px 25px;
 }
 
+.ou-full-nav ul ul ul li a,
+.ou-full-nav ul ul ul li strong,
+.ou-context-nav ul ul ul li a,
+.ou-context-nav ul ul ul li strong {
+	padding-left:38px;
+}
+
+.ou-full-nav ul ul ul ul li a,
+.ou-full-nav ul ul ul ul li strong,
+.ou-context-nav ul ul ul ul li a,
+.ou-context-nav ul ul ul ul li strong {
+	padding-left:51px;
+}
+
+.ou-full-nav ul ul li,
+.ou-full-nav ul ul li.ou-expanded,
+.ou-context-nav ul ul li,
+.ou-context-nav ul ul li.ou-expanded {
+	background-color:#e7eff7;
+}
+
+
+/* OLD
 .ou-full-nav ul ul ul li a,
 .ou-full-nav ul ul ul li strong,
 .ou-context-nav ul ul ul li a,
@@ -156,6 +184,7 @@ ol.ou-ancestors li a:hover {
 .ou-context-nav ul ul li.ou-expanded {
 	background-color:#e7eff7;
 }
+*/
 
 .ou-full-nav ul ul li.ou-expanded a:after,
 .ou-context-nav ul ul li.ou-expanded a:after {
