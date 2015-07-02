@@ -143,9 +143,7 @@ ol.ou-ancestors li a:hover {
 	padding-left:51px;
 }
 
-.ou-full-nav ul ul li,
 .ou-full-nav ul ul li.ou-expanded,
-.ou-context-nav ul ul li,
 .ou-context-nav ul ul li.ou-expanded {
 	background-color:#e7eff7;
 }
