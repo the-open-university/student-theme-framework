@@ -390,6 +390,7 @@ a.ou-advert {
 
 a.ou-advert:hover {
 	border:1px solid #312b39;
+	text-decoration:none;
 }
 
 a.ou-advert i {
