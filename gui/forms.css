@@ -176,8 +176,7 @@ textarea {
 #ou-content form input[type=submit]:hover,
 #ou-content form button:focus, 
 #ou-content form input[type=button]:focus, 
-#ou-content form input[type=submit]:focus,
-button:hover {
+#ou-content form input[type=submit]:focus {
 	background: #539d3c;
 	color: #fff;
 	text-decoration: none;
