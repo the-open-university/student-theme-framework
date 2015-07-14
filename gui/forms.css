@@ -142,8 +142,7 @@ textarea {
 
 #ou-content form button, 
 #ou-content form input[type=button], 
-#ou-content form input[type=submit],
-button {
+#ou-content form input[type=submit] {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
