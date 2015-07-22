@@ -142,7 +142,8 @@ textarea {
 
 #ou-content form button, 
 #ou-content form input[type=button], 
-#ou-content form input[type=submit] {
+#ou-content form input[type=submit],
+#ou-content form input[type=disabled] {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -168,15 +169,16 @@ textarea {
 
 #ou-content form button.no-space, 
 #ou-content form input[type=button].no-space, 
-#ou-content form input[type=submit].no-space {margin-bottom:0;}
+#ou-content form input[type=submit].no-space,
+#ou-content form input[type=disabled].no-space {margin-bottom:0;}
 
-/* secondary button - grey */
+/* secondary button - blue */
 
 #ou-content form button.ou-button-secondary, 
 #ou-content form input.ou-button-secondary[type=button], 
 #ou-content form input.ou-button-secondary[type=submit],
 #ou-content form input.ou-button-secondary {
-	background:#6f6f6f;
+	background:#002158;
 	color:#fff;
 }
 
@@ -188,6 +190,16 @@ textarea {
 #ou-content form input.ou-button-delete {
 	background:#b52a1e;
 	color:#fff;
+}
+
+/* disabled button - grey */
+
+#ou-content form button[disabled=disabled], 
+#ou-content form button:disabled {
+	background:#777;
+	color:#ccc;
+	cursor:default;
+	pointer-events: none;
 }
 
 /* button hovers */
