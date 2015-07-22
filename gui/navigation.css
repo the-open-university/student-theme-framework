@@ -648,8 +648,8 @@ a.add-block:hover {border-color:#539d3c;}
 
 /**/
 
-/* buttons */
 
+/* buttons */
 
 a.ou-button {
 	-webkit-border-radius: 4px;
@@ -675,7 +675,6 @@ a.ou-button {
 }
 
 a.ou-button.no-space {margin-bottom:0;}
-
 
 a.ou-button:hover, 
 a.ou-button:focus {

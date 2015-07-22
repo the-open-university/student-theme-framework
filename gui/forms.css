@@ -152,24 +152,41 @@ textarea {
 	transition: all 0.2s ease-out;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em;
-	background: #ffc23d;
-	color: #0b55a8;
+	background: #539d3c;
+	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 10px 14px 10px 14px;
 	display: inline-block;
 	margin-bottom: 15px;
 	margin-right:5px;
-	border: none;
+	border: 2px solid #fff;
 	-webkit-appearance: button;
 	cursor: pointer;
 	line-height:normal;
 }
 
+/* secondary button - grey */
+
+#ou-content form button.button-secondary, 
+#ou-content form input.button-secondary[type=button], 
+#ou-content form input.button-secondary[type=submit],
 #ou-content form input.button-secondary {
 	background:#ccc;
-	color:#666;
+	color:#555;
 }
+
+/* delete button - red */
+
+#ou-content form button.button-delete, 
+#ou-content form input.button-delete[type=button], 
+#ou-content form input.button-delete[type=submit],
+#ou-content form input.button-delete {
+	background:#b52a1e;
+	color:#fff;
+}
+
+/* button hovers */
 
 #ou-content form button:hover, 
 #ou-content form input[type=button]:hover, 
@@ -177,10 +194,13 @@ textarea {
 #ou-content form button:focus, 
 #ou-content form input[type=button]:focus, 
 #ou-content form input[type=submit]:focus {
-	background: #539d3c;
+	background: #000;
 	color: #fff;
 	text-decoration: none;
+	border: 2px solid #fff;
 }
+
+/**/
 
 #ou-content form select {
 	color:black;
