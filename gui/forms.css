@@ -168,20 +168,20 @@ textarea {
 
 /* secondary button - grey */
 
-#ou-content form button.button-secondary, 
-#ou-content form input.button-secondary[type=button], 
-#ou-content form input.button-secondary[type=submit],
-#ou-content form input.button-secondary {
+#ou-content form button.ou-button-secondary, 
+#ou-content form input.ou-button-secondary[type=button], 
+#ou-content form input.ou-button-secondary[type=submit],
+#ou-content form input.ou-button-secondary {
 	background:#ccc;
 	color:#555;
 }
 
 /* delete button - red */
 
-#ou-content form button.button-delete, 
-#ou-content form input.button-delete[type=button], 
-#ou-content form input.button-delete[type=submit],
-#ou-content form input.button-delete {
+#ou-content form button.ou-button-delete, 
+#ou-content form input.ou-button-delete[type=button], 
+#ou-content form input.ou-button-delete[type=submit],
+#ou-content form input.ou-button-delete {
 	background:#b52a1e;
 	color:#fff;
 }
