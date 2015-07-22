@@ -696,7 +696,7 @@ a.ou-button-secondary:hover,
 a.ou-button-secondary:focus,
 a.ou-button-delete:hover, 
 a.ou-button-delete:focus {
-	background: #539d3c;
+	background: #000;
 	color: #fff;
 	text-decoration: none;
 }
