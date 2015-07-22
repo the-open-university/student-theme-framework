@@ -166,6 +166,10 @@ textarea {
 	line-height:normal;
 }
 
+#ou-content form button.no-space, 
+#ou-content form input[type=button].no-space, 
+#ou-content form input[type=submit].no-space {margin-bottom:0;}
+
 /* secondary button - grey */
 
 #ou-content form button.ou-button-secondary, 
