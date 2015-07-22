@@ -176,8 +176,8 @@ textarea {
 #ou-content form input.ou-button-secondary[type=button], 
 #ou-content form input.ou-button-secondary[type=submit],
 #ou-content form input.ou-button-secondary {
-	background:#ccc;
-	color:#555;
+	background:#888;
+	color:#fff;
 }
 
 /* delete button - red */
