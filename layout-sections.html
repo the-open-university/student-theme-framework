@@ -7,8 +7,6 @@
 <title>Sections | OU Student Theme Framework</title>
 
 <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/help.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/drupal.css" media="screen, projection" />
 <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
 <link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
 
@@ -63,13 +61,6 @@
 <img src="gui/ou-logo.png" alt="The Open University">
 </a>
 
-<!-- if signed in
-<div id="ou-identity">
-<p class="ou-identity-oucu">st4792</p>
-<p class="ou-identity-name">Stephen Turvey</p>
-</div>
--->
-
 
 
 <a href="#" class="ou-mobile-menu-toggle icon-down">Toggle service links</a>
@@ -81,12 +72,11 @@
 <div id="ou-site-header">
 
 <ul class="ou-sections">
-<li><a href="#">Home</a></li>
-<li><a href="#">Core template</a></li>
-<li><a href="#">Customising OU ICE</a></li>
-<li><a href="#">Fonts</a></li>
-<li><a href="#" class="ou-selected">Layout</a></li>
-<li><a href="#">Colour</a></li>
+    <li><a href="#" class="ou-selected">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
 </ul>
 
 </div> <!-- end ou-site-header -->
@@ -108,10 +98,21 @@
 
 <div id="ou-content" class="ou-content">
 
-<h1>Sections</h1>
+<h1>Sections <span class="code-toggle"><a href="#"><i class="fa fa-code"></i></a></span></h1>
 
-<p class="ou-introduction">This is the standard layout with section links - requires body class "ou-sections"</p>
+<pre class="code">
+<code><div id="ou-site-header">
+<ul class="ou-sections">
+    <li><a href="#" class="ou-selected">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+</div>
+</code></pre>
 
+<p class="ou-introduction">This is the standard layout with section links - requires body class "ou-sections" which adds the full width border to #ou-site-header</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum ligula sed sapien posuere vehicula. Ut dui purus, accumsan et condimentum eu, mollis at neque. Nulla facilisi. Pellentesque venenatis odio eget enim ornare quis suscipit est aliquet. Sed fermentum neque neque. Nulla condimentum adipiscing metus, vel fermentum lectus ultrices nec. Vestibulum rutrum sem eu turpis malesuada consequat. Etiam eget mauris in justo consectetur ultrices blandit convallis leo. Proin nunc ipsum, consectetur in gravida at, pulvinar non ante. In hac habitasse platea dictumst. Maecenas feugiat mi elementum libero dapibus ac commodo enim porta. In sed velit sit amet lectus laoreet porta at vitae magna. Praesent vel magna porta risus feugiat euismod quis ut augue.</p>
 
@@ -132,9 +133,9 @@
 <ul>
 <li><a href="layout-plain-and-simple.html">Plain and simple</a></li>
 <li><strong>Sections</strong></li>
-<li><a href="layout-single-column.html">Single column</a></li>
-<li><a href="layout-site-ident-and-sections.html">Site ident and sections</a></li>
 <li><a href="layout-site-ident.html">Site ident</a></li>
+<li><a href="layout-site-ident-and-sections.html">Site ident and sections</a></li>
+<li><a href="layout-single-column.html">Single column</a></li>
 <li><a href="layout-three-sub-columns.html">Three sub columns</a></li>
 <li><a href="layout-two-sub-columns.html">Two sub columns</a></li>
 </ul>

@@ -237,6 +237,8 @@ div.ou-c2of3 {margin-left: 5%;}
 -------------------------------------------
 */
 
+body.ou-site-ident #ou-site-header {border-bottom:1px solid #ddd;}
+
 #ou-site-ident {
 	text-align:left;
 	margin-bottom:20px;

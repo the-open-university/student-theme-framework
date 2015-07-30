@@ -20,7 +20,6 @@
 @import url('images-and-objects.css');
 @import url('navigation.css');
 @import url('forums.css');
-@import url('study-planning.css');
 @import url('styleguide-only.css'); /* styles unique to demo site */
 
 
@@ -40,7 +39,7 @@
 	Purple				#880088
 	Mid Grey Blue		#929fb0
 	Light Grey Blue		#e7eff7
-	Orange (new)		#CF6041
+	Orange				#CF6041
 
 */
 
