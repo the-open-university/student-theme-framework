@@ -7,8 +7,6 @@
 <title>Getting started | OU Student Theme Framework</title>
 
 <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/help.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/drupal.css" media="screen, projection" />
 <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
 <link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
 
@@ -60,6 +58,7 @@
 <div id="ou-content" class="ou-content">
 
 <h1>Getting started</h1>
+
 <p>You'll need a to use the same basic core template for any page where you want to use the framework.</p>
 
 <p>First, <a href="https://github.com/the-open-university/student-theme-framework">download the latest source code</a>. There are two folders: <em>gui</em> and <em>js</em> containing all the assets. Next, copy the core HTML template and update the paths to the gui and js assets to reflect your directory structure:</p>
@@ -73,10 +72,14 @@
 &lt;title&gt;Page title - Site title - Open University&lt;/title&gt;
 
 &lt;link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" /&gt;
-&lt;link rel="stylesheet" type="text/css" href="gui/drupal.css" media="screen, projection" /&gt;
 &lt;link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" /&gt;
+
+&lt;!-- optional tabs --&gt;
 &lt;link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" /&gt;
+
+&lt;!-- optional font awesome --&gt;
 &lt;link rel="stylesheet" type="text/css" href="gui/fonts/font-awesome/font-awesome.min.css" media="screen, projection" /&gt;
+
 &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;
 
 &lt;!-- favicons --&gt;
@@ -86,7 +89,7 @@
 &lt;meta name="msapplication-TileImage" content="gui/ie10-win8-tile-icon.png"&gt;
 &lt;/head&gt;
 
-&lt;body class="ou-home website"&gt;
+&lt;body class=""&gt;
 
 &lt;div id="ou-org"&gt;
 &lt;a class="ou-skip" href="#ou-content"&gt;&lt;i class="fa fa-arrow-circle-down"&gt;&lt;/i&gt; Skip to content&lt;/a&gt;
@@ -141,7 +144,7 @@
 &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/scripts.js"&gt;&lt;/script&gt;
 
-&lt;!-- optional tabs js --&gt;
+&lt;!-- optional tabs --&gt;
 &lt;script src="js/responsive-tabs.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 $(document).ready(function() {
@@ -159,7 +162,9 @@ RESPONSIVEUI.responsiveTabs();
 
 </div> <!-- end ou-content -->
 
-</div> <!-- end ou-region1 -->
+</div>
+<br> 
+<!-- end ou-region1 -->
 
 
 

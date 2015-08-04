@@ -219,6 +219,56 @@ ol.ou-ancestors li a:hover {
 -------------------------------------------
 */
 
+/* st test 4 aug 15 */
+
+nav.ou-sections {background: #a6d0ff;}
+
+nav.ou-sections ul {
+	max-width:1180px;
+	margin:0 auto;
+	text-align:left;
+	padding:0;	
+}
+
+nav.ou-sections ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+}
+
+nav.ou-sections ul li a {
+	display:block;
+	float:left;
+	text-decoration:none;
+	padding:14px 15px 13px 15px;
+	color:#0b55a8;
+	border-left:1px solid #d4e8ff;
+	font-weight:bold;
+}
+
+nav.ou-sections ul li:last-child a {border-right:1px solid #d4e8ff;}
+
+nav.ou-sections ul li a:hover {text-decoration:underline;}
+
+nav.ou-sections ul li a.ou-selected {
+	background-color:#d4e8ff;
+	border-left:0;
+	color:#0b55a8;
+}
+
+nav.ou-sections ul li a.ou-selected:hover {text-decoration:none;}
+
+
+/*
+-------------------------------------------
+	SH Header
+	Code should be revised to differ from above nav.ou-sections
+-------------------------------------------
+*/
+
+
 body.ou-sections #ou-site {border-top:0;}
 
 body.ou-sections #ou-site-header {border-bottom:1px solid #ddd;}
@@ -270,23 +320,28 @@ ul.ou-sections li a.ou-selected:hover {
 /* arrow for users who change their bg colour */
 
 ul.ou-sections li a.ou-selected:after {
-  display: inline-block;
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #0b55a8;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -10px;
+	display: inline-block;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #0b55a8;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -10px;
 }
 
 
 
-/* table of contents */
+/*
+-------------------------------------------
+	Table of contents
+-------------------------------------------
+*/
+
 
 dl.ou-toc {
 	border-left:2px solid #880088;
@@ -300,9 +355,7 @@ dl.ou-toc dt {
 	margin-bottom:10px;
 }
 
-dl.ou-toc dd {
-	margin-bottom:0;
-}
+dl.ou-toc dd {margin-bottom:0;}
 
 #ou-content dl.ou-toc ul,
 #ou-content dl.ou-toc ul li {
@@ -311,9 +364,7 @@ dl.ou-toc dd {
 	list-style:none;
 }
 
-#ou-content dl.ou-toc ul li:before {
-	content:"";
-}
+#ou-content dl.ou-toc ul li:before {content:"";}
 
 #ou-content dl.ou-toc ul li a {
 	text-decoration:none;
@@ -717,6 +768,8 @@ a.ou-button-delete:focus {
 .ou-topics img {margin-bottom:10px;}
 
 .ou-topics a {text-decoration:none;}
+
+.ou-topics a:hover {text-decoration:underline;}
 
 .ou-topics a h2 {color:#039;}
 

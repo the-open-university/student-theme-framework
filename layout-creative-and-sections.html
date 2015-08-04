@@ -7,8 +7,6 @@
 <title>Creative and sections | OU Student Theme Framework</title>
 
 <link rel="stylesheet" type="text/css" href="gui/styles.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/help.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="gui/drupal.css" media="screen, projection" />
 <link rel="stylesheet" type="text/css" href="gui/header-footer.css" media="screen, projection" />
 <link rel="stylesheet" type="text/css" href="gui/responsive-tabs.css" />
 
@@ -24,7 +22,7 @@
 
 </head>
 
-<body class="ou-sections">
+<body>
 
 <div id="ou-org">
 
@@ -34,14 +32,13 @@
 
 <div id="ou-site-header">
 
-<ul class="ou-sections">
-<li><a href="index.php">Home</a></li>
-<li><a href="core.php">Core template</a></li>
-<li><a href="customising-ou-ice.php">Customising OU ICE</a></li>
-<li><a href="fonts.php">Fonts</a></li>
-<li><a href="layout.php" class="ou-selected">Layout</a></li>
-<li><a href="colour.php">Colour</a></li>
+<nav class="ou-sections">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#" class="ou-selected">Selected link</a></li>
+<li><a href="#">Another link</a></li>
 </ul>
+</nav>
 
 <div class="ou-creative"><img src="img/creative2.jpg" alt="creative" class="ou-go3"></div>
 
@@ -69,11 +66,13 @@
 <pre class="code">
 <code><div id="ou-site-header">
 
-<ul class="ou-sections">
+<nav class="ou-sections">
+<ul>
 <li><a href="#">Home</a></li>
 <li><a href="#" class="ou-selected">Selected link</a></li>
 <li><a href="#">Another link</a></li>
 </ul>
+</nav>
 
 <div class="ou-creative"><img src="img/creative2.jpg" alt="creative" class="ou-go3"></div>
 
