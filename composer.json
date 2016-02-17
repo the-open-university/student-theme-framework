@@ -1,0 +1,13 @@
+{
+    "name": "ou/student-theme-framework",
+    "description": "The OU Student Theme Framework (OU STF) is a set of design patterns, components and templates so we can provide our students with a consistent user experience.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Stephen Turvey",
+            "email": "smturvey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
