@@ -86,6 +86,7 @@ ol.ou-ancestors li a:hover {
 
 
 
+.ou-nav,
 .ou-full-nav,
 .ou-context-nav {
 	background: #fff;
@@ -95,6 +96,8 @@ ol.ou-ancestors li a:hover {
 	border-width: 20px;
 }
 
+.ou-nav ul li a,
+.ou-nav ul li strong,
 .ou-full-nav ul li a,
 .ou-full-nav ul li strong,
 .ou-context-nav ul li a,
@@ -106,10 +109,13 @@ ol.ou-ancestors li a:hover {
 	color:#039;
 }
 
+.ou-nav ul li a,
+.ou-nav h2 a,
 .ou-full-nav ul li a,
 .ou-context-nav ul li a,
 .ou-context-nav h2 a {text-decoration:none;}
 
+.ou-nav ul li strong,
 .ou-full-nav ul li strong,
 .ou-context-nav ul li strong {
 	background-color:#0b55a8;
@@ -118,6 +124,7 @@ ol.ou-ancestors li a:hover {
 	font-weight:normal;
 }
 
+.ou-nav ul li a:hover,
 .ou-full-nav ul li a:hover,
 .ou-context-nav ul li a:hover  {
 	color:black;
@@ -125,6 +132,8 @@ ol.ou-ancestors li a:hover {
 }
 
 /* new */
+.ou-nav ul ul li a,
+.ou-nav ul ul li strong,
 .ou-full-nav ul ul li a,
 .ou-full-nav ul ul li strong,
 .ou-context-nav ul ul li a,
@@ -132,6 +141,8 @@ ol.ou-ancestors li a:hover {
 	padding:9px 12px 8px 25px;
 }
 
+.ou-nav ul ul ul li a,
+.ou-nav ul ul ul li strong,
 .ou-full-nav ul ul ul li a,
 .ou-full-nav ul ul ul li strong,
 .ou-context-nav ul ul ul li a,
@@ -139,6 +150,8 @@ ol.ou-ancestors li a:hover {
 	padding-left:38px;
 }
 
+.ou-nav ul ul ul ul li a,
+.ou-nav ul ul ul ul li strong,
 .ou-full-nav ul ul ul ul li a,
 .ou-full-nav ul ul ul ul li strong,
 .ou-context-nav ul ul ul ul li a,
@@ -146,6 +159,7 @@ ol.ou-ancestors li a:hover {
 	padding-left:51px;
 }
 
+.ou-nav ul ul li.ou-expanded,
 .ou-full-nav ul ul li.ou-expanded,
 .ou-context-nav ul ul li.ou-expanded {
 	background-color:#e7eff7;
@@ -187,6 +201,7 @@ ol.ou-ancestors li a:hover {
 }
 */
 
+.ou-nav ul ul li.ou-expanded a:after,
 .ou-full-nav ul ul li.ou-expanded a:after,
 .ou-context-nav ul ul li.ou-expanded a:after {
 	content:"\f078";
@@ -197,14 +212,17 @@ ol.ou-ancestors li a:hover {
 	color: #a6d0ff;
 }
 
-.ou-context-nav ul ul li.ou-expanded strong:after,
-.ou-full-nav ul ul li.ou-expanded strong:after {color:#a6d0ff;}
+.ou-nav ul ul li.ou-expanded strong:after,
+.ou-full-nav ul ul li.ou-expanded strong:after,
+.ou-context-nav ul ul li.ou-expanded strong:after {color:#a6d0ff;}
 
+.ou-nav ul ul li.ou-expanded ul a:after,
 .ou-full-nav ul ul li.ou-expanded ul a:after,
 .ou-context-nav ul ul li.ou-expanded ul a:after{
 	content:"";
 }
 
+.ou-nav h2
 .ou-context-nav h2 {
 	padding: 0 0 12px 0;
 	margin: 0;
